@@ -33,7 +33,7 @@ jobs:
 
       - name: Lint com flake8
         run: |
-          nbqa flake8 src/*.ipynb --extend-ignore=E501,W503,F841
+          nbqa flake8 src/*.ipynb
 
       - name: Verificar imports não utilizados
         run: |
