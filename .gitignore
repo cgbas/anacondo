@@ -1,2 +1,6 @@
 ./notas.md
 src/pdf_extractor.ipynb
+
+# PDF files (local processing only)
+exports/pdf/
+exports/hojas/prestacao/*.pdf
