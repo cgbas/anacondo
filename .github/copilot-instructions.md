@@ -433,6 +433,19 @@ PNGs em `exports/figs/`:
 - **P9 (CI/CD)** marcado como concluído no README (workflows de teste/lint e Git LFS ativos).
 - **P2** mantido como parcial no README: validação de overlap concluída, mas OCR de receitas ainda pendente.
 
+#### Atualização desta sessão (09/jul/2026 — Implementação P5/P6)
+- Notebook `src/analise_inadimplencia.ipynb` implementado e executado de ponta a ponta (10 células de código).
+- **P5 concluído**:
+  - rastreamento de `REC.MULTA`/`REC.MULTA+C.M.+JRS.` por unidade (AP + bloco);
+  - identificação de inadimplentes recorrentes (>= 2 ocorrências);
+  - cálculo mensal de `% cobrança de atraso vs total devido (proxy)`.
+- **P6 concluído**:
+  - validação de pagamento duplo do síndico em mai/2026 (2 pagamentos; refs 04/2026 e 05/2026);
+  - tendência de INSS com comparação contra proxy de folha;
+  - diagnóstico de saldo negativo no FUNDO OBRAS e origem principal dos débitos (`PG.REFORMA`).
+- Novos CSVs gerados: `inadimplentes_ranking.csv`, `inadimplentes_recorrentes.csv`, `inadimplencia_por_mes.csv`, `outliers_p6_resumo.csv`.
+- Novas figuras geradas: `inadimplencia_serie_temporal.png`, `inadimplencia_top10.png`, `outlier_sindico_mensal.png`, `outlier_inss_tendencia.png`, `outlier_fundo_obras_saldo.png`.
+
 ---
 
 ## Próximos passos — a implementar nos notebooks
@@ -459,13 +472,13 @@ PNGs em `exports/figs/`:
 
 ### P5 — Análise de inadimplência / cobrança atrasada
 - Nos extratos, lançamentos `REC.MULTA+C.M.+JRS.` e `REC. MULTA` indicam pagamentos atrasados
-- Identificar os apartamentos mais frequentes no campo `complemento`
-- Calcular percentual de arrecadação em atraso vs total mensal
+- ✅ **Concluído**: apartamentos/unidades recorrentes identificados no campo `complemento`
+- ✅ **Concluído**: percentual mensal de arrecadação em atraso vs total devido (proxy) calculado
 
 ### P6 — FUNDO OBRAS: investigar saldo negativo
 - Filtrar `df_ext[df_ext['subconta'] == 'FUNDO OBRAS']`
-- Verificar se há débitos lançados nesta subconta e qual a origem
-- Saldo negativo pode indicar lançamentos incorretos ou insuficiência do fundo
+- ✅ **Concluído**: débitos e origem validados (`PG.REFORMA` como principal)
+- ✅ **Concluído**: saldo negativo existiu até jan/2026 e voltou ao positivo a partir de fev/2026
 
 ### P7 — Exportar relatório de anomalias para Excel
 - Gerar `exports/csv/relatorio_anomalias.xlsx` com múltiplas abas:
