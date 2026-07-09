@@ -1,0 +1,197 @@
+mes_ano,evento,tipo,valor,macro_categoria,motivo_anomalia,severidade
+2022-05, Água ,DESPESA,6809.78,Outros,Evento sem categoria mapeada,Média
+2022-05, Pg.extintores ,DESPESA,30.0,Outros,Evento sem categoria mapeada,Baixa
+2022-05, Pg.assemb.extra ,DESPESA,204.7,Outros,Evento sem categoria mapeada,Baixa
+2022-05, Pg. ,DESPESA,55.26,Outros,Evento sem categoria mapeada,Baixa
+2022-05, Pg.encerramento ,DESPESA,10533.38,Outros,Evento sem categoria mapeada,Alta
+2022-05, Pg.materiais ,DESPESA,2284.43,Outros,Evento sem categoria mapeada,Média
+2022-06, Água ,DESPESA,6883.4,Outros,Evento sem categoria mapeada,Média
+2022-06, Pg.recarga Celular ,DESPESA,95.0,Outros,Evento sem categoria mapeada,Baixa
+2022-06, Pg.correio Conv.assemb.c/Ar ,DESPESA,441.45,Outros,Evento sem categoria mapeada,Baixa
+2022-06, Dif.condomínio ,DESPESA,529.92,Outros,Evento sem categoria mapeada,Baixa
+2022-06, Rec. ,RECEITA,124.49,Outros,Evento sem categoria mapeada,Baixa
+2022-07, Pg.cons.fechadura ,DESPESA,45.0,Outros,Evento sem categoria mapeada,Baixa
+2022-07, Pg.assemb.ordin. ,DESPESA,204.7,Outros,Evento sem categoria mapeada,Baixa
+2022-07, Água ,DESPESA,8120.21,Outros,Evento sem categoria mapeada,Alta
+2022-07, Pg.materiais ,DESPESA,545.01,Outros,Evento sem categoria mapeada,Baixa
+2022-07, Pg. Abertura Porta ,DESPESA,80.0,Outros,Evento sem categoria mapeada,Baixa
+2022-07, Pg. ,DESPESA,200.0,Outros,Evento sem categoria mapeada,Baixa
+2022-07, Pg.sacos Lixo ,DESPESA,571.99,Outros,Evento sem categoria mapeada,Baixa
+2022-07, Dif.fdo.reserva ,RECEITA,90.15,Outros,Evento sem categoria mapeada,Baixa
+2022-08, Pg.sacos Lixo ,DESPESA,929.69,Outros,Evento sem categoria mapeada,Baixa
+2022-08, Água ,DESPESA,7788.99,Outros,Evento sem categoria mapeada,Média
+2022-08, Pg.vistoria Hidráulica ,DESPESA,1176.0,Outros,Evento sem categoria mapeada,Baixa
+2022-08, Pg.materiais ,DESPESA,1875.0,Outros,Evento sem categoria mapeada,Baixa
+2022-08, Pg.correio Conv.assemb.c/Ar ,DESPESA,408.75,Outros,Evento sem categoria mapeada,Baixa
+2022-08, S/Déb. ,DESPESA,50057.09,Outros,Evento sem categoria mapeada,Crítica
+2022-08, Pg.gratificação ,DESPESA,600.0,Outros,Evento sem categoria mapeada,Baixa
+2022-09, Pg.materiais ,DESPESA,3731.72,Outros,Evento sem categoria mapeada,Média
+2022-09, Pg.impermeabilização ,DESPESA,20286.0,Outros,Evento sem categoria mapeada,Alta
+2022-09, Água ,DESPESA,7906.78,Outros,Evento sem categoria mapeada,Alta
+2022-09, Pg.equipamentos ,DESPESA,15570.0,Outros,Evento sem categoria mapeada,Alta
+2022-09, Pg.desp.cartório ,DESPESA,35.64,Outros,Evento sem categoria mapeada,Baixa
+2022-09, Adto.13º Salário ,DESPESA,933.75,Outros,Evento sem categoria mapeada,Baixa
+2022-09, Pg.reg.imóveis ,DESPESA,85.8,Outros,Evento sem categoria mapeada,Baixa
+2022-09, Valor ,DESPESA,114.49,Outros,Evento sem categoria mapeada,Baixa
+2022-09, Pg. Irrf ,DESPESA,14.9,Outros,Evento sem categoria mapeada,Baixa
+2022-10, Pg.materiais ,DESPESA,2497.28,Outros,Evento sem categoria mapeada,Média
+2022-10, Água ,DESPESA,7980.4,Outros,Evento sem categoria mapeada,Alta
+2022-10, Pg.equipamentos ,DESPESA,15503.0,Outros,Evento sem categoria mapeada,Alta
+2022-10, Pg.recarga Celular ,DESPESA,50.0,Outros,Evento sem categoria mapeada,Baixa
+2022-10, Pg.custas Judiciais ,DESPESA,252.9,Outros,Evento sem categoria mapeada,Baixa
+2022-10, Pg.fotocópias ,DESPESA,113.78,Outros,Evento sem categoria mapeada,Baixa
+2022-11, Pg.impermeabilização ,DESPESA,37253.03,Outros,Evento sem categoria mapeada,Crítica
+2022-11, Água ,DESPESA,8492.27,Outros,Evento sem categoria mapeada,Alta
+2022-11, Pg.equipamentos ,DESPESA,15503.0,Outros,Evento sem categoria mapeada,Alta
+2022-11, Pg.coluna Água ,DESPESA,2600.0,Outros,Evento sem categoria mapeada,Média
+2022-11, Pg.materiais ,DESPESA,697.85,Outros,Evento sem categoria mapeada,Baixa
+2022-12, Pg.desentupidora ,DESPESA,3498.06,Outros,Evento sem categoria mapeada,Média
+2022-12, Pg.materiais ,DESPESA,1418.72,Outros,Evento sem categoria mapeada,Baixa
+2022-12, Pg.desinsetização ,DESPESA,1287.99,Outros,Evento sem categoria mapeada,Baixa
+2022-12, Água ,DESPESA,10334.16,Outros,Evento sem categoria mapeada,Alta
+2022-12, Pg.equipamentos ,DESPESA,15504.0,Outros,Evento sem categoria mapeada,Alta
+2022-12, Pg.impermeabilização ,DESPESA,3264.48,Outros,Evento sem categoria mapeada,Média
+2022-12, Pg.recarga Celular ,DESPESA,50.0,Outros,Evento sem categoria mapeada,Baixa
+2022-12, Pg.locação ,DESPESA,300.0,Outros,Evento sem categoria mapeada,Baixa
+2022-12, Pg. ,DESPESA,46.0,Outros,Evento sem categoria mapeada,Baixa
+2022-12, Valor ,DESPESA,1905.83,Outros,Evento sem categoria mapeada,Baixa
+2022-12, Valor ,RECEITA,1905.83,Outros,Evento sem categoria mapeada,Baixa
+2023-01, Pg.materiais ,DESPESA,1689.0,Outros,Evento sem categoria mapeada,Baixa
+2023-01, Pg.assemb.ordin. ,DESPESA,204.7,Outros,Evento sem categoria mapeada,Baixa
+2023-01, Água ,DESPESA,10750.86,Outros,Evento sem categoria mapeada,Alta
+2023-01, Pg.desentupidora ,DESPESA,3498.06,Outros,Evento sem categoria mapeada,Média
+2023-01, Pg.impermeabilização ,DESPESA,3264.48,Outros,Evento sem categoria mapeada,Média
+2023-01, Valor ,DESPESA,13300.0,Outros,Evento sem categoria mapeada,Alta
+2023-01, Valor ,RECEITA,13300.0,Outros,Evento sem categoria mapeada,Alta
+2023-02, Pg.materiais ,DESPESA,336.5,Outros,Evento sem categoria mapeada,Baixa
+2023-02, Pg.escada ,DESPESA,2187.5,Outros,Evento sem categoria mapeada,Média
+2023-02, Pg.desp.cartório ,DESPESA,167.42,Outros,Evento sem categoria mapeada,Baixa
+2023-02, Pg. ,DESPESA,605.5,Outros,Evento sem categoria mapeada,Baixa
+2023-02, Pg.correio Conv.assemb.c/Ar ,DESPESA,376.05,Outros,Evento sem categoria mapeada,Baixa
+2023-02, Pg.taxa ,DESPESA,115.18,Outros,Evento sem categoria mapeada,Baixa
+2023-02, Pg.ltip ,DESPESA,1470.0,Outros,Evento sem categoria mapeada,Baixa
+2023-02, Água ,DESPESA,9859.05,Outros,Evento sem categoria mapeada,Alta
+2023-03, Pg.escada ,DESPESA,437.5,Outros,Evento sem categoria mapeada,Baixa
+2023-03, Pg.assemb.ordin. ,DESPESA,204.7,Outros,Evento sem categoria mapeada,Baixa
+2023-03, Pg.vistoria Hidráulica ,DESPESA,1393.72,Outros,Evento sem categoria mapeada,Baixa
+2023-03, Pg.materiais ,DESPESA,499.3,Outros,Evento sem categoria mapeada,Baixa
+2023-03, Pg.correio Conv.assemb.c/Ar ,DESPESA,394.45,Outros,Evento sem categoria mapeada,Baixa
+2023-03, Pg.certificação Digital ,DESPESA,351.0,Outros,Evento sem categoria mapeada,Baixa
+2023-03, Valor ,DESPESA,892.81,Outros,Evento sem categoria mapeada,Baixa
+2023-03, Pg.custas Judiciais ,DESPESA,148.71,Outros,Evento sem categoria mapeada,Baixa
+2023-03, Valor ,RECEITA,892.81,Outros,Evento sem categoria mapeada,Baixa
+2023-03, Pg. Irrf ,DESPESA,30.31,Outros,Evento sem categoria mapeada,Baixa
+2023-04, Pg.escada ,DESPESA,437.5,Outros,Evento sem categoria mapeada,Baixa
+2023-04, Pg.materiais ,DESPESA,54.0,Outros,Evento sem categoria mapeada,Baixa
+2023-04, Pg. ,DESPESA,572.2,Outros,Evento sem categoria mapeada,Baixa
+2023-04, Pg.renovação Cert.digital ,DESPESA,123.0,Outros,Evento sem categoria mapeada,Baixa
+2023-04, Pg.sacos Lixo ,DESPESA,1241.39,Outros,Evento sem categoria mapeada,Baixa
+2023-04, Pg.honorários ,DESPESA,1500.0,Outros,Evento sem categoria mapeada,Baixa
+2023-05, Pg.escada ,DESPESA,437.5,Outros,Evento sem categoria mapeada,Baixa
+2023-05, Pg.materiais ,DESPESA,47.5,Outros,Evento sem categoria mapeada,Baixa
+2023-07, Reparos Gerais ,DESPESA,2000.0,Outros,Evento sem categoria mapeada,Média
+2023-07, Pg.recarga Extintores ,DESPESA,3256.5,Outros,Evento sem categoria mapeada,Média
+2023-07, Pg.equipamentos ,DESPESA,618.65,Outros,Evento sem categoria mapeada,Baixa
+2023-07, Água ,DESPESA,18950.58,Outros,Evento sem categoria mapeada,Alta
+2023-07, Pg.calhas ,DESPESA,2500.0,Outros,Evento sem categoria mapeada,Média
+2023-08, Pg.contr.remoto ,DESPESA,176.13,Outros,Evento sem categoria mapeada,Baixa
+2023-08, Pg.recarga Extintores ,DESPESA,3256.5,Outros,Evento sem categoria mapeada,Média
+2023-08, Pg.custas Judiciais ,DESPESA,253.8,Outros,Evento sem categoria mapeada,Baixa
+2023-08, Pg.devol.água ,DESPESA,30.15,Outros,Evento sem categoria mapeada,Baixa
+2023-08, Pg.desp.divrs. ,DESPESA,1400.0,Outros,Evento sem categoria mapeada,Baixa
+2023-08, Água ,DESPESA,7433.92,Outros,Evento sem categoria mapeada,Média
+2023-09, Água ,DESPESA,10792.26,Outros,Evento sem categoria mapeada,Alta
+2023-09, Pg.cons.fechadura ,DESPESA,150.0,Outros,Evento sem categoria mapeada,Baixa
+2023-09, Pg.extintores ,DESPESA,637.5,Outros,Evento sem categoria mapeada,Baixa
+2023-09, Reparos Gerais ,DESPESA,500.0,Outros,Evento sem categoria mapeada,Baixa
+2023-09, Pg.treinamento ,DESPESA,1875.0,Outros,Evento sem categoria mapeada,Baixa
+2023-10, Pg.sacos Lixo ,DESPESA,526.27,Outros,Evento sem categoria mapeada,Baixa
+2023-10, Água ,DESPESA,10972.68,Outros,Evento sem categoria mapeada,Alta
+2023-10, Pg.extintores ,DESPESA,637.5,Outros,Evento sem categoria mapeada,Baixa
+2023-10, Pg.fotocópias ,DESPESA,106.7,Outros,Evento sem categoria mapeada,Baixa
+2023-10, Rec.reembolso ,RECEITA,592.46,Outros,Evento sem categoria mapeada,Baixa
+2023-10, Pg.treinamento ,DESPESA,1875.0,Outros,Evento sem categoria mapeada,Baixa
+2023-11, Pg.materiais ,DESPESA,707.59,Outros,Evento sem categoria mapeada,Baixa
+2023-11, Pg.cons.p.eletr. ,DESPESA,300.0,Outros,Evento sem categoria mapeada,Baixa
+2023-11, Pg.cons.fechadura ,DESPESA,170.0,Outros,Evento sem categoria mapeada,Baixa
+2023-11, Pg.coluna Água ,DESPESA,2300.0,Outros,Evento sem categoria mapeada,Média
+2024-01, Pg.tapete ,DESPESA,320.0,Outros,Evento sem categoria mapeada,Baixa
+2024-02, Pg.impermeabilização ,DESPESA,3900.0,Outros,Evento sem categoria mapeada,Média
+2024-02, Pg.desp.divrs. ,DESPESA,1550.0,Outros,Evento sem categoria mapeada,Baixa
+2024-02, Pg.reemb.elab.e Entr.dirf ,DESPESA,350.0,Outros,Evento sem categoria mapeada,Baixa
+2024-02, Pg.assemb.ordin. ,DESPESA,195.8,Outros,Evento sem categoria mapeada,Baixa
+2024-03, Pg. ,DESPESA,708.92,Outros,Evento sem categoria mapeada,Baixa
+2024-03, Pg.correio Conv.assemb.c/Ar ,DESPESA,431.25,Outros,Evento sem categoria mapeada,Baixa
+2024-04, Pg. ,DESPESA,708.93,Outros,Evento sem categoria mapeada,Baixa
+2024-04, Pg.desp.cartório ,DESPESA,214.97,Outros,Evento sem categoria mapeada,Baixa
+2024-05, Prov.darf Inss(E-Social/Reinf) ,DESPESA,1559.77,Outros,Evento sem categoria mapeada,Baixa
+2024-05, Pg. ,DESPESA,650.0,Outros,Evento sem categoria mapeada,Baixa
+2024-05, Adto.13º Salário ,DESPESA,1638.0,Outros,Evento sem categoria mapeada,Baixa
+2024-06, Pg. ,DESPESA,484.23,Outros,Evento sem categoria mapeada,Baixa
+2024-06, Prov.darf Inss(E-Social/Reinf) ,DESPESA,1489.57,Outros,Evento sem categoria mapeada,Baixa
+2024-07, Pg.recarga Extintores ,DESPESA,5169.0,Outros,Evento sem categoria mapeada,Média
+2024-07, Pg.disjuntor ,DESPESA,58.5,Outros,Evento sem categoria mapeada,Baixa
+2024-07, Pg. ,DESPESA,7.0,Outros,Evento sem categoria mapeada,Baixa
+2024-08, Pg.contr.remoto ,DESPESA,214.87,Outros,Evento sem categoria mapeada,Baixa
+2024-08, Pg. ,DESPESA,144.0,Outros,Evento sem categoria mapeada,Baixa
+2024-09, Pg.materiais ,DESPESA,596.98,Outros,Evento sem categoria mapeada,Baixa
+2024-09, Pg.lâmpadas ,DESPESA,79.8,Outros,Evento sem categoria mapeada,Baixa
+2024-10, Pg.lâmpadas ,DESPESA,1011.06,Outros,Evento sem categoria mapeada,Baixa
+2024-10, Pg.bateria ,DESPESA,1106.1,Outros,Evento sem categoria mapeada,Baixa
+2024-10, Pg.honor.processo ,DESPESA,1000.58,Outros,Evento sem categoria mapeada,Baixa
+2024-11, Pg.coluna Água ,DESPESA,1450.0,Outros,Evento sem categoria mapeada,Baixa
+2024-11, Pg.materiais ,DESPESA,1210.5,Outros,Evento sem categoria mapeada,Baixa
+2024-12, Pg.coluna Água ,DESPESA,1450.0,Outros,Evento sem categoria mapeada,Baixa
+2024-12, Pg.desinsetização ,DESPESA,436.1,Outros,Evento sem categoria mapeada,Baixa
+2024-12, Pg.tapete ,DESPESA,1360.0,Outros,Evento sem categoria mapeada,Baixa
+2025-01, Pg.desinsetização ,DESPESA,436.1,Outros,Evento sem categoria mapeada,Baixa
+2025-01, Pg.materiais ,DESPESA,1175.29,Outros,Evento sem categoria mapeada,Baixa
+2025-02, Pg.desinsetização ,DESPESA,274.4,Outros,Evento sem categoria mapeada,Baixa
+2025-02, Pg.recarga Extintores ,DESPESA,480.0,Outros,Evento sem categoria mapeada,Baixa
+2025-02, Pg.materiais ,DESPESA,938.75,Outros,Evento sem categoria mapeada,Baixa
+2025-02, Pg.reemb.elab.e Entr.dirf ,DESPESA,350.0,Outros,Evento sem categoria mapeada,Baixa
+2025-02, Pg. ,DESPESA,6365.0,Outros,Evento sem categoria mapeada,Média
+2025-03, Pg.assemb.ordin. ,DESPESA,213.6,Outros,Evento sem categoria mapeada,Baixa
+2025-03, Pg.conserto ,DESPESA,390.0,Outros,Evento sem categoria mapeada,Baixa
+2025-03, Pg.correio Conv.assemb.c/Ar ,DESPESA,433.2,Outros,Evento sem categoria mapeada,Baixa
+2025-03, Rec. ,RECEITA,470.36,Outros,Evento sem categoria mapeada,Baixa
+2025-03, Obra Poço Luz ,RECEITA,10.48,Outros,Evento sem categoria mapeada,Baixa
+2025-03, Pg. Serviços ,RECEITA,36.69,Outros,Evento sem categoria mapeada,Baixa
+2025-04, Pg.desp.cartório ,DESPESA,213.99,Outros,Evento sem categoria mapeada,Baixa
+2025-04, Pg.cons.fechadura ,DESPESA,780.0,Outros,Evento sem categoria mapeada,Baixa
+2025-04, Pg.devolução ,DESPESA,40.71,Outros,Evento sem categoria mapeada,Baixa
+2025-04, Pg.renovação Cert.digital ,DESPESA,145.0,Outros,Evento sem categoria mapeada,Baixa
+2025-04, Rec. ,RECEITA,490.0,Outros,Evento sem categoria mapeada,Baixa
+2025-05, Pg.desinsetização ,DESPESA,676.2,Outros,Evento sem categoria mapeada,Baixa
+2025-05, Pg. ,DESPESA,704.62,Outros,Evento sem categoria mapeada,Baixa
+2025-05, Pg.certificação Digital ,DESPESA,357.0,Outros,Evento sem categoria mapeada,Baixa
+2025-05, Valor ,DESPESA,4377.68,Outros,Evento sem categoria mapeada,Média
+2025-05, Rec. ,RECEITA,80.0,Outros,Evento sem categoria mapeada,Baixa
+2025-05, Valor ,RECEITA,4377.68,Outros,Evento sem categoria mapeada,Média
+2025-06, Pg.cons.fechadura ,DESPESA,550.0,Outros,Evento sem categoria mapeada,Baixa
+2025-06, Pg.impermeabilização ,DESPESA,5500.0,Outros,Evento sem categoria mapeada,Média
+2025-06, Pg. ,DESPESA,500.0,Outros,Evento sem categoria mapeada,Baixa
+2025-06, Pg.taxa ,DESPESA,103.03,Outros,Evento sem categoria mapeada,Baixa
+2025-06, Pg.locação ,DESPESA,287.64,Outros,Evento sem categoria mapeada,Baixa
+2025-06, Pg. Taxa Crea ,DESPESA,103.03,Outros,Evento sem categoria mapeada,Baixa
+2025-07, Valor ,DESPESA,1147.28,Outros,Evento sem categoria mapeada,Baixa
+2025-07, Pg.recarga Extintores ,DESPESA,2610.0,Outros,Evento sem categoria mapeada,Média
+2025-07, Pg.materiais ,DESPESA,1437.7,Outros,Evento sem categoria mapeada,Baixa
+2025-07, Pg.custas Judiciais ,DESPESA,110.3,Outros,Evento sem categoria mapeada,Baixa
+2025-07, Pg.correio Conv.assemb.c/Ar ,DESPESA,628.8,Outros,Evento sem categoria mapeada,Baixa
+2025-07, Pg. ,DESPESA,1440.7,Outros,Evento sem categoria mapeada,Baixa
+2025-07, Valor ,RECEITA,1147.28,Outros,Evento sem categoria mapeada,Baixa
+2025-07, Pg.honor.processo ,DESPESA,3800.0,Outros,Evento sem categoria mapeada,Média
+2025-08, Valor ,DESPESA,911.07,Outros,Evento sem categoria mapeada,Baixa
+2025-08, Valor ,RECEITA,911.07,Outros,Evento sem categoria mapeada,Baixa
+2025-10, Rec. ,RECEITA,396.35,Outros,Evento sem categoria mapeada,Baixa
+2025-12, Valor ,DESPESA,12.96,Outros,Evento sem categoria mapeada,Baixa
+2025-12, Valor ,RECEITA,12.96,Outros,Evento sem categoria mapeada,Baixa
+2026-01, Valor ,DESPESA,4569.18,Outros,Evento sem categoria mapeada,Média
+2026-01, Valor ,RECEITA,4569.18,Outros,Evento sem categoria mapeada,Média
+2026-03, Valor ,DESPESA,3144.74,Outros,Evento sem categoria mapeada,Média
+2026-03, Valor ,RECEITA,1122.07,Outros,Evento sem categoria mapeada,Baixa
+2026-05, Valor ,DESPESA,1766.7,Outros,Evento sem categoria mapeada,Baixa
+2026-05, Valor ,RECEITA,1766.7,Outros,Evento sem categoria mapeada,Baixa
+2026-06, Valor ,DESPESA,575.18,Outros,Evento sem categoria mapeada,Baixa
+2026-06, Valor ,RECEITA,575.18,Outros,Evento sem categoria mapeada,Baixa
