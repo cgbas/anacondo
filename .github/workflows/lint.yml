@@ -1,0 +1,44 @@
+name: Lint de Notebooks
+
+on:
+  push:
+    branches: [main, "feature/**"]
+    paths:
+      - "src/**"
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    name: Verificar Qualidade do Código
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install nbqa flake8 pylint
+
+      - name: Lint com flake8
+        run: |
+          nbqa flake8 src/*.ipynb --extend-ignore=E501,W503,F841
+
+      - name: Verificar imports não utilizados
+        run: |
+          nbqa pylint src/*.ipynb --disable=all --enable=unused-import || true
+
+      - name: Verificar excesso de print statements
+        run: |
+          echo "Verificando notebooks por excesso de print statements..."
+          python scripts/lint_notebooks.py || true
