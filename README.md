@@ -594,15 +594,15 @@ python scripts/generate_all_figs.py
 ## 🎯 Plano de Melhorias
 
 ### P1 — Testes Automatizados (Prioritário)
-- [ ] Validação de schema: coluna `valor` sempre numérica
-- [ ] Checagem de período: todos os meses esperados presentes
-- [ ] Balanço patrimonial: receitas ≈ despesas (se aplicável)
-- [ ] Test suite executável antes de merge
+- [x] Validação de schema: coluna `valor` sempre numérica
+- [x] Checagem de período: todos os meses esperados presentes
+- [x] Balanço patrimonial: receitas ≈ despesas (se aplicável)
+- [x] Test suite executável antes de merge
 
 ### P2 — Cobrir Gap ago/2023–ago/2025
-- [ ] Re-melhorar OCR de PDFs: receitas não estão sendo capturadas
+- [ ] Re-melhorar OCR de PDFs: receitas ainda não estão sendo capturadas de forma confiável
 - [ ] Considerar baixar extratos direto do site ClienteOnline (se acesso disponível)
-- [ ] Implementar validação de sobreposição: PDFs vs XLS vs XLSX
+- [x] Implementar validação de sobreposição: PDFs vs XLS vs XLSX
 
 ### P3 — Análise Comparativa 2022 vs 2025
 - [ ] Lado-a-lado de mesmas categorias em 2 anos
@@ -635,9 +635,9 @@ python scripts/generate_all_figs.py
 - [ ] Histórico de mudanças (quando começou a portaria, limpeza, etc.)
 
 ### P9 — CI/CD
-- [ ] GitHub Actions para validar notebooks na push
-- [ ] Lint de células (sem `print` excedido, sem hardcodes)
-- [ ] Versionamento de CSVs com git-lfs
+- [x] GitHub Actions para validar notebooks na push
+- [x] Lint de células (sem `print` excedido, sem hardcodes)
+- [x] Versionamento de CSVs com git-lfs
 
 ---
 

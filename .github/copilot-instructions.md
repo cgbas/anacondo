@@ -427,6 +427,12 @@ PNGs em `exports/figs/`:
 - **Cobertura parcial**: Gap entre PDFs e XLS sugere que OCR não captura todos os eventos
 - **Recomendação**: Melhorar parser OCR para detectar seções de receitas e aumentar sensibilidade
 
+#### Atualização desta sessão (09/jul/2026 — README / Plano de melhorias)
+- Seção **"Plano de Melhorias"** do `README.md` foi sincronizada com o estado real do repositório.
+- **P1 (Testes Automatizados)** marcado como concluído no README (schema, período, balanço e suíte antes de merge).
+- **P9 (CI/CD)** marcado como concluído no README (workflows de teste/lint e Git LFS ativos).
+- **P2** mantido como parcial no README: validação de overlap concluída, mas OCR de receitas ainda pendente.
+
 ---
 
 ## Próximos passos — a implementar nos notebooks
@@ -470,8 +476,8 @@ PNGs em `exports/figs/`:
 
 ### P8 — Incluir PDFs no pipeline (gap ago/2023–ago/2025)
 - PDFs disponíveis em `exports/pdf/`
-- Requer OCR ou extração de texto (biblioteca `pdfplumber` ou `PyMuPDF`)
-- Criar `src/pdf_extractor.ipynb` dedicado
+- OCR já implementado com notebook dedicado (`src/pdf_extractor.ipynb`)
+- Próximo passo: melhorar extração de receitas e reduzir perda de cobertura
 - Fechar gap de 2 anos nos dados
 
 ### P9 — Baixar extratos faltantes do site
