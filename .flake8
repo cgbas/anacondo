@@ -1,0 +1,37 @@
+[flake8]
+# Regras base já ignoradas no comando
+extend-ignore =
+    # Linha muito longa (notebooks costumam ter linhas longas)
+    E501,
+    # Quebra de linha antes de operador binário
+    W503,
+    # Variável local atribuída mas nunca usada
+    F841,
+    # Import não no topo do arquivo — padrão em notebooks Jupyter (cada célula é independente)
+    E402,
+    # Múltiplos espaços antes do operador — alinhamento intencional em dicts/DataFrames
+    E221,
+    # Espaços inesperados em torno de = em keyword args — alinhamento intencional
+    E251,
+    # Múltiplos espaços antes de keyword — alinhamento intencional
+    E272,
+    # Linha de continuação sobre-indentada para recuo visual
+    E127,
+    # Linha de continuação sub-indentada para recuo visual
+    E128,
+    # Espaço em branco no final da linha
+    W291,
+    # Linha em branco contém espaço em branco
+    W293,
+    # Nome de variável ambíguo (e.g. 'l') — usado em loops de rótulos matplotlib
+    E741,
+    # Bloco de comentário com '##' — usado como separador de seção nos notebooks
+    E266,
+    # Espaço em branco ausente em torno de operador — casos de formatação de string
+    E225,
+    # Import importado mas não usado — comum em notebooks de exploração
+    F401,
+    # Nome indefinido — 'display' é built-in do IPython/Jupyter
+    F821,
+    # f-string sem placeholders — prefixo f desnecessário mas inofensivo
+    F541,
