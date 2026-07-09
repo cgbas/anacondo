@@ -1,15 +1,9 @@
 # 📊 ANACONDO: Análise Condominial
 
-             ____
-            / . .\
-MT          \  ---<
-             \  /
-   __________/ /
--=:___________/
-
-
-
-**Última atualização**: 09 de julho de 2026
+[![Build Status](https://img.shields.io/github/actions/workflow/status/cgbas/anacondo/build.yml?branch=main)](https://github.com)
+[![Tests](https://img.shields.io/github/actions/workflow/status/cgbas/anacondo/tests.yml?branch=main&label=tests)](https://github.com)
+[![Coverage](https://img.shields.io/codecov/c/github/cgbas/anacondo)](https://github.com)
+[![License](https://img.shields.io/badge/license-Unlicense-blue)](LICENSE)
 
 ---
 ## Créditos de imagem:
