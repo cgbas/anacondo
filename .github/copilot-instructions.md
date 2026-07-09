@@ -1,0 +1,323 @@
+# Contexto do Projeto — Análise Contábil do Condomínio Humaitá
+
+> **Instrução para o agente**: ao final de cada sessão de trabalho, atualize as seções
+> "Estado atual da análise" e "Próximos passos" deste arquivo para refletir o que foi
+> feito, o que foi corrigido e o que ainda falta implementar.
+
+## Objetivo
+Pipeline de ingestão e análise dos lançamentos contábeis do condomínio a partir de extratos bancários e prestações de contas exportadas do sistema ClienteOnline (imobiliária).
+
+## Estrutura do workspace
+```
+exports/hojas/extrato/   → 11 arquivos .xls, ago/2025–jun/2026 (banco)
+exports/hojas/prestacao/ → 15 arquivos .xlsx, mai/2022–ago/2023 (prestação de contas)
+exports/pdf/             → fora do escopo por enquanto
+exports/csv/             → saída processada (CSVs limpos)
+src/extratos.ipynb       → ingestão e limpeza dos extratos bancários
+src/prestacao_de_contas.ipynb → ingestão das prestações de contas
+src/analise.ipynb        → análise central: normalização, anomalias, visualizações
+```
+
+## Gap de dados
+- mai/2022–ago/2023 → coberto pelas prestações de contas (.xlsx)
+- ago/2023–ago/2025 → **não coberto** (PDFs existem mas fora do escopo)
+- ago/2025–jun/2026 → coberto pelos extratos bancários (.xls)
+
+## Formato dos extratos (.xls)
+- São arquivos **HTML-as-XLS** exportados pelo sistema ClienteOnline
+- Usar `lxml.html` para parsear — **não** `pd.read_excel()`
+- Um arquivo por mês; nome: `YY_MM.xls` → `mes_ano = "20YY-MM"`
+- Múltiplas subcontas por arquivo: CONTA NORMAL, FUNDO 13º SALÁRIO, FUNDO DIF.SALÁRIO, FUNDO FÉRIAS, FUNDO OBRAS, USO DO BOX, ACORDOS, ACORDO JUDICIAL, FUNDO RESERVA, FUNDO FÉRIAS/13º
+- Estrutura de cada subconta: linha de cabeçalho → linha SALDO ANTERIOR → transações
+- Colunas: Data, Subconta, Histórico, Complemento, Débito (R$), Crédito (R$), Saldo (R$)
+- Números em formato BR: `.` como milhar, `,` como decimal (ex: `-66.960,85`)
+
+## Formato das prestações (.xlsx)
+- XLSX real com 3 abas: `Receitas`, `Despesas`, `Resumo por Subconta`
+- Nome: `YYYY_MM.xlsx` → `mes_ano = "YYYY-MM"`
+- Colunas relevantes: `Evento` (nome da categoria), `Valor`
+- Valores já em formato numérico ou BR dependendo do arquivo
+
+## Saídas geradas
+- `exports/csv/extratos.csv` — lançamentos dos extratos bancários limpos
+- `exports/csv/prestacoes.csv` — lançamentos das prestações limpos
+- `exports/csv/lancamentos_normalizados.csv` — com `categoria` e `macro_categoria`
+- `exports/csv/anomalias.csv` — lançamentos suspeitos detectados
+
+## Macro-categorias (normalização)
+| Macro | Exemplos de Histórico |
+|---|---|
+| Pessoal | PG.SALÁRIO, PG.ADTO.SALÁRIO, PG.1º PARC.13º SAL., PG.FGTS, PG.DARF INSS, PG.FÉRIAS, PG.VALE TRANSPORTE, PG.VALE REFEIÇÃO, PG.SEG.VIDA, PG.SÍNDICO |
+| Utilidades | ÁGUA/ESGOTO, PG.CEEE, PG. INTERNET, PG.SERV.PORTARIA, PG.SERV.LIMP. |
+| Manutenção | PG.MATERIAL, PG.REPAROS, PG.REP.HIDRÁULICO, PG.REP.ELEVADOR, PG.MANUT.ELEVADOR, PG.BÓIA |
+| Taxas e Impostos | PG.ISSQN, PG.FGTS, PG.DARF INSS, PG.TX.FIN, PG.SECOVIMED, PG.DECLARAÇÃO PMPA |
+| Administração | TAXA AUXILIAR ADMINISTRACAO, REEMB.MAT.EXPEDIENTE, PG.ELAB-REINF, PG.TARIFA BANCO, PG.TRANSAÇÕES BCO, PG.FOLHA FUNC.BCO, PG.IMPRESSÕES, PG.REMESSA DOCTOS |
+| Receitas Condominiais | REC.CONDOMÍNIO, REC. MULTA, REC.MULTA+C.M.+JRS. |
+| Fundos | 13º SALARIO, DIF.SALARIAL, FUNDO OBRAS, FUNDO FÉRIAS, REC.CH.EXTRA FÉRIAS, REC.ALUG.DEPÓSITO, REC.TAXA USO BOX |
+
+## Anomalias a detectar
+1. **Outliers por categoria**: IQR method — valor > Q3 + 1.5*IQR
+2. **Pagamentos sem NF**: linhas com `historico` começando em `PG.` sem número de nota no `complemento`
+3. **Retiradas p/ devolução**: regex para padrões como "RETIRADA", "DEVOLUCAO", "DEV.", "POSTERIOR"
+4. **Débito em subconta errada**: lançamento de despesa operacional em FUNDO FÉRIAS, FUNDO 13º SALÁRIO, etc.
+
+## Convenções de código
+- Sempre usar `Path` do pathlib para caminhos
+- Encoding `utf-8` com `errors='ignore'` nos arquivos de extrato
+- Datas parsear com `pd.to_datetime(col, dayfirst=True, errors='coerce')`
+- Valores monetários sempre como `float` (None para ausente ou "-")
+
+---
+
+## Estado atual da análise (jul/2026)
+
+### Dados carregados
+| Fonte | Registros | Período |
+|---|---|---|
+| `extratos.csv` | 6.215 | ago/2025–jun/2026 |
+| `prestacoes.csv` | 711 | mai/2022–ago/2023 |
+| `lancamentos_normalizados.csv` | 6.215 | ago/2025–jun/2026 (com `macro_categoria`) |
+| `anomalias.csv` | 307 | ago/2025–jun/2026 |
+
+### Distribuição por macro_categoria (extratos — CONTA NORMAL)
+| Categoria | Registros |
+|---|---|
+| Fundos | 3.263 |
+| Receitas Condominiais | 1.958 |
+| Pessoal | 612 |
+| Manutenção | 119 |
+| Administração | 91 |
+| Utilidades | 83 |
+| Taxas e Impostos | 58 |
+| Retiradas/Acerto | 8 |
+| **Outros (não mapeados)** | **23** |
+
+### Anomalias detectadas
+| Tipo | Qtd |
+|---|---|
+| Pagamento sem NF no complemento | 271 |
+| Outlier IQR — Pessoal (> R$ 3.737,63) | 23 |
+| Outlier IQR — Manutenção (> R$ 2.244,76) | 7 |
+| Retirada / posterior devolução | 5 |
+| Outlier IQR — Administração (> R$ 1.580,60) | 1 |
+
+### Históricos não mapeados (ficam como "Outros")
+- `VALOR` — 21 ocorrências (natureza desconhecida, investigar no extrato original)
+- `REC.` — 2 ocorrências (recibo sem descrição)
+
+### Validação de totais (concluída)
+- **Extratos**: 75/75 subcontas com movimentação validadas ✓ (41 sem movimentação = esperado)
+- **Prestações**: 30/30 abas/mês validadas ✓ após correção abaixo
+
+### Bug corrigido — dupla contagem em Prestações
+- **Problema**: `"Outros Eventos"` nas abas Receitas e Despesas é um subtotal de grupo
+  (soma dos itens do bloco acima), não um lançamento individual. Estava sendo incluído
+  como item → todas as Receitas e 2 meses de Despesas em dupla contagem.
+- **Correção**: `_is_skip_row()` em `prestacao_de_contas.ipynb` passa a filtrar
+  qualquer evento que comece com `"outros eventos"` (case-insensitive).
+- **Impacto**: `prestacoes.csv` passou de 728 → **711 registros** (17 linhas removidas).
+
+### Achados visuais
+- **Saldo CONTA NORMAL sempre negativo**: oscila entre R$ −20k e −70k no período — endividamento estrutural persistente
+- **Pessoal é o maior custo operacional**: INSS (PG.DARF INSS) claramente acima do IQR e crescendo mês a mês (R$ 4.662 em nov/2025 → R$ 6.852 em fev/2026)
+- **Portaria + Limpeza** dominam a categoria Utilidades (~R$ 23k/mês combinados)
+- **FUNDO OBRAS** com saldo negativo estrutural (~R$ −1.3k a −1.8k)
+
+### Análise do síndico (concluída)
+
+#### Fornecedor e valor
+- Fornecedor: **FK Soluções** — mesmo CNPJ ao longo de todo o período
+- Valor 2022-2023 (prestações): R$ 1.750/mês inicialmente, com variações
+- Valor 2025-2026 (extratos): R$ 3.871/mês fixo (ago/2025–mai/2026), R$ 3.900,40 em jun/2026
+- **Variação nominal 2022 → 2026: ~+121%** — muito acima do IPCA acumulado (~29% aprox.)
+- Em termos reais (jan/2022): saltou de ~R$ 1.670 para ~R$ 2.990 — aumento real de ~+79%
+
+#### Anomalias do síndico
+| Mês | Situação | Detalhe |
+|---|---|---|
+| mai/2026 | **DUPLO** | 2 pagamentos: referências 04/2026 (CF REC, sem NF numerada) + 05/2026 (NF.0203) |
+| jun/2026 | Saque em aberto | `RETIRADA P/POSTERIOR ACERTO` R$ 3.900,40 em 17/06 — valor idêntico ao síndico |
+
+#### Saques P/ACERTO — ciclo de vida
+| Data saque | Valor | Data devolução | Prazo | Status |
+|---|---|---|---|---|
+| 2026-01-16 | R$ 1.900 | 2026-02-04 | 19 dias | ✓ devolvido |
+| 2026-02-24 | R$ 1.900 | 2026-05-21 | 86 dias | ✓ devolvido (tardio) |
+| 2026-06-17 | R$ 3.900,40 | — | em aberto | **⚠️ não devolvido** |
+
+**Saldo total de saques em aberto: R$ 3.900,40** (coincide com o valor do síndico de jun/2026)
+
+#### Reconciliação mensal síndico (3 visões)
+- `analise.ipynb` seção 5.3 compara por mês: NF apenas | NF + saques | NF + saques − devoluções
+- jan/2026: líquido R$ 5.771 (NF R$ 3.871 + saque R$ 1.900)
+- fev/2026: líquido R$ 3.871 (saque compensado por devolução do jan)
+- mai/2026: líquido R$ 5.842 (NF dupla R$ 7.742 − devolução R$ 1.900 do fev)
+- jun/2026: líquido R$ 7.800,80 (NF R$ 3.900,40 + saque aberto R$ 3.900,40)
+
+#### Outros pagamentos relevantes (extratos)
+- `E-CONSIGNADO CLT CONDS.`: R$ 251,73/mês desde jan/2026 (6x) — natureza a verificar
+- `HONOR.ADVOC.`: R$ 2.000 em out/2025, pago com recibo (sem NF fiscal)
+- `INDENIZ.FUNC.`: 6 lançamentos em jun/2026 referenciando apartamentos (07/2026)
+- `PG.RETIRADA`: R$ 470 a Fabio Correia em mai/2026, com recibo s/ NF
+
+### Estrutura dos notebooks (reorganizada nesta sessão)
+O `analise.ipynb` original foi dividido em dois notebooks especializados:
+
+| Arquivo | Foco | Seções |
+|---|---|---|
+| `src/analise_prestacao_de_contas.ipynb` | Prestações 2022-2023 | Validação, normalização, anomalias, 4 visualizações, síndico (5.1-5.5b), portaria+limpeza (5.6) |
+| `src/analise_extratos.ipynb` | Extratos 2025-2026 | Validação, normalização, anomalias, 3 visualizações, síndico completo (5.1-5.5), exportação |
+
+### Atualização desta sessão (08/jul/2026)
+- Seção consolidada como **"5. Prestações e Síndico — Análise Aprofundada (2022–2026)"**.
+- Inseridas e executadas as células:
+  - **5.3** Reconciliação mensal do síndico (NF | NF+saques | NF+saques−devoluções)
+  - **5.4** Ciclo de vida dos saques p/acerto e saldo em aberto
+  - **5.5** Resumo/detalhamento de pagamentos relevantes (HONOR., E-CONSIGNADO, INDENIZ, PG.RETIRADA)
+- Numeração ajustada: exportação passou para **seção 6**.
+- Validação da regra "NF abaixo do esperado": **nenhum mês abaixo de R$ 3.871,00** no período dos extratos.
+- `analise.ipynb` dividido em `analise_prestacao_de_contas.ipynb` e `analise_extratos.ipynb`.
+
+### Análise aprofundada do síndico nas prestações (08/jul/2026 — sessão atual)
+Adicionadas células 5.3-5.5 em `analise_prestacao_de_contas.ipynb`:
+
+#### 5.3 — Timeline colorida por status
+- Período: mai/2022–ago/2023 (16 meses completos)
+- Ref. fase 1: R$ 1.750 | Ref. fase 2: R$ 1.850
+- Status identificados:
+  | Mês | Status |
+  |---|---|
+  | 2022-08 | Pagamento duplo (R$ 3.500 = 2× R$ 1.750) |
+  | 2022-11 | Sem pagamento |
+  | 2023-01 | Pagamento duplo (R$ 3.500) |
+  | 2023-02 | Pagamento duplo (R$ 3.600) |
+  | 2023-03 | Sem pagamento |
+  | 2023-06 | Sem pagamento |
+
+#### 5.4 — Hipótese: duplos cobrem ausências — **CONFIRMADA**
+- Total pago no período: R$ 28.500 vs. total esperado (16 meses): R$ 28.600
+- Diferença: R$ −100 (praticamente zero) → **os pagamentos duplos cobrem exatamente os meses sem registro**
+- Todos os 16 meses do período foram pagos, apenas agrupados em diferentes datas
+
+#### 5.5 — Saques e devoluções nas prestações — **NOVO ACHADO**
+- **Padrão `RETIRADA P/POSTERIOR ACERTO` já existia em 2022-2023**, antes dos extratos
+- Ocorrências em: jul, ago, set, out/2022 e jan, fev, abr/2023
+- Valores dos saques: R$ 800 a R$ 1.800 — próximos ao valor do síndico da fase 1
+- Em quase todos os casos há `REC.DEVOLUÇÃO RETIRADA` correspondente no mesmo mês ou mês seguinte
+- **Conclusão**: o comportamento de saques com devolução posterior identificado nos extratos 2025-2026 não é novo — é um padrão recorrente do condomínio desde pelo menos 2022
+
+#### 5.5 — Simplificada: só mostra matching saque → devolução
+- Tabela de saques (`RETIRADA P/POSTERIOR ACERTO`) e devoluções (`REC.DEVOLUÇÃO RETIRADA`)
+- Match automático: cada saque emparelhado com a devolução mais próxima seguinte
+- Mostra Δ de valor quando saque e devolução divergem
+- Total sacado: R$ 12.300 | Total devolvido: R$ 12.300 → **saldo zero no período**
+- Único saque sem devolução registrada: ago/2023 (R$ 1.400) — fora do período coberto
+
+#### 5.5b — Gráfico duplo: custo mensal + acumulado
+- **Painel superior** (custo mensal): barras empilhadas NF/saque/devolução + linha de custo líquido
+  - Y-axis: labels a cada R$ 500, grid menor a cada R$ 100 para leitura precisa
+  - Linhas de referência por fase (fase 1: R$ 1.750, fase 2: R$ 1.850)
+  - Meses mais caros: out/2022 (R$ 3.550) e fev/2023 (R$ 5.100)
+- **Painel inferior** (acumulado): 4 linhas (NF, NF+saques, líquido, esperado) com área sombreada
+  - Y-axis: labels a cada R$ 5.000, grid menor a cada R$ 1.000
+  - Ao final do período: líquido (R$ 28.500) ≈ esperado (R$ 28.600) → Δ = −R$ 100
+  - Saldo de saques em aberto no período: **R$ 0** — tudo foi devolvido
+
+#### 5.6 — Portaria + Limpeza/Zelador (serviço apenas)
+- Filtro: `PG.SERV.PORTARIA` + `PG.SERV.LIMP.` (excluindo `PG.MAT.LIMPEZA`)
+- Base de comparação %: jun/2022 (primeiro mês com ambos os serviços)
+- Valores encontrados:
+  | Serviço | Total período | Média/mês |
+  |---|---|---|
+  | Portaria (PG.SERV.PORTARIA) | R$ 241.662 | R$ 17.262 |
+  | Limpeza (PG.SERV.LIMP.) | R$ 68.134 | R$ 4.867 |
+  | **Combinado** | **R$ 309.796** | **R$ 22.128** |
+- Achados: portaria +8,9% no reajuste de fev/2023; limpeza caiu 50% em jul/2022 vs jun/2022 (mudança de escopo do contrato); jun/2022 atípico para limpeza (R$ 7.570 vs normal R$ 3.785–4.606)
+- Combinado representa ~60–65% da categoria Utilidades nas prestações
+
+### Correção gráfico 4.3 (08/jul/2026 — sessão atual)
+- **Problema**: base em mai/2022 gerava salto enorme em jun/2022 (portaria e limpeza ainda não estavam ativas)
+- **Correção**: base movida para jun/2022; categorias com valor < R$ 500 na base excluídas (evita spikes de divisão por valor próximo de zero, ex: `Receitas Condominiais` que aparecia como despesa apenas em alguns meses)
+- **Resultado**: gráfico limpo, todas as linhas partem de 0% em jun/2022 sem ruído
+
+### Estado dos notebooks — validação (08/jul/2026, fim de sessão)
+| Notebook | Células | Status |
+|---|---|---|
+| `src/extratos.ipynb` | 8/8 | ✓ todas executadas |
+| `src/prestacao_de_contas.ipynb` | 7/7 | ✓ todas executadas |
+| `src/analise_prestacao_de_contas.ipynb` | 28/28 | ✓ re-executadas após reset de kernel |
+| `src/analise_extratos.ipynb` | 25/25 (21 exec.) | ✓ seções 1-3 e síndico executadas; visualizações 4.1-4.3 e export executados |
+
+CSVs em `exports/csv/`:
+- `extratos.csv` — 6.215 registros ✓
+- `prestacoes.csv` — 711 registros ✓ (com `macro_categoria`)
+- `lancamentos_normalizados.csv` — 6.215 registros ✓
+- `anomalias.csv` — 307 registros ✓
+
+---
+
+## Próximos passos — a implementar nos notebooks
+
+### P1 — Classificar os 23 lançamentos "VALOR"
+- Filtrar `df_ext[df_ext['historico'] == 'VALOR']` e inspecionar `complemento`
+- Determinar se são transferências internas, acertos ou outra categoria
+- Adicionar ao `MACRO_MAP` após identificação
+
+### P2 — Aprofundar análise dos 271 pagamentos sem NF
+- Listar fornecedores (campo `complemento`) que aparecem com frequência sem NF
+- Separar pagamentos recorrentes de pontuais sem nota
+- Verificar se há algum fornecedor com padrão consistente de ausência de nota
+
+### P3 — Análise de tendência do INSS
+- Plotar série temporal de `PG.DARF INSS` mês a mês
+- Verificar se o crescimento é progressivo ou pontual (rescisões, etc.)
+- Comparar com folha de salários para ver se a proporção está correta
+
+### P4 — Comparação entre os dois períodos cobertos
+- Calcular média mensal por macro_categoria em 2022-2023 e 2025-2026
+- Plotar gráfico de barras side-by-side mostrando variação
+- Ajustar por inflação (IPCA) para comparação justa — deflacionar usando pandas_datareader ou IBGE API
+
+### P5 — Análise de inadimplência / cobrança atrasada
+- Nos extratos, lançamentos `REC.MULTA+C.M.+JRS.` e `REC. MULTA` indicam pagamentos atrasados
+- Identificar os apartamentos mais frequentes no campo `complemento`
+- Calcular percentual de arrecadação em atraso vs total mensal
+
+### P6 — FUNDO OBRAS: investigar saldo negativo
+- Filtrar `df_ext[df_ext['subconta'] == 'FUNDO OBRAS']`
+- Verificar se há débitos lançados nesta subconta e qual a origem
+- Saldo negativo pode indicar lançamentos incorretos ou insuficiência do fundo
+
+### P7 — Exportar relatório de anomalias para Excel
+- Gerar `exports/csv/relatorio_anomalias.xlsx` com múltiplas abas:
+  - Aba "Sem NF" — pagamentos sem nota fiscal
+  - Aba "Outliers" — valores acima do IQR por categoria
+  - Aba "Retiradas" — movimentações suspeitas de retirada
+- Usar `openpyxl` com formatação condicional (células vermelhas para valores altos)
+
+### P8 — Incluir PDFs no pipeline (gap ago/2023–ago/2025)
+- PDFs disponíveis em `exports/pdf/`
+- Requer OCR ou extração de texto (biblioteca `pdfplumber` ou `PyMuPDF`)
+- Criar `src/pdf_extractor.ipynb` dedicado
+- Fechar gap de 2 anos nos dados
+
+### P9 — Baixar extratos faltantes do site
+- Período não coberto pelos extratos atuais: jul/2023 a jul/2025
+- Baixar do sistema ClienteOnline e adicionar a `exports/hojas/extrato/`
+- Re-executar `extratos.ipynb` para incorporar os novos arquivos
+- O pipeline de ingestão já está preparado para detectar arquivos novos automaticamente
+
+### P10 — Investigar E-CONSIGNADO CLT CONDS.
+- R$ 251,73/mês desde jan/2026 (6 ocorrências, total R$ 1.510,38)
+- Verificar base contratual: é desconto de condômino? É encargo trabalhista?
+- Se for desconto de condômino inadimplente via consignado, verificar legalidade
+
+### P11 — Verificar pagamento duplo do síndico em mai/2026
+- Dois pagamentos em mai/2026: competências 04/2026 (CF REC, sem NF) e 05/2026 (NF.0203)
+- Verificar se 04/2026 já havia sido pago em abr/2026 (NF.0195 = referência 03/2026)
+- Se sim, um dos pagamentos de mai/2026 é indevido → R$ 3.871 a recuperar
+
+### P12 — Acompanhar saque de R$ 3.900,40 (jun/2026)
+- `RETIRADA P/POSTERIOR ACERTO` em 2026-06-17, valor = síndico jun/2026
+- Verificar nos próximos extratos se devolução foi realizada
+- Padrão de saques anteriores: devolvidos com 16–87 dias de atraso
