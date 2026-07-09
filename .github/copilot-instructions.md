@@ -166,7 +166,7 @@ O `analise.ipynb` original foi dividido em dois notebooks especializados:
 | Arquivo | Foco | Seções |
 |---|---|---|
 | `src/analise_prestacao_de_contas.ipynb` | Prestações 2022-2023 | Validação, normalização, anomalias, 4 visualizações, síndico (5.1-5.5b), portaria+limpeza (5.6) |
-| `src/analise_extratos.ipynb` | Extratos 2025-2026 | Validação, normalização, anomalias, 3 visualizações, síndico completo (5.1-5.5), exportação |
+| `src/analise_extratos.ipynb` | Extratos 2025-2026 | Validação, normalização, anomalias, 3 visualizações, síndico (5.1-5.5b), acordos (5.6), portaria/limpeza (5.7), exportação (6) |
 
 ### Atualização desta sessão (08/jul/2026)
 - Seção consolidada como **"5. Prestações e Síndico — Análise Aprofundada (2022–2026)"**.
@@ -246,13 +246,42 @@ Adicionadas células 5.3-5.5 em `analise_prestacao_de_contas.ipynb`:
 | `src/extratos.ipynb` | 8/8 | ✓ todas executadas |
 | `src/prestacao_de_contas.ipynb` | 7/7 | ✓ todas executadas |
 | `src/analise_prestacao_de_contas.ipynb` | 28/28 | ✓ re-executadas após reset de kernel |
-| `src/analise_extratos.ipynb` | 25/25 (21 exec.) | ✓ seções 1-3 e síndico executadas; visualizações 4.1-4.3 e export executados |
+| `src/analise_extratos.ipynb` | 29/29 | ✓ todas executadas (09/jul/2026) |
 
 CSVs em `exports/csv/`:
 - `extratos.csv` — 6.215 registros ✓
 - `prestacoes.csv` — 711 registros ✓ (com `macro_categoria`)
 - `lancamentos_normalizados.csv` — 6.215 registros ✓
 - `anomalias.csv` — 307 registros ✓
+
+PNGs em `exports/figs/`:
+- `sindico_custo_mensal.png` — gráfico 5.3b (NF + saques líquidos, devoluções abatidas) ✓
+- `acordos_mensal.png` — gráfico 5.6 (recebimentos/pagamentos de acordos) ✓
+- `portaria_limpeza_extratos.png` — gráfico 5.7 (portaria + limpeza extratos) ✓
+
+### Atualização desta sessão (09/jul/2026)
+
+#### Correções aplicadas em `analise_extratos.ipynb`
+- **5.3b** Gráfico síndico: devoluções agora **abatidas** (saques líquidos = saques − devoluções) em vez de somadas; devoluções anotadas como texto verde para referência
+- **5.5** Outros pagamentos: fix NaN — `valor` agora usa `apply` com fallback para `credito` quando `debito` é NaN (afetava `INDENIZ.FUNC.` em FUNDO INDEN.TRAB. e `PG.ACORDO` em subconta ACORDOS)
+
+#### Novas seções adicionadas em `analise_extratos.ipynb`
+- **5.6 Acordos**: análise de todos os lançamentos da subconta `ACORDOS` + `REC.ACORDO` / `PG.ACORDO`
+  - Lançamentos identificados: 7 no total (ago/2025 a jun/2026)
+  - Total entrada (recebimentos): R$ 2.281,75 | Total saída (pagamentos): R$ 80,00
+  - Saldo líquido: R$ 2.201,75 → condomínio recebeu mais de acordos do que pagou
+  - Gráfico mensal com barras verde (entradas) e vermelho (saídas)
+- **5.7 Portaria e Limpeza**: evolução mensal dos contratos de serviço nos extratos
+  - `PG.SERV.PORTARIA` + `PG.SERV.LIMP.` filtrados da CONTA NORMAL
+  - Barras empilhadas mensais + linha de variação % relativa ao 1º mês
+  - Complementa a análise já existente em `analise_prestacao_de_contas.ipynb`
+
+#### Exportação de figuras
+- Nova pasta `exports/figs/` criada
+- Todas as figuras dos extratos salvas como PNG (dpi=200)
+
+#### Validação de subtotais (re-confirmada)
+- Extratos: 75/75 subcontas com movimentação ✓ | 41 sem movimentação ✓ | 0 discrepâncias ✓
 
 ---
 
@@ -321,3 +350,15 @@ CSVs em `exports/csv/`:
 - `RETIRADA P/POSTERIOR ACERTO` em 2026-06-17, valor = síndico jun/2026
 - Verificar nos próximos extratos se devolução foi realizada
 - Padrão de saques anteriores: devolvidos com 16–87 dias de atraso
+
+### P13 — Aprofundar análise de Acordos
+- Células 5.6 identificam R$ 2.281,75 recebidos de condôminos em acordo (7 lançamentos)
+- Cruzar com `REC.MULTA+C.M.+JRS.` para ver inadimplentes recorrentes
+- Verificar se `AP.0303` e `AP.0504` têm parcelas em aberto além das registradas
+- `PG.ACORDO PARC.08/25 UNIDADE 504A` (R$ 80,00 saída em ago/2025) — verificar contexto
+
+### P14 — Portaria e Limpeza: comparação 2022-2023 vs 2025-2026
+- Dados de 2022-2023 já em `analise_prestacao_de_contas.ipynb` seção 5.6
+- Dados de 2025-2026 agora em `analise_extratos.ipynb` seção 5.7
+- Criar célula de comparação side-by-side nos dois períodos (ajustado por IPCA)
+- Verificar se houve troca de prestadora e impacto no preço
