@@ -1,8 +1,19 @@
-# 📊 Análise Contábil do Condomínio Humaitá — Pipeline de Notebooks
+# 📊 ANACONDO: Análise Condominial
+
+             ____
+            / . .\
+ANACONDO    \  ---<
+             \  /
+   __________/ /
+-=:___________/
+
 
 **Última atualização**: 09 de julho de 2026
 
 ---
+## Créditos
+
+Snake Art de [Matthew Thomas](https://www.asciiart.eu/art/53357aead9797536 "Ascii Art")
 
 ## 🎯 Objetivo
 
@@ -623,17 +634,12 @@ python scripts/generate_all_figs.py
 - [ ] Filtros por período, categoria, severidade
 - [ ] Exportação automática de relatórios
 
-### P8 — Integração com Ferramentas
-- [ ] Slack alert se anomalia crítica detectada
-- [ ] Google Sheets para compartilhar CSVs
-- [ ] Agendador para executar pipelines mensais
-
-### P9 — Documentação de Processos
+### P8 — Documentação de Processos
 - [ ] Manuais de contabilidade (quando é normal, quando é anômalo?)
 - [ ] Dicionário de fornecedores (qual é o síndico legítimo?)
 - [ ] Histórico de mudanças (quando começou a portaria, limpeza, etc.)
 
-### P10 — CI/CD
+### P9 — CI/CD
 - [ ] GitHub Actions para validar notebooks na push
 - [ ] Lint de células (sem `print` excedido, sem hardcodes)
 - [ ] Versionamento de CSVs com git-lfs
