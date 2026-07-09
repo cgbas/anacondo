@@ -11,9 +11,9 @@ ANACONDO    \  ---<
 **Última atualização**: 09 de julho de 2026
 
 ---
-## Créditos
+## Créditos de imagem:
 
-Snake Art de [Matthew Thomas](https://www.asciiart.eu/art/53357aead9797536 "Ascii Art")
+Matthew Tomas em [Ascii Art](https://www.asciiart.eu/art/53357aead9797536)
 
 ## 🎯 Objetivo
 
