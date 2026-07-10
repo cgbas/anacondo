@@ -649,6 +649,90 @@ python scripts/generate_all_figs.py
 - [ ] Dicionário de fornecedores (qual é o síndico legítimo?)
 - [ ] Histórico de mudanças (quando começou a portaria, limpeza, etc.)
 
+### P10 — LGPD: Anonimização de Dados Sensíveis ⚠️ PRIORITÁRIO
+
+**Situação atual**: 97 arquivos rastreados publicamente no GitHub incluindo `.xls`, `.xlsx` e CSVs com dados pessoais (nomes, CNPJ, números de apartamento, NFs).
+
+**Campos sensíveis identificados**:
+| Arquivo | Campo | Exemplo de dado exposto |
+|---------|-------|------------------------|
+| `extratos.csv` | `complemento` | "AP.0504 BL B", "NF.0245", nomes |
+| `prestacoes.csv` | `evento` | "Pg.síndico Prof." (nome empresa) |
+| `inadimplentes_ranking.csv` | `unidade` | números de AP |
+| `outliers_p6_resumo.csv` | `detalhe` | referências a empresas |
+
+**Plano de implementação**:
+
+1. **Criar `exports/private/data_dictionary.json`** (será gitignored):
+   ```json
+   {
+     "companies": { "EMPRESA_SINDICO": "FORNECEDOR_SINDICO", "EMPRESA_PORTARIA": "FORNECEDOR_PORTARIA" },
+     "apartments": { "AP 0504": "AP XXXX", "AP 1008": "AP YYYY" },
+     "cnpj": "CNPJ_REDACTED"
+   }
+   ```
+
+2. **Criar `scripts/anonymize.py`**:
+   - Lê `data_dictionary.json`
+   - Aplica substituições em `exports/csv/*.csv`
+   - Redige padrões regex: CNPJ (`\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}`), AP (`AP\.\d{4}`), NF (`NF\.\d{4}`)
+   - Gera `exports/csv_public/*.csv` (versão limpa para commit)
+
+3. **Atualizar `.gitignore`**:
+   ```
+   exports/hojas/       # dados brutos
+   exports/csv/         # CSVs com dados reais
+   exports/private/     # dicionário de dados
+   exports/figs/        # regeneráveis
+   ```
+
+4. **Commitar apenas `exports/csv_public/`** (anonimizado)
+
+- [ ] Criar `scripts/anonymize.py`
+- [ ] Criar `exports/private/data_dictionary.json` (gitignored)
+- [ ] Criar `exports/csv_public/` com CSVs anonimizados
+- [ ] Atualizar `.gitignore`
+
+### P11 — Limpeza do Histórico Git ⚠️ IRREVERSÍVEL — coordenar com colaboradores
+
+Remove retroativamente todos os arquivos sensíveis do histórico git público.
+
+**Pré-requisito**: P10 concluído e `.gitignore` atualizado.
+
+**Passos**:
+
+```bash
+# 1. Instalar git-filter-repo
+brew install git-filter-repo
+
+# 2. Backup local obrigatório
+cp -r /Users/chris/Documents/analisis /Users/chris/Documents/analisis_backup_YYYYMMDD
+
+# 3. Remover do histórico completo
+git filter-repo --invert-paths \
+  --path exports/hojas/ \
+  --path exports/csv/ \
+  --path exports/figs/ \
+  --path "exports/.DS_Store"
+
+# 4. Verificar limpeza (deve retornar vazio)
+git log --all --full-history -- "exports/hojas/extrato/*.xls" | head -5
+
+# 5. Re-adicionar remote (git-filter-repo remove por segurança)
+git remote add origin https://github.com/cgbas/anacondo.git
+
+# 6. Force push
+git push --force-with-lease origin main
+
+# 7. Notificar colaboradores para re-clonar — branches antigas ficam inválidas
+```
+
+- [ ] Instalar `git-filter-repo` (`brew install git-filter-repo`)
+- [ ] Fazer backup local antes de rodar
+- [ ] Executar `git filter-repo` para remover exports/ do histórico
+- [ ] Force push após limpeza
+- [ ] Atualizar README com instrução de re-clone para colaboradores
+
 ### P9 — CI/CD
 - [x] GitHub Actions para validar notebooks na push
 - [x] Lint de células (sem `print` excedido, sem hardcodes)
