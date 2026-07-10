@@ -365,9 +365,9 @@ df["valor"] = df["valor"].apply(clean_currency)
 
 ### Contatos Importantes
 
-- **Síndico**: EMPRESA_SINDICO (CNPJ X.XXXXX.XXX/0001-XX)
-- **Portaria**: Contrato ativo, R$ 18–19k/mês
-- **Limpeza**: Contrato ativo, R$ 4–5k/mês
+- **Síndico**: EMPRESA_SINDICO
+- **Portaria** (EMPRESA_PORTARIA): Contrato ativo, R$ 18–19k/mês
+- **Limpeza** (EMPRESA_LIMPEZA_MAT): Contrato ativo, R$ 4–5k/mês
 
 ---
 
@@ -656,7 +656,7 @@ python scripts/generate_all_figs.py
 **Campos sensíveis identificados**:
 | Arquivo | Campo | Exemplo de dado exposto |
 |---------|-------|------------------------|
-| `extratos.csv` | `complemento` | "AP.0504 BL B", "NF.0245", nomes |
+| `extratos.csv` | `complemento` | "[AP:684F BL B]", "NF.0245", nomes |
 | `prestacoes.csv` | `evento` | "Pg.síndico Prof." (nome empresa) |
 | `inadimplentes_ranking.csv` | `unidade` | números de AP |
 | `outliers_p6_resumo.csv` | `detalhe` | referências a empresas |
@@ -666,9 +666,11 @@ python scripts/generate_all_figs.py
 1. **Criar `exports/private/data_dictionary.json`** (será gitignored):
    ```json
    {
-     "companies": { "EMPRESA_SINDICO": "FORNECEDOR_SINDICO", "EMPRESA_PORTARIA": "FORNECEDOR_PORTARIA" },
-     "apartments": { "AP 0504": "AP XXXX", "AP 1008": "AP YYYY" },
-     "cnpj": "CNPJ_REDACTED"
+     "entities": {
+       "[NOME_REAL_EMPRESA]": "EMPRESA_SINDICO",
+       "[NOME_REAL_PORTARIA]": "EMPRESA_PORTARIA",
+       "[NOME_FUNCIONARIO]": "FUNCIONARIO_A"
+     }
    }
    ```
 
