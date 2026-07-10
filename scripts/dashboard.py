@@ -341,19 +341,19 @@ def main():
     with tab1:
         col_a, col_b = st.columns(2)
         with col_a:
-            st.plotly_chart(chart_pl_mensal(df_f), use_container_width=True)
+            st.plotly_chart(chart_pl_mensal(df_f), width=True)
         with col_b:
-            st.plotly_chart(chart_categorias(df_f), use_container_width=True)
+            st.plotly_chart(chart_categorias(df_f), width=True)
 
-        st.plotly_chart(chart_evolucao_categoria(df_f), use_container_width=True)
+        st.plotly_chart(chart_evolucao_categoria(df_f), width=True)
 
         col_c, col_d = st.columns(2)
         with col_c:
-            st.plotly_chart(chart_top_eventos(df_f), use_container_width=True)
+            st.plotly_chart(chart_top_eventos(df_f), width=True)
         with col_d:
             fig_inad = chart_inadimplencia(df_f)
             if fig_inad:
-                st.plotly_chart(fig_inad, use_container_width=True)
+                st.plotly_chart(fig_inad, width=True)
             else:
                 st.info("Sem dados de multa/inadimplência no período selecionado.")
 
@@ -364,7 +364,7 @@ def main():
         else:
             fig_anom = chart_anomalias(anom_f)
             if fig_anom:
-                st.plotly_chart(fig_anom, use_container_width=True)
+                st.plotly_chart(fig_anom, width=True)
 
             st.subheader(f"Detalhamento ({len(anom_f)} registros)")
             sev_order_map = {"Crítica": 0, "Alta": 1, "Média": 2, "Baixa": 3}
@@ -384,7 +384,7 @@ def main():
             st.dataframe(
                 anom_disp[["mes_ano", "evento", "tipo", "valor", "macro_categoria", "motivo_anomalia", "severidade"]]
                 .style.applymap(_sev_color, subset=["severidade"]),
-                use_container_width=True,
+                width=True,
                 height=400,
             )
 
@@ -397,7 +397,7 @@ def main():
             df_disp[["mes_ano", "evento", "tipo", "valor_fmt", "macro_categoria"]].rename(
                 columns={"valor_fmt": "valor"}
             ),
-            use_container_width=True,
+            width=True,
             height=500,
         )
 
