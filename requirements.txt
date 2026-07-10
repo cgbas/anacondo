@@ -1,7 +1,7 @@
 # Dependências de desenvolvimento e testes
 pytest==7.4.0
 setuptools
-distutils>=3.0.0
+distutils
 pytest-cov==4.1.0
 pytest-html==3.2.0
 pandas==2.0.3
