@@ -1,6 +1,6 @@
 """
 Dashboard Interativo — Prestações de Contas
-Condomínio Humaitá | P7
+Condomínio | P7
 
 Uso:
     streamlit run scripts/dashboard.py
@@ -311,7 +311,7 @@ def export_csv(df_f: pd.DataFrame, label: str) -> bytes:
 # ── Layout principal ──────────────────────────────────────────────────────────
 def main():
     st.title("📊 ANACONDO — Prestações de Contas")
-    st.caption("Condomínio Humaitá · mai/2022–jun/2026 · Fonte: prestacoes.csv + anomalias_prestacoes.csv")
+    st.caption("Condomínio · mai/2022–jun/2026 · Fonte: prestacoes.csv + anomalias_prestacoes.csv")
 
     if not PRESTACOES_CSV.exists():
         st.error(f"Arquivo não encontrado: {PRESTACOES_CSV}\nExecute `prestacao_de_contas.ipynb` primeiro.")
