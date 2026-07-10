@@ -446,6 +446,14 @@ PNGs em `exports/figs/`:
 - Novos CSVs gerados: `inadimplentes_ranking.csv`, `inadimplentes_recorrentes.csv`, `inadimplencia_por_mes.csv`, `outliers_p6_resumo.csv`.
 - Novas figuras geradas: `inadimplencia_serie_temporal.png`, `inadimplencia_top10.png`, `outlier_sindico_mensal.png`, `outlier_inss_tendencia.png`, `outlier_fundo_obras_saldo.png`.
 
+#### Atualização desta sessão (09/jul/2026 — Insights de anomalias: INSS + Adiantamentos)
+- Notebook `src/insights_anomalias_prestacoes.ipynb` recebeu nova seção dedicada a pagamentos de **INSS** e **adiantamentos de funcionários**.
+- Incluída **listagem completa** dos lançamentos filtrados por evento, com colunas: `mes_ano`, `evento`, `tipo`, `valor`, `macro_categoria`, `motivo_anomalia`.
+- Incluído gráfico de **barras mensais comparativas** (INSS vs Adiantamentos), permitindo leitura direta mês a mês do valor pago em cada grupo.
+- Célula nova validada em execução: resultados encontrados no dataset atual de anomalias
+  - INSS: 2 lançamentos (R$ 3.049,34)
+  - Adiantamentos: 2 lançamentos (R$ 2.571,75)
+
 ---
 
 ## Próximos passos — a implementar nos notebooks
@@ -525,3 +533,8 @@ PNGs em `exports/figs/`:
 - Dados de 2025-2026 agora em `analise_extratos.ipynb` seção 5.7
 - Criar célula de comparação side-by-side nos dois períodos (ajustado por IPCA)
 - Verificar se houve troca de prestadora e impacto no preço
+
+### P15 — Expandir rastreio INSS/Adiantamentos para base completa (não só anomalias)
+- Repetir a seção criada em `insights_anomalias_prestacoes.ipynb` usando base completa de prestações (`prestacoes.csv`)
+- Comparar volume total da base completa vs subset de anomalias para evitar viés de interpretação
+- Padronizar eventos (`Prov.darf Inss(E-Social/Reinf)`, `Adto.13º Salário` e variações) no mapeamento de categorias
