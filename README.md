@@ -8,7 +8,7 @@
 ---
 ## 🎯 Objetivo
 
-Pipeline automatizado para **ingestão, normalização e análise** dos lançamentos contábeis do Condomínio Humaitá a partir de:
+Pipeline automatizado para **ingestão, normalização e análise** dos lançamentos contábeis de um condomínio a partir de:
 - 📄 **Prestações de Contas** (XLSX): mai/2022 — ago/2023
 - 🏦 **Extratos Bancários** (XLS): ago/2025 — jun/2026
 - (Gap parcialmente coberto com PDFs via OCR)
