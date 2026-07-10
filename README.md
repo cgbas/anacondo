@@ -615,14 +615,14 @@ python scripts/generate_all_figs.py
 - [ ] Exportar resultados com timestamp no nome
 
 ### P5 — Análise de Inadimplência
-- [ ] Rastrear `REC.MULTA+C.M.+JRS.` por apartamento
-- [ ] Identificar inadimplentes recorrentes
-- [ ] Calcular % de cobrança vs total devido
+- [x] Rastrear `REC.MULTA+C.M.+JRS.` por apartamento
+- [x] Identificar inadimplentes recorrentes
+- [x] Calcular % de cobrança vs total devido
 
 ### P6 — Investigação de Outliers
-- [ ] Validar síndico: pagamento duplo em mai/2026?
-- [ ] INSS crescente: comparar com folha de salários
-- [ ] FUNDO OBRAS com saldo negativo: erro de lançamento?
+- [x] Validar síndico: pagamento duplo em mai/2026?
+- [x] INSS crescente: comparar com folha de salários
+- [x] FUNDO OBRAS com saldo negativo: erro de lançamento?
 
 ### P7 — Dashboard Interativo (Futuro)
 - [ ] Considerar Streamlit ou Dash para exploração visual
