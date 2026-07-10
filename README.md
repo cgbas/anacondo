@@ -33,8 +33,10 @@ analisis/
 │   ├── prestacao_de_contas.ipynb                [INGESTÃO] Carrega .xlsx → CSV
 │   ├── analise_prestacao_de_contas.ipynb        [ANÁLISE]  Prestações 2022-2023
 │   ├── analise_extratos.ipynb                   [ANÁLISE]  Extratos 2025-2026
+│   ├── analise_inadimplencia.ipynb              [ANÁLISE]  Inadimplência + outliers P5/P6
 │   └── insights_anomalias_prestacoes.ipynb      [INSIGHTS] Anomalias de prestações
 ├── scripts/
+│   ├── dashboard.py                             [DASHBOARD] Streamlit — filtros interativos
 │   └── generate_all_figs.py                     [UTILIDADE] Regenera todos os gráficos
 └── README.md                                    ← Este arquivo
 ```
@@ -45,7 +47,7 @@ analisis/
 - **exports/csv/**: Dados limpos e normalizados — intermediários entre ingestão e análise
 - **exports/figs/**: Gráficos PNG — outputs visuais para relatórios/apresentações
 - **src/**: Código Python em Jupyter — separado em ingestão, análise, insights
-- **scripts/**: Utilitários Python reutilizáveis (não precisa de notebook)
+- **scripts/**: Utilitários Python reutilizáveis — `dashboard.py` (Streamlit), `generate_all_figs.py`
 
 ### Fluxo de Dados
 
@@ -427,9 +429,12 @@ src/insights_anomalias_prestacoes.ipynb [fonte única: anomalias_prestacoes.csv]
 1. `Ctrl+↵` em cada célula para executar
 2. `Shift+↵` para pular para a próxima célula
 
-### Opção C: Terminal integrado
+### Opção C: Dashboard Interativo (Streamlit)
 ```bash
-# Não suportado nativamente; use opção A ou B
+# Ativar ambiente e lançar dashboard
+source .venv/bin/activate
+streamlit run scripts/dashboard.py
+# → Abre http://localhost:8501 no navegador
 ```
 
 ---
@@ -494,8 +499,22 @@ src/insights_anomalias_prestacoes.ipynb [fonte única: anomalias_prestacoes.csv]
 - **Foco**: Extratos XLS por subconta
 - **Seções**: Semelhante, mais síndico (com NF+saques), acordos, portaria+limpeza
 
-### `insights_anomalias_prestacoes.ipynb` ⭐ NOVO
-- **Período**: mai/2022–ago/2023 (anomalias de prestações)
+### `analise_inadimplencia.ipynb`
+- **Período**: mai/2022–jun/2026 (fonte: prestacoes.csv)
+- **Foco**: Inadimplência (P5) + outliers síndico/INSS/fundos (P6)
+- **Seções**:
+  - 1. Carregamento (apenas prestacoes.csv)
+  - 2. Filtrar multas (REC.MULTA)
+  - 3. Tendência mensal + meses com maior inadimplência
+  - 4. Distribuição por evento + top meses
+  - 5. % proxy mensal (multas / receita condominial)
+  - 6. Visualizações P5
+  - 7. P6.1 Síndico — linha do tempo, pagamentos duplos
+  - 8. P6.2 INSS vs folha proxy + P6.3 Fundo Obras aportes
+  - 9. Resumo executivo
+
+### `insights_anomalias_prestacoes.ipynb`
+- **Período**: mai/2022–jun/2026 (anomalias de prestações)
 - **Foco**: Exploração profunda de anomalias
 - **Seções**:
   - 1. Carga tipificação
@@ -611,19 +630,19 @@ python scripts/generate_all_figs.py
 - [ ] Exportar resultados com timestamp no nome
 
 ### P5 — Análise de Inadimplência
-- [x] Rastrear `REC.MULTA+C.M.+JRS.` por apartamento
-- [x] Identificar inadimplentes recorrentes
-- [x] Calcular % de cobrança vs total devido
+- [x] Rastrear `REC.MULTA+C.M.+JRS.` por mês (prestacoes.csv)
+- [x] Identificar meses e eventos com maior volume de multas
+- [x] Calcular % de cobrança vs total devido (proxy)
 
 ### P6 — Investigação de Outliers
-- [x] Validar síndico: pagamento duplo em mai/2026?
-- [x] INSS crescente: comparar com folha de salários
-- [x] FUNDO OBRAS com saldo negativo: erro de lançamento?
+- [x] Validar síndico: pagamentos duplos identificados (mai/2026, jan/2023, fev/2023…)
+- [x] INSS crescente: comparar com folha de salários (proxy)
+- [x] FUNDO OBRAS: aportes mensais rastreados
 
-### P7 — Dashboard Interativo (Futuro)
-- [ ] Considerar Streamlit ou Dash para exploração visual
-- [ ] Filtros por período, categoria, severidade
-- [ ] Exportação automática de relatórios
+### P7 — Dashboard Interativo
+- [x] Streamlit (`scripts/dashboard.py`) com filtros por período, categoria, severidade
+- [x] Exportação automática de relatórios (CSV filtrado por período/categoria)
+- [ ] Deploy em servidor compartilhado (Streamlit Cloud ou similar)
 
 ### P8 — Documentação de Processos
 - [ ] Manuais de contabilidade (quando é normal, quando é anômalo?)
@@ -670,6 +689,11 @@ R: Padronizamos `mes_ano = "YYYY-MM"` em todos os CSVs. Se receber XLSX com "dd/
 ---
 
 ## 📝 Changelog
+
+### 10 jul 2026
+- ✅ **P7 concluído**: dashboard Streamlit (`scripts/dashboard.py`) — filtros por período, categoria, severidade; exportação de CSV; gráfico de inadimplência integrado
+- ✅ `analise_inadimplencia.ipynb` migrado para fonte única `prestacoes.csv` (remove dependência de extratos.csv); P6.1 síndico cobre mai/2022–jun/2026
+- ✅ README atualizado: workspace structure, guia de notebooks, P5/P7 marcados como concluídos
 
 ### 09 jul 2026
 - ✅ Adicionado Year-over-Year (YoY) à seção 5.6 (`analise_prestacao_de_contas.ipynb`)
