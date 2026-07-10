@@ -25,7 +25,7 @@ st.set_page_config(
 
 # ── Caminhos ──────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent
-CSV_DIR = ROOT / "exports" / "csv"
+CSV_DIR = ROOT / "exports" / "csv_public"
 
 PRESTACOES_CSV = CSV_DIR / "prestacoes.csv"
 ANOMALIAS_CSV = CSV_DIR / "anomalias_prestacoes.csv"
