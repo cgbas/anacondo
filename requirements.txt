@@ -3,7 +3,7 @@ pytest==7.4.0
 setuptools==81.0.0
 pytest-cov==4.1.0
 pytest-html==3.2.0
-pandas==2.0.3
+pandas # ==2.0.3
 openpyxl==3.1.2
 matplotlib==3.7.2
 seaborn==0.12.2
@@ -12,6 +12,6 @@ numpy>=1.24.4
 nbqa>=1.7.0
 flake8>=6.0.0
 pylint>=3.0.0
-streamlit==1.30.0
+streamlit # ==1.30.0
 pyarrow>=22.0.0
 plotly==5.15.0
