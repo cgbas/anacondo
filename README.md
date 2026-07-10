@@ -1,8 +1,8 @@
 # 📊 ANACONDO: Análise Condominial
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/cgbas/anacondo/build.yml?branch=main)](https://github.com)
-[![Tests](https://img.shields.io/github/actions/workflow/status/cgbas/anacondo/tests.yml?branch=main&label=tests)](https://github.com)
-[![Coverage](https://img.shields.io/codecov/c/github/cgbas/anacondo)](https://github.com)
+[![Linter](https://img.shields.io/github/actions/workflow/status/cgbas/anacondo/lint.yml?branch=main&label=linter)](https://github.com)
+[![Tests]https://img.shields.io/github/actions/workflow/status/cgbas/anacondo/tests.yml?branch=main&label=tests)](https://github.com)
+
 [![License](https://img.shields.io/badge/license-Unlicense-blue)](LICENSE)
 
 ---
