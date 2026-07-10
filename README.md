@@ -341,12 +341,11 @@ df["valor"] = df["valor"].apply(clean_currency)
 
 ## 🔗 Contexto do Negócio
 
-### Sobre o Condomínio Humaitá
+### Sobre o Condomínio
 
-- **Localização**: Porto Alegre, RS, Brasil
 - **Tipo**: Condomínio vertical (apartamentos)
 - **Período analisado**: mai/2022 – jun/2026 (4 anos)
-- **Fornecedor**: Sistema ClienteOnline (imobi liária que gerencia condominiais)
+- **Fornecedor**: Sistema ClienteOnline
 
 ### Como Dados São Coletados
 
