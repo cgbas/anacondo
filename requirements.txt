@@ -13,4 +13,5 @@ nbqa>=1.7.0
 flake8>=6.0.0
 pylint>=3.0.0
 streamlit==1.30.0
+pyarrow>=22.0.0
 plotly==5.15.0
