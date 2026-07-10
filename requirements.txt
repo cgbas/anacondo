@@ -13,3 +13,4 @@ flake8>=6.0.0
 pylint>=3.0.0
 streamlit==1.30.0
 plotly==5.15.0
+pkg_resources
