@@ -1,0 +1,2232 @@
+evento,valor,tipo,mes_ano,macro_categoria
+ Rec.condomínio ,41248.84,RECEITA,2022-05,Receitas Condominiais
+ Água ,6809.78,DESPESA,2022-05,Outros
+ Pg.ceee ,914.6,DESPESA,2022-05,Utilidades
+ Pg.instalação ,1601.78,DESPESA,2022-05,Manutenção
+ Pg.extintores ,30.0,DESPESA,2022-05,Outros
+ Pg.manut.elevador ,857.64,DESPESA,2022-05,Manutenção
+ Peças Elevador ,2453.34,DESPESA,2022-05,Manutenção
+ Pg.assemb.extra ,204.7,DESPESA,2022-05,Outros
+ Pg. ,55.26,DESPESA,2022-05,Outros
+ Pg.impressões/Fotoc. ,212.0,DESPESA,2022-05,Administração
+ Pg.encerramento ,10533.38,DESPESA,2022-05,Outros
+ Pg.seguro Incêndio ,981.25,DESPESA,2022-05,Administração
+ Pg.issqn ,468.43,DESPESA,2022-05,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,29.0,DESPESA,2022-05,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,35.0,DESPESA,2022-05,Pessoal
+ Pg.mat.limpeza ,372.76,DESPESA,2022-05,Utilidades
+ Pg.seg.vida Func.05/2022 ,252.03,DESPESA,2022-05,Pessoal
+ Pg.materiais ,2284.43,DESPESA,2022-05,Outros
+ Reemb.mat.expediente ,109.62,DESPESA,2022-05,Administração
+ Pg.folha Func.bco. ,9.0,DESPESA,2022-05,Administração
+ Fundo Reserva ,1927.26,RECEITA,2022-05,Fundos
+ Rec.taxa Uso Box ,190.0,RECEITA,2022-05,Fundos
+ Fundo Obras ,22.98,RECEITA,2022-05,Fundos
+ Rec. Multa ,108.19,RECEITA,2022-05,Receitas Condominiais
+ Pg.salário ,4637.14,DESPESA,2022-05,Pessoal
+ Pg.fgts ,268.34,DESPESA,2022-05,Pessoal
+ Rec.multa+C.m.+Jrs. ,23.31,RECEITA,2022-05,Receitas Condominiais
+ Pg.vale Refeição/Alimentação ,411.0,DESPESA,2022-05,Pessoal
+ Pg.pis ,33.54,DESPESA,2022-05,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1120.84,DESPESA,2022-05,Pessoal
+ Pg.secovimed ,144.45,DESPESA,2022-05,Taxas e Impostos
+ Pg.vale Transporte ,1443.6,DESPESA,2022-05,Pessoal
+ Pg.síndico Prof. ,1750.0,DESPESA,2022-05,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2022-05,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2022-05,Administração
+ Pg.vale Refeição/Alimentação ,202.5,DESPESA,2022-06,Pessoal
+ Pg.manut.elevador ,840.0,DESPESA,2022-06,Manutenção
+ Peças Elevador ,1593.67,DESPESA,2022-06,Manutenção
+ Pg.ceee ,933.34,DESPESA,2022-06,Utilidades
+ Pg.folha Func.bco. ,9.0,DESPESA,2022-06,Administração
+ Pg.salário ,2318.57,DESPESA,2022-06,Pessoal
+ Pg.bóia ,629.17,DESPESA,2022-06,Manutenção
+ Água ,6883.4,DESPESA,2022-06,Outros
+ Pg.fechadura ,140.0,DESPESA,2022-06,Manutenção
+ Pg.efd-Reinf/E-Social ,27.0,DESPESA,2022-06,Pessoal
+ Pg.recarga Celular ,95.0,DESPESA,2022-06,Outros
+ Pg.issqn ,663.8,DESPESA,2022-06,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,18.9,DESPESA,2022-06,Taxas e Impostos
+ Pg.correio Conv.assemb.c/Ar ,441.45,DESPESA,2022-06,Outros
+ Pg.declaração Pmpa/Issqndec ,29.0,DESPESA,2022-06,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,35.0,DESPESA,2022-06,Pessoal
+ Pg.seguro Incêndio ,981.25,DESPESA,2022-06,Administração
+ Pg.seg.vida Func.06/2022 ,252.03,DESPESA,2022-06,Pessoal
+ Pg.mat.limpeza ,728.16,DESPESA,2022-06,Utilidades
+ Pg.vale Transporte ,1528.8,DESPESA,2022-06,Pessoal
+ Pg.impressões/Fotoc. ,51.0,DESPESA,2022-06,Administração
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2022-06,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2022-06,Administração
+ Fundo Reserva ,56.78,RECEITA,2022-06,Fundos
+ Rec.condomínio ,47367.27,RECEITA,2022-06,Receitas Condominiais
+ Fundo Obras ,2999.4,RECEITA,2022-06,Fundos
+ Rec.condomínio ,90.05,RECEITA,2022-06,Receitas Condominiais
+ Rec.cond.estacionamento ,40.0,RECEITA,2022-06,Receitas Condominiais
+ Rec. Multa ,62.45,RECEITA,2022-06,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,68.14,RECEITA,2022-06,Receitas Condominiais
+ Dif.condomínio ,529.92,DESPESA,2022-06,Outros
+ Rec. ,124.49,RECEITA,2022-06,Outros
+ Pg.serv.portaria ,16660.0,DESPESA,2022-06,Utilidades
+ Pg.fgts ,268.34,DESPESA,2022-06,Pessoal
+ Pg.serv.limp. ,7570.0,DESPESA,2022-06,Utilidades
+ Pg.adto.salário ,600.0,DESPESA,2022-06,Pessoal
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2022-06,Pessoal
+ Pg.pis ,33.54,DESPESA,2022-06,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1788.34,DESPESA,2022-06,Pessoal
+ Pg.síndico Prof. ,1750.0,DESPESA,2022-06,Pessoal
+ Rec.condomínio ,10.0,DESPESA,2022-06,Receitas Condominiais
+ Pg.secovimed ,144.45,DESPESA,2022-06,Taxas e Impostos
+ Pg.rep.hidráulico ,4803.0,DESPESA,2022-07,Manutenção
+ Pg.rep.bombas ,850.0,DESPESA,2022-07,Manutenção
+ Pg.manut.elevador ,840.0,DESPESA,2022-07,Manutenção
+ Pg.cons.fechadura ,45.0,DESPESA,2022-07,Outros
+ Pg.assemb.ordin. ,204.7,DESPESA,2022-07,Outros
+ Água ,8120.21,DESPESA,2022-07,Outros
+ Pg.ceee ,4289.84,DESPESA,2022-07,Utilidades
+ Pg.seg.vida Func.07/2022 ,252.03,DESPESA,2022-07,Pessoal
+ Pg.materiais ,545.01,DESPESA,2022-07,Outros
+ Peças Elevador ,2517.59,DESPESA,2022-07,Manutenção
+ Pg.reparos ,600.0,DESPESA,2022-07,Manutenção
+ Pg.efd-Reinf/E-Social ,27.0,DESPESA,2022-07,Pessoal
+ Retirada P/Posterior Acerto ,800.0,DESPESA,2022-07,Retiradas/Acerto
+ Pg. Abertura Porta ,80.0,DESPESA,2022-07,Outros
+ Pg.issqn ,631.3,DESPESA,2022-07,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,24.3,DESPESA,2022-07,Taxas e Impostos
+ Pg.impressões/Fotoc. ,163.25,DESPESA,2022-07,Administração
+ Pg.declaração Pmpa/Issqndec ,29.0,DESPESA,2022-07,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,35.0,DESPESA,2022-07,Pessoal
+ Pg. ,200.0,DESPESA,2022-07,Outros
+ Pg.seguro Incêndio ,981.25,DESPESA,2022-07,Administração
+ Pg.remessa Doctos. ,177.2,DESPESA,2022-07,Administração
+ Pg.sacos Lixo ,571.99,DESPESA,2022-07,Outros
+ Pg.salário ,3047.58,DESPESA,2022-07,Pessoal
+ Pg.folha Func.bco. ,18.0,DESPESA,2022-07,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2022-07,Administração
+ Pg.vale Refeição/Alimentação ,202.5,DESPESA,2022-07,Pessoal
+ Fundo Obras ,3187.96,RECEITA,2022-07,Fundos
+ Rec.condomínio ,49234.78,RECEITA,2022-07,Receitas Condominiais
+ Rec.alug.depósito ,100.0,RECEITA,2022-07,Fundos
+ Dif.fdo.reserva ,90.15,RECEITA,2022-07,Outros
+ Rec.cond.estacionamento ,600.0,RECEITA,2022-07,Receitas Condominiais
+ Rec.taxa Uso Box ,590.0,RECEITA,2022-07,Fundos
+ Rec.devolução Retirada ,800.0,RECEITA,2022-07,Receitas Condominiais
+ Rec. Multa ,82.26,RECEITA,2022-07,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,83.02,RECEITA,2022-07,Receitas Condominiais
+ Pg.serv.portaria ,16660.0,DESPESA,2022-07,Utilidades
+ Fundo Reserva ,36.59,RECEITA,2022-07,Fundos
+ Pg.adto.salário ,600.0,DESPESA,2022-07,Pessoal
+ Pg.fgts ,268.34,DESPESA,2022-07,Pessoal
+ Pg.férias Período ,2087.8,DESPESA,2022-07,Pessoal
+ Pg.secovimed ,144.45,DESPESA,2022-07,Taxas e Impostos
+ Pg.vale Transporte ,812.2,DESPESA,2022-07,Pessoal
+ Pg.pis ,33.54,DESPESA,2022-07,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2022-07,Administração
+ Pg.pis/Cofins/Csll ,535.2,DESPESA,2022-07,Pessoal
+ Pg.síndico Prof. ,1750.0,DESPESA,2022-07,Pessoal
+ Pg.serv.limp. ,3785.0,DESPESA,2022-07,Utilidades
+ Pg.darf Inss(E-Social/Reinf) ,1645.54,DESPESA,2022-07,Pessoal
+ Pg.sacos Lixo ,929.69,DESPESA,2022-08,Outros
+ Pg.salário ,1254.57,DESPESA,2022-08,Pessoal
+ Pg.folha Func.bco. ,18.0,DESPESA,2022-08,Administração
+ Água ,7788.99,DESPESA,2022-08,Outros
+ Pg.ceee ,1942.2,DESPESA,2022-08,Utilidades
+ Pg.vistoria Hidráulica ,1176.0,DESPESA,2022-08,Outros
+ Peças Elevador ,1975.67,DESPESA,2022-08,Manutenção
+ Pg.manut.elevador ,840.0,DESPESA,2022-08,Manutenção
+ Pg.pintura ,1470.0,DESPESA,2022-08,Manutenção
+ Pg.materiais ,1875.0,DESPESA,2022-08,Outros
+ Pg.issqn ,758.1,DESPESA,2022-08,Taxas e Impostos
+ Pg.seg.vida Func.08/2022 ,252.03,DESPESA,2022-08,Pessoal
+ Pg.correio Conv.assemb.c/Ar ,408.75,DESPESA,2022-08,Outros
+ Pg.declaração Pmpa/Issqndec ,29.0,DESPESA,2022-08,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,35.0,DESPESA,2022-08,Pessoal
+ Retirada P/Posterior Acerto ,1750.0,DESPESA,2022-08,Retiradas/Acerto
+ Pg.impressões/Fotoc. ,84.0,DESPESA,2022-08,Administração
+ Pg.remessa Doctos. ,177.2,DESPESA,2022-08,Administração
+ Pg.efd-Reinf/E-Social ,27.0,DESPESA,2022-08,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2022-08,Administração
+ Pg.seguro Incêndio ,981.25,DESPESA,2022-08,Administração
+ S/Déb. ,50057.09,DESPESA,2022-08,Outros
+ Pg.transações Bco.ted/Doc ,40.5,DESPESA,2022-08,Taxas e Impostos
+ Pg.serv.prestados ,2744.0,DESPESA,2022-08,Manutenção
+ Pg.darf Inss(E-Social/Reinf) ,1768.73,DESPESA,2022-08,Pessoal
+ Reemb.mat.expediente ,109.62,DESPESA,2022-08,Administração
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2022-08,Pessoal
+ Rec.condomínio ,217605.41,RECEITA,2022-08,Receitas Condominiais
+ Fundo Reserva ,266.42,RECEITA,2022-08,Fundos
+ Rec.cond.estacionamento ,680.0,RECEITA,2022-08,Receitas Condominiais
+ Rec.alug.depósito ,100.0,RECEITA,2022-08,Fundos
+ Rec.taxa Uso Box ,390.0,RECEITA,2022-08,Fundos
+ Rec.devolução Retirada ,1750.0,RECEITA,2022-08,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,177.17,RECEITA,2022-08,Receitas Condominiais
+ Rec. Multa ,201.21,RECEITA,2022-08,Receitas Condominiais
+ Rec.devolução ,2805.34,DESPESA,2022-08,Receitas Condominiais
+ Pg.gratificação ,600.0,DESPESA,2022-08,Outros
+ Fundo Obras ,4452.86,RECEITA,2022-08,Fundos
+ Pg.fgts ,280.37,DESPESA,2022-08,Pessoal
+ Pg.serv.portaria ,16660.0,DESPESA,2022-08,Utilidades
+ Pg.síndico Prof. ,3500.0,DESPESA,2022-08,Pessoal
+ Pg.dissídio Empregador/2022 ,120.0,DESPESA,2022-08,Pessoal
+ Pg.adto.salário ,300.0,DESPESA,2022-08,Pessoal
+ Pg.pis/Cofins/Csll ,283.18,DESPESA,2022-08,Pessoal
+ Pg.pis ,35.05,DESPESA,2022-08,Pessoal
+ Pg.secovimed ,182.45,DESPESA,2022-08,Taxas e Impostos
+ Pg.vale Transporte ,1386.2,DESPESA,2022-08,Pessoal
+ Pg.serv.limp. ,3785.0,DESPESA,2022-08,Utilidades
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2022-08,Administração
+ Pg.reparos ,450.0,DESPESA,2022-09,Manutenção
+ Pg.materiais ,3731.72,DESPESA,2022-09,Outros
+ Pg.manutenção ,3900.0,DESPESA,2022-09,Manutenção
+ Pg.ceee ,1752.6,DESPESA,2022-09,Utilidades
+ Pg.manut.elevador ,705.6,DESPESA,2022-09,Manutenção
+ Peças Elevador ,1226.65,DESPESA,2022-09,Manutenção
+ Pg.impermeabilização ,20286.0,DESPESA,2022-09,Outros
+ Água ,7906.78,DESPESA,2022-09,Outros
+ Pg.equipamentos ,15570.0,DESPESA,2022-09,Outros
+ Pg.mat.limpeza ,308.4,DESPESA,2022-09,Utilidades
+ Pg.declaração Pmpa/Issqndec ,29.0,DESPESA,2022-09,Taxas e Impostos
+ Pg.issqn ,413.3,DESPESA,2022-09,Taxas e Impostos
+ Retirada P/Posterior Acerto ,1750.0,DESPESA,2022-09,Retiradas/Acerto
+ Pg.transações Bco.ted/Doc ,35.1,DESPESA,2022-09,Taxas e Impostos
+ Pg.desp.cartório ,35.64,DESPESA,2022-09,Outros
+ Pg.emissão Darf/Impostos ,35.0,DESPESA,2022-09,Pessoal
+ Pg.efd-Reinf/E-Social ,27.0,DESPESA,2022-09,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2022-09,Administração
+ Pg.seguro Incêndio ,981.25,DESPESA,2022-09,Administração
+ Adto.13º Salário ,933.75,DESPESA,2022-09,Outros
+ Pg.remessa Doctos. ,177.2,DESPESA,2022-09,Administração
+ Pg.reg.imóveis ,85.8,DESPESA,2022-09,Outros
+ Pg.folha Func.bco. ,18.0,DESPESA,2022-09,Administração
+ Valor ,114.49,DESPESA,2022-09,Outros
+ Pg.seg.vida Func.09/2022 ,252.03,DESPESA,2022-09,Pessoal
+ Pg.salário ,2580.46,DESPESA,2022-09,Pessoal
+ Rec.condomínio ,55895.34,RECEITA,2022-09,Receitas Condominiais
+ Rec.alug.depósito ,80.0,RECEITA,2022-09,Fundos
+ Rec.cond.estacionamento ,720.0,RECEITA,2022-09,Receitas Condominiais
+ Rec.taxa Uso Box ,390.0,RECEITA,2022-09,Fundos
+ Rec.devolução Retirada ,1750.0,RECEITA,2022-09,Receitas Condominiais
+ Rec. Multa ,101.09,RECEITA,2022-09,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,62.05,RECEITA,2022-09,Receitas Condominiais
+ Pg.fgts ,326.19,DESPESA,2022-09,Pessoal
+ Pg.serv.limp. ,4606.0,DESPESA,2022-09,Utilidades
+ Pg.serv.portaria ,16660.0,DESPESA,2022-09,Utilidades
+ Fundo Obras ,3578.67,RECEITA,2022-09,Fundos
+ Pg.pis/Cofins/Csll ,283.18,DESPESA,2022-09,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1987.42,DESPESA,2022-09,Pessoal
+ Pg.pis ,40.77,DESPESA,2022-09,Pessoal
+ Pg. Irrf ,14.9,DESPESA,2022-09,Outros
+ Pg.síndico Prof. ,1750.0,DESPESA,2022-09,Pessoal
+ Pg.secovimed ,152.05,DESPESA,2022-09,Taxas e Impostos
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2022-09,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2022-09,Administração
+ Pg.vale Transporte ,1443.6,DESPESA,2022-09,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2022-09,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2022-09,Pessoal
+ Pg.materiais ,2497.28,DESPESA,2022-10,Outros
+ Pg.reforma ,6078.1,DESPESA,2022-10,Manutenção
+ Pg.material ,1163.8,DESPESA,2022-10,Manutenção
+ Água ,7980.4,DESPESA,2022-10,Outros
+ Pg.manut.elevador ,705.6,DESPESA,2022-10,Manutenção
+ Pg.equipamentos ,15503.0,DESPESA,2022-10,Outros
+ Pg.ceee ,1623.29,DESPESA,2022-10,Utilidades
+ Pg.mat.limpeza ,1145.34,DESPESA,2022-10,Utilidades
+ Peças Elevador ,2575.13,DESPESA,2022-10,Manutenção
+ Pg.recarga Celular ,50.0,DESPESA,2022-10,Outros
+ Pg.custas Judiciais ,252.9,DESPESA,2022-10,Outros
+ Pg.transações Bco.ted/Doc ,32.4,DESPESA,2022-10,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,29.0,DESPESA,2022-10,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,35.0,DESPESA,2022-10,Pessoal
+ Pg.efd-Reinf/E-Social ,27.0,DESPESA,2022-10,Pessoal
+ Retirada P/Posterior Acerto ,1800.0,DESPESA,2022-10,Retiradas/Acerto
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2022-10,Administração
+ Pg.fotocópias ,113.78,DESPESA,2022-10,Outros
+ Pg.seguro Incêndio ,981.27,DESPESA,2022-10,Administração
+ Pg.remessa Doctos. ,177.2,DESPESA,2022-10,Administração
+ Pg.issqn ,942.8,DESPESA,2022-10,Taxas e Impostos
+ Pg.síndico Prof. ,1750.0,DESPESA,2022-10,Pessoal
+ Pg.seg.vida Func.10/2022 ,252.03,DESPESA,2022-10,Pessoal
+ Pg.salário ,2581.46,DESPESA,2022-10,Pessoal
+ Pg.folha Func.bco. ,18.0,DESPESA,2022-10,Administração
+ Rec.cond.estacionamento ,800.0,RECEITA,2022-10,Receitas Condominiais
+ Fundo Obras ,3529.2,RECEITA,2022-10,Fundos
+ Rec.condomínio ,55203.73,RECEITA,2022-10,Receitas Condominiais
+ Rec.alug.depósito ,120.0,RECEITA,2022-10,Fundos
+ Rec.taxa Uso Box ,390.0,RECEITA,2022-10,Fundos
+ Rec. Multa ,90.55,RECEITA,2022-10,Receitas Condominiais
+ 13º Salario ,52.65,RECEITA,2022-10,Pessoal
+ Pg.serv.portaria ,16660.0,DESPESA,2022-10,Utilidades
+ Pg.serv.limp. ,4606.0,DESPESA,2022-10,Utilidades
+ Rec.multa+C.m.+Jrs. ,42.73,RECEITA,2022-10,Receitas Condominiais
+ Pg.adto.salário ,600.0,DESPESA,2022-10,Pessoal
+ Pg.fgts ,439.58,DESPESA,2022-10,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2022-10,Administração
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2022-10,Pessoal
+ Pg.vale Transporte ,1386.2,DESPESA,2022-10,Pessoal
+ Reemb.mat.expediente ,109.62,DESPESA,2022-10,Administração
+ Pg.pis ,36.63,DESPESA,2022-10,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1709.79,DESPESA,2022-10,Pessoal
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2022-10,Pessoal
+ Pg.secovimed ,160.05,DESPESA,2022-10,Taxas e Impostos
+ Pg.impermeabilização ,37253.03,DESPESA,2022-11,Outros
+ Pg.seg.vida Func.11/2022 ,252.03,DESPESA,2022-11,Pessoal
+ Água ,8492.27,DESPESA,2022-11,Outros
+ Pg.ceee ,1636.22,DESPESA,2022-11,Utilidades
+ Pg.equipamentos ,15503.0,DESPESA,2022-11,Outros
+ Pg.manut.elevador ,798.0,DESPESA,2022-11,Manutenção
+ Peças Elevador ,2575.13,DESPESA,2022-11,Manutenção
+ Pg.reforma ,6078.11,DESPESA,2022-11,Manutenção
+ Pg.coluna Água ,2600.0,DESPESA,2022-11,Outros
+ Pg.1º Parc.13º Sal. ,897.84,DESPESA,2022-11,Pessoal
+ Pg.materiais ,697.85,DESPESA,2022-11,Outros
+ Pg.mat.limpeza ,929.2,DESPESA,2022-11,Utilidades
+ Pg.issqn ,776.89,DESPESA,2022-11,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,27.0,DESPESA,2022-11,Taxas e Impostos
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2022-11,Administração
+ Pg.emissão Darf/Impostos ,35.0,DESPESA,2022-11,Pessoal
+ Pg.declaração Pmpa/Issqndec ,29.0,DESPESA,2022-11,Taxas e Impostos
+ Pg.remessa Doctos. ,177.2,DESPESA,2022-11,Administração
+ Pg.efd-Reinf/E-Social ,27.0,DESPESA,2022-11,Pessoal
+ Pg.material ,870.03,DESPESA,2022-11,Manutenção
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2022-11,Pessoal
+ Fundo Obras ,3410.18,RECEITA,2022-11,Fundos
+ Pg.salário ,2581.46,DESPESA,2022-11,Pessoal
+ Pg.folha Func.bco. ,27.0,DESPESA,2022-11,Administração
+ Rec.condomínio ,53395.34,RECEITA,2022-11,Receitas Condominiais
+ Rec.cond.estacionamento ,680.0,RECEITA,2022-11,Receitas Condominiais
+ Rec.alug.depósito ,70.0,RECEITA,2022-11,Fundos
+ Rec.taxa Uso Box ,380.0,RECEITA,2022-11,Fundos
+ Rec. Multa ,44.0,RECEITA,2022-11,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,31.07,RECEITA,2022-11,Receitas Condominiais
+ 13º Salario ,2277.5,RECEITA,2022-11,Pessoal
+ Pg.serv.portaria ,16660.0,DESPESA,2022-11,Utilidades
+ Rec.devolução ,1000.0,RECEITA,2022-11,Receitas Condominiais
+ Pg.fgts ,293.05,DESPESA,2022-11,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2022-11,Pessoal
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2022-11,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1227.39,DESPESA,2022-11,Pessoal
+ Pg.pis ,36.63,DESPESA,2022-11,Pessoal
+ Pg.secovimed ,160.05,DESPESA,2022-11,Taxas e Impostos
+ Pg.vale Transporte ,1558.4,DESPESA,2022-11,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2022-11,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2022-11,Administração
+ Pg.serv.limp. ,4606.0,DESPESA,2022-11,Utilidades
+ Pg.desentupidora ,3498.06,DESPESA,2022-12,Outros
+ Pg.materiais ,1418.72,DESPESA,2022-12,Outros
+ Pg.manutenção ,1880.0,DESPESA,2022-12,Manutenção
+ Pg.desinsetização ,1287.99,DESPESA,2022-12,Outros
+ Água ,10334.16,DESPESA,2022-12,Outros
+ Pg.equipamentos ,15504.0,DESPESA,2022-12,Outros
+ Peças Elevador ,3416.74,DESPESA,2022-12,Manutenção
+ Pg.ceee ,1792.58,DESPESA,2022-12,Utilidades
+ Pg.impermeabilização ,3264.48,DESPESA,2022-12,Outros
+ Pg.manut.elevador ,802.12,DESPESA,2022-12,Manutenção
+ Pg.material ,886.7,DESPESA,2022-12,Manutenção
+ Pg.remessa Doctos. ,177.2,DESPESA,2022-12,Administração
+ Pg.issqn ,1624.43,DESPESA,2022-12,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,16.2,DESPESA,2022-12,Taxas e Impostos
+ Pg.recarga Celular ,50.0,DESPESA,2022-12,Outros
+ Pg.locação ,300.0,DESPESA,2022-12,Outros
+ Pg.declaração Pmpa/Issqndec ,29.0,DESPESA,2022-12,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,35.0,DESPESA,2022-12,Pessoal
+ Pg.efd-Reinf/E-Social ,27.0,DESPESA,2022-12,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2022-12,Administração
+ Pg. ,46.0,DESPESA,2022-12,Outros
+ Pg.seg.vida Func.12/2022 ,274.02,DESPESA,2022-12,Pessoal
+ Valor ,1905.83,DESPESA,2022-12,Outros
+ Pg.mat.limpeza ,861.68,DESPESA,2022-12,Utilidades
+ Pg.vale Transporte ,1501.0,DESPESA,2022-12,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2022-12,Pessoal
+ Rec.condomínio ,55297.93,RECEITA,2022-12,Receitas Condominiais
+ Fundo Obras ,3620.98,RECEITA,2022-12,Fundos
+ Pg.salário ,2581.46,DESPESA,2022-12,Pessoal
+ Rec.alug.depósito ,100.0,RECEITA,2022-12,Fundos
+ Rec.cond.estacionamento ,760.0,RECEITA,2022-12,Receitas Condominiais
+ Rec.taxa Uso Box ,390.0,RECEITA,2022-12,Fundos
+ Rec.multa+C.m.+Jrs. ,68.9,RECEITA,2022-12,Receitas Condominiais
+ Rec. Multa ,70.56,RECEITA,2022-12,Receitas Condominiais
+ Rec.ch.extra Férias ,162.81,RECEITA,2022-12,Fundos
+ Valor ,1905.83,RECEITA,2022-12,Outros
+ Pg.síndico Prof. ,1750.0,DESPESA,2022-12,Pessoal
+ Pg.serv.portaria ,16660.0,DESPESA,2022-12,Utilidades
+ 13º Salario ,2341.34,RECEITA,2022-12,Pessoal
+ Pg.fgts ,293.05,DESPESA,2022-12,Pessoal
+ Pg.folha Func.bco. ,27.0,DESPESA,2022-12,Administração
+ Pg.serv.limp. ,4606.0,DESPESA,2022-12,Utilidades
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2022-12,Administração
+ Pg.secovimed ,160.05,DESPESA,2022-12,Taxas e Impostos
+ Pg.pis ,36.63,DESPESA,2022-12,Pessoal
+ Reemb.mat.expediente ,109.62,DESPESA,2022-12,Administração
+ Pg.inss S/13º Sal. ,1227.39,DESPESA,2022-12,Pessoal
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2022-12,Pessoal
+ Pg.2º Parc.13º Sal./2022 ,1538.27,DESPESA,2022-12,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2022-12,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1747.39,DESPESA,2022-12,Pessoal
+ Pg.materiais ,1689.0,DESPESA,2023-01,Outros
+ Pg.seg.vida Func.01/2023 ,274.02,DESPESA,2023-01,Pessoal
+ Pg.assemb.ordin. ,204.7,DESPESA,2023-01,Outros
+ Água ,10750.86,DESPESA,2023-01,Outros
+ Pg.ceee ,1767.59,DESPESA,2023-01,Utilidades
+ Pg.manut.elevador ,802.12,DESPESA,2023-01,Manutenção
+ Pg.instalação ,822.15,DESPESA,2023-01,Manutenção
+ Pg.desentupidora ,3498.06,DESPESA,2023-01,Outros
+ Pg.impermeabilização ,3264.48,DESPESA,2023-01,Outros
+ Pg.reforma ,9149.08,DESPESA,2023-01,Manutenção
+ Pg.salário ,2617.58,DESPESA,2023-01,Pessoal
+ Valor ,13300.0,DESPESA,2023-01,Outros
+ Pg.transações Bco.ted/Doc ,24.3,DESPESA,2023-01,Taxas e Impostos
+ Pg.issqn ,529.36,DESPESA,2023-01,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,29.0,DESPESA,2023-01,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,35.0,DESPESA,2023-01,Pessoal
+ Retirada P/Posterior Acerto ,1800.0,DESPESA,2023-01,Retiradas/Acerto
+ Pg.efd-Reinf/E-Social ,27.0,DESPESA,2023-01,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-01,Administração
+ Pg.impressões/Fotoc. ,37.5,DESPESA,2023-01,Administração
+ Pg.remessa Doctos. ,214.2,DESPESA,2023-01,Administração
+ Pg.mat.pintura ,535.04,DESPESA,2023-01,Manutenção
+ Pg.folha Func.bco. ,18.0,DESPESA,2023-01,Administração
+ Fundo Obras ,3454.12,RECEITA,2023-01,Fundos
+ Pg.vale Transporte ,754.8,DESPESA,2023-01,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-01,Pessoal
+ Rec.condomínio ,54265.99,RECEITA,2023-01,Receitas Condominiais
+ Rec.alug.depósito ,90.0,RECEITA,2023-01,Fundos
+ Rec.cond.estacionamento ,760.0,RECEITA,2023-01,Receitas Condominiais
+ Rec.taxa Uso Box ,190.0,RECEITA,2023-01,Fundos
+ Rec. Multa ,75.39,RECEITA,2023-01,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,78.88,RECEITA,2023-01,Receitas Condominiais
+ Rec.ch.extra Férias ,2951.4,RECEITA,2023-01,Fundos
+ 13º Salario ,129.65,RECEITA,2023-01,Pessoal
+ Valor ,13300.0,RECEITA,2023-01,Outros
+ Rec.devolução Retirada ,1800.0,RECEITA,2023-01,Receitas Condominiais
+ Pg.serv.portaria ,16660.0,DESPESA,2023-01,Utilidades
+ Pg.fgts ,439.58,DESPESA,2023-01,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2023-01,Pessoal
+ Pg.síndico Prof. ,3500.0,DESPESA,2023-01,Pessoal
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2023-01,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1227.39,DESPESA,2023-01,Pessoal
+ Pg.pis ,73.26,DESPESA,2023-01,Pessoal
+ Pg.secovimed ,160.05,DESPESA,2023-01,Taxas e Impostos
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-01,Administração
+ Pg.serv.limp. ,4606.0,DESPESA,2023-01,Utilidades
+ Reemb.mat.expediente ,109.62,DESPESA,2023-01,Administração
+ Pg.mat.limpeza ,862.2,DESPESA,2023-02,Utilidades
+ Pg.reforma ,18374.79,DESPESA,2023-02,Manutenção
+ Pg.mat.pintura ,520.0,DESPESA,2023-02,Manutenção
+ Pg.materiais ,336.5,DESPESA,2023-02,Outros
+ Pg.rep.hidráulico ,1700.0,DESPESA,2023-02,Manutenção
+ Pg.escada ,2187.5,DESPESA,2023-02,Outros
+ Pg.manutenção ,480.0,DESPESA,2023-02,Manutenção
+ Peças Elevador ,1983.5,DESPESA,2023-02,Manutenção
+ Pg.manut.elevador ,802.12,DESPESA,2023-02,Manutenção
+ Pg.tx.fin.sd.dev.01/2023 ,40.0,DESPESA,2023-02,Taxas e Impostos
+ Pg.instalação ,822.15,DESPESA,2023-02,Manutenção
+ Pg.desp.cartório ,167.42,DESPESA,2023-02,Outros
+ Pg. ,605.5,DESPESA,2023-02,Outros
+ Pg.correio Conv.assemb.c/Ar ,376.05,DESPESA,2023-02,Outros
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-02,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-02,Pessoal
+ Pg.transações Bco.ted/Doc ,24.0,DESPESA,2023-02,Taxas e Impostos
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-02,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-02,Administração
+ Retirada P/Posterior Acerto ,1500.0,DESPESA,2023-02,Retiradas/Acerto
+ Pg.impressões/Fotoc. ,141.4,DESPESA,2023-02,Administração
+ Pg.taxa ,115.18,DESPESA,2023-02,Outros
+ Pg.ltip ,1470.0,DESPESA,2023-02,Outros
+ Pg.remessa Doctos. ,252.5,DESPESA,2023-02,Administração
+ Pg.ceee ,1810.09,DESPESA,2023-02,Utilidades
+ Pg.issqn ,922.12,DESPESA,2023-02,Taxas e Impostos
+ Água ,9859.05,DESPESA,2023-02,Outros
+ Rec.taxa Uso Box ,390.0,RECEITA,2023-02,Fundos
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-02,Pessoal
+ Rec.alug.depósito ,70.0,RECEITA,2023-02,Fundos
+ Fundo Obras ,3525.1,RECEITA,2023-02,Fundos
+ Rec.condomínio ,57497.92,RECEITA,2023-02,Receitas Condominiais
+ Rec.cond.estacionamento ,720.0,RECEITA,2023-02,Receitas Condominiais
+ Rec. Multa ,128.66,RECEITA,2023-02,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,65.78,RECEITA,2023-02,Receitas Condominiais
+ Rec.ch.extra Férias ,87.11,RECEITA,2023-02,Fundos
+ 13º Salario ,20.64,RECEITA,2023-02,Pessoal
+ Pg.férias Período ,2277.84,DESPESA,2023-02,Pessoal
+ Pg.síndico Prof. ,3600.0,DESPESA,2023-02,Pessoal
+ Pg.adto.salário ,300.0,DESPESA,2023-02,Pessoal
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2023-02,Pessoal
+ Pg.seg.vida Func.02/2023 ,274.02,DESPESA,2023-02,Pessoal
+ Pg.serv.portaria ,18142.74,DESPESA,2023-02,Utilidades
+ Pg.serv.limp. ,5015.93,DESPESA,2023-02,Utilidades
+ Pg.pis ,37.0,DESPESA,2023-02,Pessoal
+ Pg.serv.prestados ,303.05,DESPESA,2023-02,Manutenção
+ Pg.darf Inss(E-Social/Reinf) ,1648.64,DESPESA,2023-02,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-02,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2023-02,Administração
+ Pg.salário ,1542.8,DESPESA,2023-02,Pessoal
+ Pg.folha Func.bco. ,18.0,DESPESA,2023-02,Administração
+ Pg.vale Transporte ,1386.2,DESPESA,2023-02,Pessoal
+ Pg.secovimed ,160.05,DESPESA,2023-02,Taxas e Impostos
+ Pg.fgts ,295.99,DESPESA,2023-02,Pessoal
+ Pg.manutenção ,274.37,DESPESA,2023-03,Manutenção
+ Peças Elevador ,1983.5,DESPESA,2023-03,Manutenção
+ Pg.escada ,437.5,DESPESA,2023-03,Outros
+ Pg.manut.elevador ,798.08,DESPESA,2023-03,Manutenção
+ Pg.salário ,2241.32,DESPESA,2023-03,Pessoal
+ Pg.ceee ,2001.05,DESPESA,2023-03,Utilidades
+ Pg.assemb.ordin. ,204.7,DESPESA,2023-03,Outros
+ Pg.folha Func.bco. ,18.0,DESPESA,2023-03,Administração
+ Pg.reforma ,16683.0,DESPESA,2023-03,Manutenção
+ Pg.vistoria Hidráulica ,1393.72,DESPESA,2023-03,Outros
+ Pg.materiais ,499.3,DESPESA,2023-03,Outros
+ Pg.correio Conv.assemb.c/Ar ,394.45,DESPESA,2023-03,Outros
+ Pg.tx.fin.sd.dev.02/2023 ,439.0,DESPESA,2023-03,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,51.0,DESPESA,2023-03,Taxas e Impostos
+ Pg.impressões/Fotoc. ,60.62,DESPESA,2023-03,Administração
+ Pg.issqn ,1175.23,DESPESA,2023-03,Taxas e Impostos
+ Pg.certificação Digital ,351.0,DESPESA,2023-03,Outros
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-03,Pessoal
+ Valor ,892.81,DESPESA,2023-03,Outros
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-03,Taxas e Impostos
+ Pg.remessa Doctos. ,261.4,DESPESA,2023-03,Administração
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-03,Pessoal
+ Pg.seg.vida Func.03/2023 ,274.02,DESPESA,2023-03,Pessoal
+ Pg.custas Judiciais ,148.71,DESPESA,2023-03,Outros
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-03,Administração
+ Pg.secovimed ,160.05,DESPESA,2023-03,Taxas e Impostos
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-03,Pessoal
+ Pg.férias Período ,1486.59,DESPESA,2023-03,Pessoal
+ Fundo Obras ,3569.81,RECEITA,2023-03,Fundos
+ Rec.condomínio ,59361.64,RECEITA,2023-03,Receitas Condominiais
+ Rec.taxa Uso Box ,590.0,RECEITA,2023-03,Fundos
+ Rec.alug.depósito ,80.0,RECEITA,2023-03,Fundos
+ Rec.cond.estacionamento ,720.0,RECEITA,2023-03,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,39.74,RECEITA,2023-03,Receitas Condominiais
+ Rec.ch.extra Férias ,46.29,RECEITA,2023-03,Fundos
+ 13º Salario ,10.84,RECEITA,2023-03,Pessoal
+ Valor ,892.81,RECEITA,2023-03,Outros
+ Pg.serv.portaria ,18142.74,DESPESA,2023-03,Utilidades
+ Rec. Multa ,126.55,RECEITA,2023-03,Receitas Condominiais
+ Pg.serv.prestados ,1193.03,DESPESA,2023-03,Manutenção
+ Pg.serv.limp. ,5015.93,DESPESA,2023-03,Utilidades
+ Reemb.mat.expediente ,109.62,DESPESA,2023-03,Administração
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-03,Administração
+ Pg.pis ,40.56,DESPESA,2023-03,Pessoal
+ Pg. Irrf ,30.31,DESPESA,2023-03,Outros
+ Pg.vale Transporte ,927.0,DESPESA,2023-03,Pessoal
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2023-03,Pessoal
+ Pg.contr.sind.patr./2023 ,298.58,DESPESA,2023-03,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2023-03,Pessoal
+ Pg.fgts ,324.49,DESPESA,2023-03,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1468.79,DESPESA,2023-03,Pessoal
+ Pg.rep.hidráulico ,5742.8,DESPESA,2023-04,Manutenção
+ Pg.seg.vida Func.04/2023 ,274.02,DESPESA,2023-04,Pessoal
+ Pg.ceee ,1835.81,DESPESA,2023-04,Utilidades
+ Pg.rep.elétrico ,680.0,DESPESA,2023-04,Manutenção
+ Pg.manut.elevador ,798.08,DESPESA,2023-04,Manutenção
+ Pg.escada ,437.5,DESPESA,2023-04,Outros
+ Peças Elevador ,1610.75,DESPESA,2023-04,Manutenção
+ Pg.reforma ,20264.93,DESPESA,2023-04,Manutenção
+ Pg.materiais ,54.0,DESPESA,2023-04,Outros
+ Pg.reparos ,250.0,DESPESA,2023-04,Manutenção
+ Pg.material ,52.9,DESPESA,2023-04,Manutenção
+ Pg.vale Transporte ,1501.0,DESPESA,2023-04,Pessoal
+ Pg.tx.fin.sd.dev.03/2023 ,378.0,DESPESA,2023-04,Taxas e Impostos
+ Pg.issqn ,975.9,DESPESA,2023-04,Taxas e Impostos
+ Retirada P/Posterior Acerto ,1500.0,DESPESA,2023-04,Retiradas/Acerto
+ Pg.transações Bco.ted/Doc ,27.0,DESPESA,2023-04,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-04,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-04,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-04,Administração
+ Pg. ,572.2,DESPESA,2023-04,Outros
+ Pg.renovação Cert.digital ,123.0,DESPESA,2023-04,Outros
+ Pg.remessa Doctos. ,176.0,DESPESA,2023-04,Administração
+ Pg.sacos Lixo ,1241.39,DESPESA,2023-04,Outros
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-04,Pessoal
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-04,Pessoal
+ Pg.salário ,1576.37,DESPESA,2023-04,Pessoal
+ Rec.cond.estacionamento ,600.0,RECEITA,2023-04,Receitas Condominiais
+ Rec.condomínio ,60194.63,RECEITA,2023-04,Receitas Condominiais
+ Rec.alug.depósito ,90.0,RECEITA,2023-04,Fundos
+ Pg.folha Func.bco. ,18.0,DESPESA,2023-04,Administração
+ Rec.devolução Retirada ,1500.0,RECEITA,2023-04,Receitas Condominiais
+ Rec.taxa Uso Box ,190.0,RECEITA,2023-04,Fundos
+ Rec. Multa ,71.03,RECEITA,2023-04,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,110.3,RECEITA,2023-04,Receitas Condominiais
+ Rec.ch.extra Férias ,31.06,RECEITA,2023-04,Fundos
+ 13º Salario ,20.8,RECEITA,2023-04,Pessoal
+ Pg.honorários ,1500.0,DESPESA,2023-04,Outros
+ Fundo Obras ,3360.97,RECEITA,2023-04,Fundos
+ Pg.serv.portaria ,18142.74,DESPESA,2023-04,Utilidades
+ Pg.serv.limp. ,5015.93,DESPESA,2023-04,Utilidades
+ Pg.adto.salário ,600.0,DESPESA,2023-04,Pessoal
+ Pg.síndico Prof. ,1850.0,DESPESA,2023-04,Pessoal
+ Pg.pis/Cofins/Csll ,105.46,DESPESA,2023-04,Pessoal
+ Pg.serv.prestados ,303.03,DESPESA,2023-04,Manutenção
+ Pg.secovimed ,160.05,DESPESA,2023-04,Taxas e Impostos
+ Pg.pis ,38.47,DESPESA,2023-04,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1909.56,DESPESA,2023-04,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-04,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2023-04,Administração
+ Pg.fgts ,307.72,DESPESA,2023-04,Pessoal
+ Pg.material ,269.0,DESPESA,2023-05,Manutenção
+ Pg.reforma ,18125.0,DESPESA,2023-05,Manutenção
+ Peças Elevador ,1610.75,DESPESA,2023-05,Manutenção
+ Pg.seg.vida Func.05/2023 ,274.02,DESPESA,2023-05,Pessoal
+ Pg.manutenção ,276.38,DESPESA,2023-05,Manutenção
+ Pg.manut.elevador ,812.92,DESPESA,2023-05,Manutenção
+ Pg.ceee ,2153.77,DESPESA,2023-05,Utilidades
+ Pg.cons.telhado ,980.0,DESPESA,2023-05,Manutenção
+ Pg.escada ,437.5,DESPESA,2023-05,Outros
+ Pg.rep.hidráulico ,3358.61,DESPESA,2023-05,Manutenção
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-05,Taxas e Impostos
+ Pg.tx.fin.sd.dev.04/2023 ,496.0,DESPESA,2023-05,Taxas e Impostos
+ Pg.issqn ,1031.04,DESPESA,2023-05,Taxas e Impostos
+ Pg.seguro Incêndio ,984.24,DESPESA,2023-05,Administração
+ Pg.transações Bco.ted/Doc ,36.0,DESPESA,2023-05,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-05,Pessoal
+ Pg. Internet ,260.79,DESPESA,2023-05,Utilidades
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-05,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-05,Administração
+ Pg.remessa Doctos. ,91.6,DESPESA,2023-05,Administração
+ Pg.folha Func.bco. ,18.0,DESPESA,2023-05,Administração
+ Pg.materiais ,47.5,DESPESA,2023-05,Outros
+ Pg.salário ,2641.32,DESPESA,2023-05,Pessoal
+ Pg.vale Transporte ,1501.0,DESPESA,2023-05,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-05,Pessoal
+ Fundo Obras ,3619.15,RECEITA,2023-05,Fundos
+ Rec.condomínio ,64965.59,RECEITA,2023-05,Receitas Condominiais
+ Rec.alug.depósito ,70.0,RECEITA,2023-05,Fundos
+ Rec.taxa Uso Box ,790.0,RECEITA,2023-05,Fundos
+ Rec.cond.estacionamento ,760.0,RECEITA,2023-05,Receitas Condominiais
+ Rec. Multa ,64.24,RECEITA,2023-05,Receitas Condominiais
+ 13º Salario ,15.84,RECEITA,2023-05,Pessoal
+ Rec.ch.extra Férias ,15.99,RECEITA,2023-05,Fundos
+ Pg.fgts ,329.68,DESPESA,2023-05,Pessoal
+ Pg.serv.portaria ,18142.74,DESPESA,2023-05,Utilidades
+ Rec.multa+C.m.+Jrs. ,27.56,RECEITA,2023-05,Receitas Condominiais
+ Pg.síndico Prof. ,1850.0,DESPESA,2023-05,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2023-05,Pessoal
+ Pg.serv.prestados ,723.03,DESPESA,2023-05,Manutenção
+ Pg.darf Inss(E-Social/Reinf) ,1727.4,DESPESA,2023-05,Pessoal
+ Pg.pis/Cofins/Csll ,198.65,DESPESA,2023-05,Pessoal
+ Pg.pis ,41.21,DESPESA,2023-05,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-05,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2023-05,Administração
+ Pg.secovimed ,160.05,DESPESA,2023-05,Taxas e Impostos
+ Pg.serv.limp. ,5015.93,DESPESA,2023-05,Utilidades
+ Reparos Gerais ,2000.0,DESPESA,2023-07,Outros
+ Pg.mat.pintura ,3561.19,DESPESA,2023-07,Manutenção
+ Pg.recarga Extintores ,3256.5,DESPESA,2023-07,Outros
+ Pg.equipamentos ,618.65,DESPESA,2023-07,Outros
+ Pg.seg.vida Func.07/2023 ,274.02,DESPESA,2023-07,Pessoal
+ Peças Elevador ,2289.32,DESPESA,2023-07,Manutenção
+ Pg.ceee ,1735.91,DESPESA,2023-07,Utilidades
+ Água ,18950.58,DESPESA,2023-07,Outros
+ Pg.reparos ,300.0,DESPESA,2023-07,Manutenção
+ Pg.manut.elevador ,812.84,DESPESA,2023-07,Manutenção
+ Pg.rep.hidráulico ,3600.0,DESPESA,2023-07,Manutenção
+ Pg.remessa Doctos. ,43.2,DESPESA,2023-07,Administração
+ Pg.tx.fin.sd.dev.06/2023 ,535.0,DESPESA,2023-07,Taxas e Impostos
+ Pg. Internet ,174.85,DESPESA,2023-07,Utilidades
+ Pg.issqn ,680.86,DESPESA,2023-07,Taxas e Impostos
+ Pg.seguro Incêndio ,984.23,DESPESA,2023-07,Administração
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-07,Pessoal
+ Pg.transações Bco.ted/Doc ,51.0,DESPESA,2023-07,Taxas e Impostos
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-07,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-07,Administração
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-07,Taxas e Impostos
+ Pg.vale Transporte ,1558.4,DESPESA,2023-07,Pessoal
+ Pg.calhas ,2500.0,DESPESA,2023-07,Outros
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-07,Pessoal
+ Fundo Obras ,3655.03,RECEITA,2023-07,Fundos
+ Pg.salário ,3386.15,DESPESA,2023-07,Pessoal
+ Pg.folha Func.bco. ,18.0,DESPESA,2023-07,Administração
+ Rec.alug.depósito ,100.0,RECEITA,2023-07,Fundos
+ Rec.condomínio ,59357.17,RECEITA,2023-07,Receitas Condominiais
+ Rec.taxa Uso Box ,190.0,RECEITA,2023-07,Fundos
+ Rec.cond.estacionamento ,680.0,RECEITA,2023-07,Receitas Condominiais
+ Rec.condomínio ,5.59,RECEITA,2023-07,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,158.49,RECEITA,2023-07,Receitas Condominiais
+ Rec. Multa ,40.93,RECEITA,2023-07,Receitas Condominiais
+ Rec.ch.extra Férias ,548.79,RECEITA,2023-07,Fundos
+ 13º Salario ,20.22,RECEITA,2023-07,Pessoal
+ Pg.serv.prestados ,728.5,DESPESA,2023-07,Manutenção
+ Rec.devolução Retirada ,3300.0,RECEITA,2023-07,Receitas Condominiais
+ Pg.fgts ,314.18,DESPESA,2023-07,Pessoal
+ Pg.pis ,39.27,DESPESA,2023-07,Pessoal
+ Pg.síndico Prof. ,1850.0,DESPESA,2023-07,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-07,Administração
+ Pg.secovimed ,160.05,DESPESA,2023-07,Taxas e Impostos
+ Pg.darf Inss(E-Social/Reinf) ,2116.94,DESPESA,2023-07,Pessoal
+ Reemb.mat.expediente ,109.62,DESPESA,2023-07,Administração
+ Pg.adto.salário ,600.0,DESPESA,2023-07,Pessoal
+ Pg.serv.portaria ,17908.05,DESPESA,2023-07,Utilidades
+ Pg.serv.limp. ,4951.05,DESPESA,2023-07,Utilidades
+ Pg.pis/Cofins/Csll ,126.31,DESPESA,2023-07,Pessoal
+ Pg.issqn ,871.72,DESPESA,2023-08,Taxas e Impostos
+ Pg.contr.remoto ,176.13,DESPESA,2023-08,Outros
+ Pg.manut.elevador ,812.84,DESPESA,2023-08,Manutenção
+ Pg.instalação ,980.0,DESPESA,2023-08,Manutenção
+ Pg.recarga Extintores ,3256.5,DESPESA,2023-08,Outros
+ Pg.pintura ,2000.0,DESPESA,2023-08,Manutenção
+ Pg.mat.pintura ,1291.09,DESPESA,2023-08,Manutenção
+ Pg.cons.telhado ,1300.0,DESPESA,2023-08,Manutenção
+ Pg.mat.limpeza ,1138.14,DESPESA,2023-08,Utilidades
+ Pg.custas Judiciais ,253.8,DESPESA,2023-08,Outros
+ Pg.tx.fin.sd.dev.07/2023 ,737.0,DESPESA,2023-08,Taxas e Impostos
+ Pg.devol.água ,30.15,DESPESA,2023-08,Outros
+ Retirada P/Posterior Acerto ,1400.0,DESPESA,2023-08,Retiradas/Acerto
+ Pg. Internet ,101.7,DESPESA,2023-08,Utilidades
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-08,Pessoal
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-08,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,21.0,DESPESA,2023-08,Taxas e Impostos
+ Pg.impressões/Fotoc. ,7.0,DESPESA,2023-08,Administração
+ Pg.remessa Doctos. ,44.2,DESPESA,2023-08,Administração
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-08,Pessoal
+ Pg.desp.divrs. ,1400.0,DESPESA,2023-08,Outros
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-08,Administração
+ Peças Elevador ,2289.31,DESPESA,2023-08,Manutenção
+ Pg.seguro Incêndio ,984.23,DESPESA,2023-08,Administração
+ Pg.ceee ,1830.0,DESPESA,2023-08,Utilidades
+ Água ,7433.92,DESPESA,2023-08,Outros
+ Fundo Obras ,3514.14,RECEITA,2023-08,Fundos
+ Pg.salário ,2789.63,DESPESA,2023-08,Pessoal
+ Rec.condomínio ,63435.66,RECEITA,2023-08,Receitas Condominiais
+ Rec.alug.depósito ,100.0,RECEITA,2023-08,Fundos
+ Rec.cond.estacionamento ,720.0,RECEITA,2023-08,Receitas Condominiais
+ Rec.taxa Uso Box ,190.0,RECEITA,2023-08,Fundos
+ Rec.devolução Retirada ,1400.0,RECEITA,2023-08,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,126.04,RECEITA,2023-08,Receitas Condominiais
+ Rec.ch.extra Férias ,475.66,RECEITA,2023-08,Fundos
+ Pg.síndico Prof. ,1850.0,DESPESA,2023-08,Pessoal
+ Pg.fgts ,364.4,DESPESA,2023-08,Pessoal
+ Pg.serv.portaria ,17902.87,DESPESA,2023-08,Utilidades
+ Pg.serv.limp. ,4949.62,DESPESA,2023-08,Utilidades
+ Rec. Multa ,30.24,RECEITA,2023-08,Receitas Condominiais
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2023-08,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,2251.86,DESPESA,2023-08,Pessoal
+ Pg.secovimed ,203.8,DESPESA,2023-08,Taxas e Impostos
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-08,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2023-08,Administração
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-08,Pessoal
+ Pg.pis ,45.55,DESPESA,2023-08,Pessoal
+ Pg.vale Transporte ,1424.8,DESPESA,2023-08,Pessoal
+ Pg.seg.vida Func.08/2023 ,274.02,DESPESA,2023-08,Pessoal
+ Pg.dissídio Empregador/2023 ,327.65,DESPESA,2023-08,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2023-08,Pessoal
+ Pg.folha Func.bco. ,18.0,DESPESA,2023-08,Administração
+ Pg.material ,291.97,DESPESA,2023-09,Manutenção
+ Pg.pintura ,2000.0,DESPESA,2023-09,Manutenção
+ Pg.manutenção ,2676.38,DESPESA,2023-09,Manutenção
+ Pg.manut.elevador ,812.84,DESPESA,2023-09,Manutenção
+ Água ,10792.26,DESPESA,2023-09,Outros
+ Pg.cons.fechadura ,150.0,DESPESA,2023-09,Outros
+ Pg.extintores ,637.5,DESPESA,2023-09,Outros
+ Pg.ceee ,2085.27,DESPESA,2023-09,Utilidades
+ Pg.reparos ,800.0,DESPESA,2023-09,Manutenção
+ Peças Elevador ,1912.09,DESPESA,2023-09,Manutenção
+ Pg.mat.pintura ,814.5,DESPESA,2023-09,Manutenção
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-09,Taxas e Impostos
+ Pg.tx.fin.sd.dev.08/2023 ,607.0,DESPESA,2023-09,Taxas e Impostos
+ Pg.issqn ,878.09,DESPESA,2023-09,Taxas e Impostos
+ Pg.seguro Incêndio ,984.23,DESPESA,2023-09,Administração
+ Pg. Internet ,99.9,DESPESA,2023-09,Utilidades
+ Pg.transações Bco.ted/Doc ,33.0,DESPESA,2023-09,Taxas e Impostos
+ Pg.impressões/Fotoc. ,7.0,DESPESA,2023-09,Administração
+ Pg.remessa Doctos. ,21.6,DESPESA,2023-09,Administração
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-09,Pessoal
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-09,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-09,Administração
+ Pg.salário ,2789.63,DESPESA,2023-09,Pessoal
+ Reparos Gerais ,500.0,DESPESA,2023-09,Outros
+ Pg.folha Func.bco. ,18.0,DESPESA,2023-09,Administração
+ Retirada P/Posterior Acerto ,1850.0,DESPESA,2023-09,Retiradas/Acerto
+ Pg.seg.vida Func.09/2023 ,274.02,DESPESA,2023-09,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-09,Pessoal
+ Rec.condomínio ,50727.19,RECEITA,2023-09,Receitas Condominiais
+ Rec.cond.estacionamento ,800.0,RECEITA,2023-09,Receitas Condominiais
+ Rec.taxa Uso Box ,790.0,RECEITA,2023-09,Fundos
+ Rec.alug.depósito ,90.0,RECEITA,2023-09,Fundos
+ Rec.condomínio ,23.85,RECEITA,2023-09,Receitas Condominiais
+ Rec. Multa ,63.68,RECEITA,2023-09,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,326.3,RECEITA,2023-09,Receitas Condominiais
+ Rec.ch.extra Férias ,33.28,RECEITA,2023-09,Fundos
+ Pg.treinamento ,1875.0,DESPESA,2023-09,Outros
+ Rec.devolução ,186.93,DESPESA,2023-09,Receitas Condominiais
+ Fundo Obras ,3744.85,RECEITA,2023-09,Fundos
+ Pg.fgts ,311.96,DESPESA,2023-09,Pessoal
+ Pg.síndico Prof. ,1850.0,DESPESA,2023-09,Pessoal
+ Pg.vale Transporte ,1483.8,DESPESA,2023-09,Pessoal
+ Pg.secovimed ,168.8,DESPESA,2023-09,Taxas e Impostos
+ Reemb.mat.expediente ,109.62,DESPESA,2023-09,Administração
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-09,Administração
+ Pg.pis ,39.0,DESPESA,2023-09,Pessoal
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2023-09,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2023-09,Pessoal
+ Pg.serv.portaria ,17896.85,DESPESA,2023-09,Utilidades
+ Pg.serv.limp. ,4947.95,DESPESA,2023-09,Utilidades
+ Pg.darf Inss(E-Social/Reinf) ,1305.71,DESPESA,2023-09,Pessoal
+ Pg.sacos Lixo ,526.27,DESPESA,2023-10,Outros
+ Pg.folha Func.bco. ,18.0,DESPESA,2023-10,Administração
+ Água ,10972.68,DESPESA,2023-10,Outros
+ Pg.ceee ,1824.58,DESPESA,2023-10,Utilidades
+ Pg.extintores ,637.5,DESPESA,2023-10,Outros
+ Pg.salário ,2789.63,DESPESA,2023-10,Pessoal
+ Peças Elevador ,1912.09,DESPESA,2023-10,Manutenção
+ Pg.instalação ,1458.0,DESPESA,2023-10,Manutenção
+ Pg.reparos ,2400.0,DESPESA,2023-10,Manutenção
+ Pg.issqn ,842.38,DESPESA,2023-10,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,33.0,DESPESA,2023-10,Taxas e Impostos
+ Pg.fotocópias ,106.7,DESPESA,2023-10,Outros
+ Pg. Internet ,99.9,DESPESA,2023-10,Utilidades
+ Pg.seguro Incêndio ,984.23,DESPESA,2023-10,Administração
+ Retirada P/Posterior Acerto ,1800.0,DESPESA,2023-10,Retiradas/Acerto
+ Pg.impressões/Fotoc. ,7.0,DESPESA,2023-10,Administração
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-10,Pessoal
+ Pg.remessa Doctos. ,21.6,DESPESA,2023-10,Administração
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-10,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-10,Pessoal
+ Pg.vale Transporte ,1424.8,DESPESA,2023-10,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-10,Administração
+ Pg.tx.fin.sd.dev.09/2023 ,751.0,DESPESA,2023-10,Taxas e Impostos
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-10,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2023-10,Pessoal
+ Reemb.mat.expediente ,109.62,DESPESA,2023-10,Administração
+ Fundo Obras ,3773.77,RECEITA,2023-10,Fundos
+ Rec.condomínio ,68960.51,RECEITA,2023-10,Receitas Condominiais
+ Rec.alug.depósito ,80.0,RECEITA,2023-10,Fundos
+ Rec.taxa Uso Box ,390.0,RECEITA,2023-10,Fundos
+ Rec.cond.estacionamento ,680.0,RECEITA,2023-10,Receitas Condominiais
+ Pg.seg.vida Func.10/2023 ,274.02,DESPESA,2023-10,Pessoal
+ Fundo Reserva ,14.69,RECEITA,2023-10,Fundos
+ Rec. Multa ,44.96,RECEITA,2023-10,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,3597.58,RECEITA,2023-10,Receitas Condominiais
+ 13º Salario ,31.68,RECEITA,2023-10,Pessoal
+ Rec.reembolso ,592.46,RECEITA,2023-10,Outros
+ Pg.treinamento ,1875.0,DESPESA,2023-10,Outros
+ Pg.síndico Prof. ,1850.0,DESPESA,2023-10,Pessoal
+ Pg.fgts ,311.96,DESPESA,2023-10,Pessoal
+ Pg.serv.limp. ,4945.8,DESPESA,2023-10,Utilidades
+ Pg.serv.portaria ,17889.07,DESPESA,2023-10,Utilidades
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2023-10,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1739.35,DESPESA,2023-10,Pessoal
+ Pg.secovimed ,168.8,DESPESA,2023-10,Taxas e Impostos
+ Pg.pis ,39.0,DESPESA,2023-10,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-10,Administração
+ Rec.ch.extra Férias ,34.31,RECEITA,2023-10,Fundos
+ Pg.materiais ,707.59,DESPESA,2023-11,Outros
+ Pg.manut.elevador ,934.43,DESPESA,2023-11,Manutenção
+ Pg.cons.p.eletr. ,300.0,DESPESA,2023-11,Outros
+ Pg.cons.fechadura ,170.0,DESPESA,2023-11,Outros
+ Pg.reparos ,509.55,DESPESA,2023-11,Manutenção
+ Pg.impressões/Fotoc. ,6.3,DESPESA,2023-11,Administração
+ Pg.ceee ,1819.21,DESPESA,2023-11,Utilidades
+ Água/Esgoto ,10305.96,DESPESA,2023-11,Utilidades
+ Peças Elevador ,1912.09,DESPESA,2023-11,Manutenção
+ Pg.pintura ,2000.0,DESPESA,2023-11,Manutenção
+ Pg.seg.vida Func.11/2023 ,274.02,DESPESA,2023-11,Pessoal
+ Pg.cons.portão ,351.5,DESPESA,2023-11,Manutenção
+ Pg.mat.limpeza ,543.4,DESPESA,2023-11,Utilidades
+ Pg.tx.fin.sd.dev.10/2023 ,396.0,DESPESA,2023-11,Taxas e Impostos
+ Pg.issqn ,859.67,DESPESA,2023-11,Taxas e Impostos
+ Pg. Internet ,99.9,DESPESA,2023-11,Utilidades
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-11,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-11,Pessoal
+ Pg.transações Bco.ted/Doc ,27.0,DESPESA,2023-11,Taxas e Impostos
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-11,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-11,Administração
+ Pg.coluna Água ,2300.0,DESPESA,2023-11,Outros
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-11,Pessoal
+ Pg.1º Parc.13º Sal. ,1949.79,DESPESA,2023-11,Pessoal
+ Pg.secovimed ,168.8,DESPESA,2023-11,Taxas e Impostos
+ Pg.vale Transporte ,1483.8,DESPESA,2023-11,Pessoal
+ Fundo Obras ,3591.18,RECEITA,2023-11,Fundos
+ Rec.condomínio ,56044.25,RECEITA,2023-11,Receitas Condominiais
+ Rec.cond.estacionamento ,720.0,RECEITA,2023-11,Receitas Condominiais
+ Rec.taxa Uso Box ,190.0,RECEITA,2023-11,Fundos
+ Rec.multa+C.m.+Jrs. ,42.2,RECEITA,2023-11,Receitas Condominiais
+ Rec. Multa ,62.28,RECEITA,2023-11,Receitas Condominiais
+ Rec.ch.extra Férias ,3.54,RECEITA,2023-11,Fundos
+ Pg.síndico Prof. ,1850.0,DESPESA,2023-11,Pessoal
+ Pg.fgts ,311.96,DESPESA,2023-11,Pessoal
+ Rec.alug.depósito ,100.0,RECEITA,2023-11,Fundos
+ Pg.serv.portaria ,17884.74,DESPESA,2023-11,Utilidades
+ Pg.serv.limp. ,4944.61,DESPESA,2023-11,Utilidades
+ Pg.folha Func.bco. ,27.0,DESPESA,2023-11,Administração
+ Pg.salário ,2789.63,DESPESA,2023-11,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1429.71,DESPESA,2023-11,Pessoal
+ Pg.pis ,39.0,DESPESA,2023-11,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-11,Administração
+ Pg.pis/Cofins/Csll ,61.38,DESPESA,2023-11,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2023-11,Pessoal
+ Reemb.mat.expediente ,109.62,DESPESA,2023-11,Administração
+ Pg.seg.vida Func.12/2023 ,286.65,DESPESA,2023-12,Pessoal
+ Pg.pintura ,2000.0,DESPESA,2023-12,Manutenção
+ Pg.secovimed ,168.8,DESPESA,2023-12,Taxas e Impostos
+ Pg.folha Func.bco. ,27.0,DESPESA,2023-12,Administração
+ Água/Esgoto ,10655.99,DESPESA,2023-12,Utilidades
+ Pg.ceee ,2000.93,DESPESA,2023-12,Utilidades
+ Peças Elevador ,1912.09,DESPESA,2023-12,Manutenção
+ Pg.manut.elevador ,885.43,DESPESA,2023-12,Manutenção
+ Pg.material ,151.35,DESPESA,2023-12,Manutenção
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2023-12,Taxas e Impostos
+ Pg.issqn ,876.84,DESPESA,2023-12,Taxas e Impostos
+ Pg. Internet ,99.9,DESPESA,2023-12,Utilidades
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2023-12,Pessoal
+ Pg.transações Bco.ted/Doc ,30.0,DESPESA,2023-12,Taxas e Impostos
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2023-12,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2023-12,Administração
+ Pg.impressões/Fotoc. ,6.3,DESPESA,2023-12,Administração
+ Pg.salário ,2789.63,DESPESA,2023-12,Pessoal
+ Pg.tx.fin.sd.dev.11/2023 ,363.0,DESPESA,2023-12,Taxas e Impostos
+ Pg.pis ,39.0,DESPESA,2023-12,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,2078.71,DESPESA,2023-12,Pessoal
+ Rec. Multa ,63.34,RECEITA,2023-12,Receitas Condominiais
+ Pg.inss S/13º Sal. ,1305.71,DESPESA,2023-12,Pessoal
+ Rec.alug.depósito ,100.0,RECEITA,2023-12,Fundos
+ Fundo Obras ,3409.56,RECEITA,2023-12,Fundos
+ Rec.condomínio ,49147.71,RECEITA,2023-12,Receitas Condominiais
+ Rec.cond.estacionamento ,680.0,RECEITA,2023-12,Receitas Condominiais
+ Rec.taxa Uso Box ,590.0,RECEITA,2023-12,Fundos
+ Rec.multa+C.m.+Jrs. ,112.18,RECEITA,2023-12,Receitas Condominiais
+ Pg.síndico Prof. ,1850.0,DESPESA,2023-12,Pessoal
+ Pg.fgts ,467.94,DESPESA,2023-12,Pessoal
+ Pg.serv.limp. ,4942.36,DESPESA,2023-12,Utilidades
+ Pg.2º Parc.13º Sal./2023 ,1638.42,DESPESA,2023-12,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2023-12,Pessoal
+ Pg.pis/Cofins/Csll ,106.95,DESPESA,2023-12,Pessoal
+ Pg.vale Transporte ,1542.8,DESPESA,2023-12,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2023-12,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2023-12,Administração
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2023-12,Pessoal
+ Pg.serv.portaria ,17876.62,DESPESA,2023-12,Utilidades
+ Pg.manut.elevador ,885.43,DESPESA,2024-01,Manutenção
+ Pg.pintura ,2000.0,DESPESA,2024-01,Manutenção
+ Pg. Sensor ,440.0,DESPESA,2024-01,Manutenção
+ Pg.folha Func.bco. ,18.0,DESPESA,2024-01,Administração
+ Água/Esgoto ,10943.52,DESPESA,2024-01,Utilidades
+ Pg.seg.vida Func.01/2024 ,286.65,DESPESA,2024-01,Pessoal
+ Pg.mat.pintura ,750.06,DESPESA,2024-01,Manutenção
+ Pg.ceee ,1660.43,DESPESA,2024-01,Utilidades
+ Pg.mat.limpeza ,460.49,DESPESA,2024-01,Utilidades
+ Pg.impressões/Fotoc. ,6.3,DESPESA,2024-01,Administração
+ Pg.tapete ,320.0,DESPESA,2024-01,Outros
+ Pg.issqn ,963.01,DESPESA,2024-01,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,32.0,DESPESA,2024-01,Taxas e Impostos
+ Pg.emissão Darf/Impostos ,38.0,DESPESA,2024-01,Pessoal
+ Pg. Internet ,102.0,DESPESA,2024-01,Utilidades
+ Pg.transações Bco.ted/Doc ,15.0,DESPESA,2024-01,Taxas e Impostos
+ Pg.efd-Reinf/E-Social ,29.0,DESPESA,2024-01,Pessoal
+ Pg.tarifa Banco Cobrança ,549.0,DESPESA,2024-01,Administração
+ Pg.tx.fin.sd.dev.12/2023 ,416.0,DESPESA,2024-01,Taxas e Impostos
+ Pg.salário ,2879.16,DESPESA,2024-01,Pessoal
+ Pg.vale Transporte ,960.5,DESPESA,2024-01,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2024-01,Pessoal
+ Rec.condomínio ,50359.77,RECEITA,2024-01,Receitas Condominiais
+ Rec.alug.depósito ,100.0,RECEITA,2024-01,Fundos
+ Rec.cond.estacionamento ,800.0,RECEITA,2024-01,Receitas Condominiais
+ Rec.taxa Uso Box ,380.0,RECEITA,2024-01,Fundos
+ Rec. Multa ,159.53,RECEITA,2024-01,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,18.56,RECEITA,2024-01,Receitas Condominiais
+ Pg.síndico Prof. ,3700.0,DESPESA,2024-01,Pessoal
+ Pg.fgts ,467.94,DESPESA,2024-01,Pessoal
+ Fundo Obras ,3610.88,RECEITA,2024-01,Fundos
+ Pg.serv.limp. ,4940.4,DESPESA,2024-01,Utilidades
+ Pg.adto.salário ,600.0,DESPESA,2024-01,Pessoal
+ Pg.pis/Cofins/Csll ,106.95,DESPESA,2024-01,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1305.71,DESPESA,2024-01,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-01,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2024-01,Administração
+ Pg.secovimed ,168.8,DESPESA,2024-01,Taxas e Impostos
+ Pg.pis ,78.0,DESPESA,2024-01,Pessoal
+ Pg.serv.portaria ,17869.54,DESPESA,2024-01,Utilidades
+ Pg.impermeabilização ,3900.0,DESPESA,2024-02,Outros
+ Pg.mat.pintura ,750.06,DESPESA,2024-02,Manutenção
+ Pg.ceee ,1516.33,DESPESA,2024-02,Utilidades
+ Pg.manut.elevador ,885.43,DESPESA,2024-02,Manutenção
+ Pg.manutenção ,1929.55,DESPESA,2024-02,Manutenção
+ Pg.mat.limpeza ,719.18,DESPESA,2024-02,Utilidades
+ Pg.rep.hidráulico ,2100.0,DESPESA,2024-02,Manutenção
+ Pg.tx.fin.sd.dev.01/2024 ,395.0,DESPESA,2024-02,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,31.5,DESPESA,2024-02,Taxas e Impostos
+ Pg.impressões/Fotoc. ,838.29,DESPESA,2024-02,Administração
+ Pg.desp.divrs. ,1550.0,DESPESA,2024-02,Outros
+ Pg. Internet ,102.03,DESPESA,2024-02,Utilidades
+ Pg.emissão Darf/Impostos ,41.0,DESPESA,2024-02,Pessoal
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-02,Taxas e Impostos
+ Pg.efd-Reinf/E-Social ,32.0,DESPESA,2024-02,Pessoal
+ Pg.reemb.elab.e Entr.dirf ,350.0,DESPESA,2024-02,Outros
+ Água/Esgoto ,10661.01,DESPESA,2024-02,Utilidades
+ Pg.issqn ,923.16,DESPESA,2024-02,Taxas e Impostos
+ Pg.folha Func.bco. ,18.0,DESPESA,2024-02,Administração
+ Pg.assemb.ordin. ,195.8,DESPESA,2024-02,Outros
+ Pg.vale Refeição/Alimentação ,184.0,DESPESA,2024-02,Pessoal
+ Pg.salário ,1656.76,DESPESA,2024-02,Pessoal
+ Rec.cond.estacionamento ,680.0,RECEITA,2024-02,Receitas Condominiais
+ Fundo Obras ,3349.03,RECEITA,2024-02,Fundos
+ Rec.condomínio ,48056.78,RECEITA,2024-02,Receitas Condominiais
+ Rec.alug.depósito ,80.0,RECEITA,2024-02,Fundos
+ Rec.devolução Retirada ,3650.0,RECEITA,2024-02,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,118.41,RECEITA,2024-02,Receitas Condominiais
+ Rec.ch.extra Férias ,2.48,RECEITA,2024-02,Fundos
+ Pg.férias Período ,2467.4,DESPESA,2024-02,Pessoal
+ Rec. Multa ,35.96,RECEITA,2024-02,Receitas Condominiais
+ Pg.serv.limp. ,5315.77,DESPESA,2024-02,Utilidades
+ Pg.serv.portaria ,19289.57,DESPESA,2024-02,Utilidades
+ Pg.adto.salário ,300.0,DESPESA,2024-02,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1570.73,DESPESA,2024-02,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-02,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2024-02,Administração
+ Pg.secovimed ,168.8,DESPESA,2024-02,Taxas e Impostos
+ Pg.vale Transporte ,1513.8,DESPESA,2024-02,Pessoal
+ Pg.fgts ,319.59,DESPESA,2024-02,Pessoal
+ Pg.material ,1058.54,DESPESA,2024-03,Manutenção
+ Pg.mat.pintura ,750.06,DESPESA,2024-03,Manutenção
+ Pg.rep.elétrico ,2500.0,DESPESA,2024-03,Manutenção
+ Peças Elevador ,1026.88,DESPESA,2024-03,Manutenção
+ Água/Esgoto ,9077.62,DESPESA,2024-03,Utilidades
+ Pg.manutenção ,2000.0,DESPESA,2024-03,Manutenção
+ Pg.ceee ,1666.2,DESPESA,2024-03,Utilidades
+ Retirada P/Posterior Acerto ,3700.0,DESPESA,2024-03,Retiradas/Acerto
+ Pg.manut.elevador ,885.43,DESPESA,2024-03,Manutenção
+ Pg.tx.fin.sd.dev.02/2024 ,495.0,DESPESA,2024-03,Taxas e Impostos
+ Pg.impressões/Fotoc. ,7.35,DESPESA,2024-03,Administração
+ Pg. Internet ,99.9,DESPESA,2024-03,Utilidades
+ Pg. ,708.92,DESPESA,2024-03,Outros
+ Pg.correio Conv.assemb.c/Ar ,431.25,DESPESA,2024-03,Outros
+ Pg.emissão Darf/Impostos ,41.0,DESPESA,2024-03,Pessoal
+ Pg.efd-Reinf/E-Social ,32.0,DESPESA,2024-03,Pessoal
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-03,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,28.0,DESPESA,2024-03,Taxas e Impostos
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-03,Administração
+ Pg.folha Func.bco. ,18.0,DESPESA,2024-03,Administração
+ Pg.issqn ,1756.02,DESPESA,2024-03,Taxas e Impostos
+ Pg.salário ,1503.02,DESPESA,2024-03,Pessoal
+ Rec.alug.depósito ,120.0,RECEITA,2024-03,Fundos
+ Pg.secovimed ,168.8,DESPESA,2024-03,Taxas e Impostos
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2024-03,Pessoal
+ Fundo Obras ,547.75,RECEITA,2024-03,Fundos
+ Rec.condomínio ,48919.4,RECEITA,2024-03,Receitas Condominiais
+ Rec.cond.estacionamento ,680.0,RECEITA,2024-03,Receitas Condominiais
+ Rec.devolução Retirada ,3700.0,RECEITA,2024-03,Receitas Condominiais
+ Rec.taxa Uso Box ,190.0,RECEITA,2024-03,Fundos
+ Rec.multa+C.m.+Jrs. ,111.43,RECEITA,2024-03,Receitas Condominiais
+ Pg.seg.vida Func.03/2024 ,573.3,DESPESA,2024-03,Pessoal
+ Pg.férias Período ,2421.46,DESPESA,2024-03,Pessoal
+ Rec. Multa ,70.32,RECEITA,2024-03,Receitas Condominiais
+ Pg.fgts ,359.02,DESPESA,2024-03,Pessoal
+ Pg.serv.portaria ,19281.75,DESPESA,2024-03,Utilidades
+ Pg.serv.limp. ,5313.62,DESPESA,2024-03,Utilidades
+ Pg.contr.sind.patr./2024 ,310.7,DESPESA,2024-03,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2024-03,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,2145.93,DESPESA,2024-03,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-03,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2024-03,Administração
+ Pg.síndico Prof. ,3871.0,DESPESA,2024-03,Pessoal
+ Pg.vale Transporte ,1333.2,DESPESA,2024-03,Pessoal
+ Pg.material ,799.78,DESPESA,2024-04,Manutenção
+ Pg.rep.hidráulico ,1180.0,DESPESA,2024-04,Manutenção
+ Pg.pintura ,2000.0,DESPESA,2024-04,Manutenção
+ Água/Esgoto ,9681.23,DESPESA,2024-04,Utilidades
+ Peças Elevador ,1026.88,DESPESA,2024-04,Manutenção
+ Pg.ceee ,1837.38,DESPESA,2024-04,Utilidades
+ Pg.mat.limpeza ,1186.9,DESPESA,2024-04,Utilidades
+ Pg.manut.elevador ,885.43,DESPESA,2024-04,Manutenção
+ Pg.tx.fin.sd.dev.03/2024 ,732.0,DESPESA,2024-04,Taxas e Impostos
+ Pg.efd-Reinf/E-Social ,32.0,DESPESA,2024-04,Pessoal
+ Pg. ,708.93,DESPESA,2024-04,Outros
+ Pg.issqn ,1112.73,DESPESA,2024-04,Taxas e Impostos
+ Pg. Internet ,99.9,DESPESA,2024-04,Utilidades
+ Retirada P/Posterior Acerto ,3871.0,DESPESA,2024-04,Retiradas/Acerto
+ Pg.transações Bco.ted/Doc ,24.5,DESPESA,2024-04,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-04,Taxas e Impostos
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-04,Administração
+ Pg.impressões/Fotoc. ,7.35,DESPESA,2024-04,Administração
+ Pg.folha Func.bco. ,18.0,DESPESA,2024-04,Administração
+ Pg.desp.cartório ,214.97,DESPESA,2024-04,Outros
+ Pg.seg.vida Func.04/2024 ,286.65,DESPESA,2024-04,Pessoal
+ Pg.emissão Darf/Impostos ,41.0,DESPESA,2024-04,Pessoal
+ Pg.secovimed ,168.8,DESPESA,2024-04,Taxas e Impostos
+ Pg.salário ,2379.7,DESPESA,2024-04,Pessoal
+ Rec.condomínio ,52540.6,RECEITA,2024-04,Receitas Condominiais
+ Rec.alug.depósito ,80.0,RECEITA,2024-04,Fundos
+ Rec.cond.estacionamento ,760.0,RECEITA,2024-04,Receitas Condominiais
+ Rec.taxa Uso Box ,790.0,RECEITA,2024-04,Fundos
+ Rec.devolução Retirada ,3871.0,RECEITA,2024-04,Receitas Condominiais
+ Rec. Multa ,60.89,RECEITA,2024-04,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,102.28,RECEITA,2024-04,Receitas Condominiais
+ Pg.síndico Prof. ,7742.0,DESPESA,2024-04,Pessoal
+ Fundo Obras ,610.68,RECEITA,2024-04,Fundos
+ Pg.serv.limp. ,5310.88,DESPESA,2024-04,Utilidades
+ Pg.serv.portaria ,19271.81,DESPESA,2024-04,Utilidades
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-04,Administração
+ Pg.vale Transporte ,1572.04,DESPESA,2024-04,Pessoal
+ Pg.pcmso Secovimed ,200.35,DESPESA,2024-04,Taxas e Impostos
+ Reemb.mat.expediente ,109.62,DESPESA,2024-04,Administração
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2024-04,Pessoal
+ Pg.fgts ,376.57,DESPESA,2024-04,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2024-04,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,2369.85,DESPESA,2024-04,Pessoal
+ Pg.material ,264.1,DESPESA,2024-05,Manutenção
+ Prov.darf Inss(E-Social/Reinf) ,1559.77,DESPESA,2024-05,Outros
+ Água/Esgoto ,10013.66,DESPESA,2024-05,Utilidades
+ Pg.bóia ,289.26,DESPESA,2024-05,Manutenção
+ Pg.manutenção ,2000.0,DESPESA,2024-05,Manutenção
+ Peças Elevador ,1026.88,DESPESA,2024-05,Manutenção
+ Pg.manut.elevador ,885.43,DESPESA,2024-05,Manutenção
+ Pg.mat.limpeza ,705.2,DESPESA,2024-05,Utilidades
+ Pg. Internet ,112.89,DESPESA,2024-05,Utilidades
+ Pg.tx.fin.sd.dev.04/2024 ,910.0,DESPESA,2024-05,Taxas e Impostos
+ Pg.issqn ,1180.79,DESPESA,2024-05,Taxas e Impostos
+ Pg.seguro Incêndio ,1131.64,DESPESA,2024-05,Administração
+ Pg.transações Bco.ted/Doc ,28.0,DESPESA,2024-05,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-05,Taxas e Impostos
+ Pg.impressões/Fotoc. ,7.35,DESPESA,2024-05,Administração
+ Pg.efd-Reinf/E-Social/Impostos ,73.0,DESPESA,2024-05,Pessoal
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-05,Administração
+ Pg. ,650.0,DESPESA,2024-05,Outros
+ Pg.seg.vida Func.05/2024 ,286.65,DESPESA,2024-05,Pessoal
+ Pg.salário ,2974.43,DESPESA,2024-05,Pessoal
+ Pg.folha Func.bco. ,18.0,DESPESA,2024-05,Administração
+ Pg.síndico Prof. ,3871.0,DESPESA,2024-05,Pessoal
+ Fundo Obras ,532.2,RECEITA,2024-05,Fundos
+ Rec.condomínio ,48286.5,RECEITA,2024-05,Receitas Condominiais
+ Rec.cond.estacionamento ,760.0,RECEITA,2024-05,Receitas Condominiais
+ Rec.taxa Uso Box ,190.0,RECEITA,2024-05,Fundos
+ Rec. Multa ,103.5,RECEITA,2024-05,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,106.21,RECEITA,2024-05,Receitas Condominiais
+ Rec.ch.extra Férias ,9.13,RECEITA,2024-05,Fundos
+ Rec.alug.depósito ,160.0,RECEITA,2024-05,Fundos
+ Pg.serv.limp. ,5313.76,DESPESA,2024-05,Utilidades
+ Pg.serv.portaria ,19282.27,DESPESA,2024-05,Utilidades
+ Pg.fgts ,336.94,DESPESA,2024-05,Pessoal
+ Pg.vale Transporte ,1092.04,DESPESA,2024-05,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2024-05,Pessoal
+ Adto.13º Salário ,1638.0,DESPESA,2024-05,Outros
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-05,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2024-05,Administração
+ Pg.adto.salário ,600.0,DESPESA,2024-05,Pessoal
+ Pg.folha Func.bco. ,18.0,DESPESA,2024-06,Administração
+ Água/Esgoto ,6324.8,DESPESA,2024-06,Utilidades
+ Pg.bóia ,241.05,DESPESA,2024-06,Manutenção
+ Peças Elevador ,1026.88,DESPESA,2024-06,Manutenção
+ Pg.manut.elevador ,885.43,DESPESA,2024-06,Manutenção
+ Pg.tx.fin.sd.dev.05/2024 ,1072.0,DESPESA,2024-06,Taxas e Impostos
+ Pg.issqn ,1108.17,DESPESA,2024-06,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-06,Taxas e Impostos
+ Pg. Internet ,112.89,DESPESA,2024-06,Utilidades
+ Pg.elab-Reinf/E-Social/Impostos ,73.0,DESPESA,2024-06,Pessoal
+ Pg.transações Bco.ted/Doc ,28.0,DESPESA,2024-06,Taxas e Impostos
+ Pg. ,484.23,DESPESA,2024-06,Outros
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-06,Administração
+ Pg.impressões/Fotoc. ,7.35,DESPESA,2024-06,Administração
+ Pg.seg.vida Func.06/2024 ,286.65,DESPESA,2024-06,Pessoal
+ Pg.seguro Incêndio ,1131.64,DESPESA,2024-06,Administração
+ Pg.salário ,3012.56,DESPESA,2024-06,Pessoal
+ Pg.vale Transporte ,130.55,DESPESA,2024-06,Pessoal
+ Reemb.mat.expediente ,109.62,DESPESA,2024-06,Administração
+ Fundo Obras ,478.31,RECEITA,2024-06,Fundos
+ Rec.condomínio ,50593.63,RECEITA,2024-06,Receitas Condominiais
+ Rec.taxa Uso Box ,390.0,RECEITA,2024-06,Fundos
+ Rec.alug.depósito ,80.0,RECEITA,2024-06,Fundos
+ Rec. Multa ,83.26,RECEITA,2024-06,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,15.1,RECEITA,2024-06,Receitas Condominiais
+ Pg.pcmso Secovimed ,400.7,DESPESA,2024-06,Taxas e Impostos
+ Rec.cond.estacionamento ,600.0,RECEITA,2024-06,Receitas Condominiais
+ Pg.serv.portaria ,19278.91,DESPESA,2024-06,Utilidades
+ Pg.secovimed ,337.6,DESPESA,2024-06,Taxas e Impostos
+ Pg.adto.salário ,600.0,DESPESA,2024-06,Pessoal
+ Pg.fgts ,452.16,DESPESA,2024-06,Pessoal
+ Prov.darf Inss(E-Social/Reinf) ,1489.57,DESPESA,2024-06,Outros
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2024-06,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-06,Administração
+ Pg.serv.limp. ,5312.83,DESPESA,2024-06,Utilidades
+ Pg.manut.elevador ,885.43,DESPESA,2024-07,Manutenção
+ Peças Elevador ,1026.88,DESPESA,2024-07,Manutenção
+ Pg.recarga Extintores ,5169.0,DESPESA,2024-07,Outros
+ Pg.rep.bombas ,722.32,DESPESA,2024-07,Manutenção
+ Pg.manutenção ,175.57,DESPESA,2024-07,Manutenção
+ Pg.rep.elétrico ,2600.0,DESPESA,2024-07,Manutenção
+ Pg.material ,941.79,DESPESA,2024-07,Manutenção
+ Pg.disjuntor ,58.5,DESPESA,2024-07,Outros
+ Pg.mat.limpeza ,542.8,DESPESA,2024-07,Utilidades
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-07,Administração
+ Pg.issqn ,1092.74,DESPESA,2024-07,Taxas e Impostos
+ Pg.seguro Incêndio ,1131.64,DESPESA,2024-07,Administração
+ Pg. Internet ,112.89,DESPESA,2024-07,Utilidades
+ Pg.transações Bco.ted/Doc ,7.0,DESPESA,2024-07,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-07,Taxas e Impostos
+ Retirada P/Posterior Acerto ,3950.0,DESPESA,2024-07,Retiradas/Acerto
+ Pg.elab-Reinf/E-Social/Impostos ,73.0,DESPESA,2024-07,Pessoal
+ Água/Esgoto ,7610.76,DESPESA,2024-07,Utilidades
+ Pg.impressões/Fotoc. ,7.35,DESPESA,2024-07,Administração
+ Pg.tx.fin.sd.dev.06/2024 ,943.0,DESPESA,2024-07,Taxas e Impostos
+ Pg.salário ,2476.93,DESPESA,2024-07,Pessoal
+ Pg.seg.vida Func.07/2024 ,286.65,DESPESA,2024-07,Pessoal
+ Fundo Obras ,542.37,RECEITA,2024-07,Fundos
+ Pg.folha Func.bco. ,18.0,DESPESA,2024-07,Administração
+ Rec.condomínio ,52232.11,RECEITA,2024-07,Receitas Condominiais
+ Rec.alug.depósito ,110.0,RECEITA,2024-07,Fundos
+ Rec.cond.estacionamento ,760.0,RECEITA,2024-07,Receitas Condominiais
+ Rec.taxa Uso Box ,790.0,RECEITA,2024-07,Fundos
+ Rec. Multa ,58.34,RECEITA,2024-07,Receitas Condominiais
+ Pg.síndico Prof. ,3871.0,DESPESA,2024-07,Pessoal
+ Pg. ,7.0,DESPESA,2024-07,Outros
+ Pg.serv.limp. ,5308.24,DESPESA,2024-07,Utilidades
+ Rec.multa+C.m.+Jrs. ,187.63,RECEITA,2024-07,Receitas Condominiais
+ Pg.adto.salário ,600.0,DESPESA,2024-07,Pessoal
+ Pg.serv.portaria ,19262.26,DESPESA,2024-07,Utilidades
+ Reemb.mat.expediente ,109.62,DESPESA,2024-07,Administração
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-07,Administração
+ Pg.vale Transporte ,2129.78,DESPESA,2024-07,Pessoal
+ Pg.secovimed ,168.8,DESPESA,2024-07,Taxas e Impostos
+ Pg.darf Inss(E-Social/Reinf) ,1514.06,DESPESA,2024-07,Pessoal
+ Pg.pcmso Secovimed ,200.35,DESPESA,2024-07,Taxas e Impostos
+ Pg.fgts ,326.64,DESPESA,2024-07,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2024-07,Pessoal
+ Pg.mat.limpeza ,405.68,DESPESA,2024-08,Utilidades
+ Pg.seg.vida Func.08/2024 ,286.65,DESPESA,2024-08,Pessoal
+ Água/Esgoto ,8990.14,DESPESA,2024-08,Utilidades
+ Pg.ceee ,1640.45,DESPESA,2024-08,Utilidades
+ Pg.rep.elétrico ,2800.0,DESPESA,2024-08,Manutenção
+ Pg.contr.remoto ,214.87,DESPESA,2024-08,Outros
+ Peças Elevador ,1026.88,DESPESA,2024-08,Manutenção
+ Pg.manut.elevador ,922.88,DESPESA,2024-08,Manutenção
+ Pg.tx.fin.sd.dev.07/2024 ,1154.0,DESPESA,2024-08,Taxas e Impostos
+ Pg.folha Func.bco. ,9.0,DESPESA,2024-08,Administração
+ Pg.issqn ,1146.09,DESPESA,2024-08,Taxas e Impostos
+ Pg. Internet ,115.19,DESPESA,2024-08,Utilidades
+ Pg.transações Bco.ted/Doc ,28.0,DESPESA,2024-08,Taxas e Impostos
+ Pg. ,144.0,DESPESA,2024-08,Outros
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-08,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,73.0,DESPESA,2024-08,Pessoal
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-08,Administração
+ Pg.impressões/Fotoc. ,7.35,DESPESA,2024-08,Administração
+ Pg.seguro Incêndio ,1131.64,DESPESA,2024-08,Administração
+ Pg.salário ,1531.73,DESPESA,2024-08,Pessoal
+ Pg.dissídio Empregador/2024 ,340.29,DESPESA,2024-08,Pessoal
+ Pg.secovimed ,201.38,DESPESA,2024-08,Taxas e Impostos
+ Rec.condomínio ,53712.07,RECEITA,2024-08,Receitas Condominiais
+ Rec.taxa Uso Box ,390.0,RECEITA,2024-08,Fundos
+ Rec.cond.estacionamento ,680.0,RECEITA,2024-08,Receitas Condominiais
+ Rec.alug.depósito ,70.0,RECEITA,2024-08,Fundos
+ Rec.devolução Retirada ,3950.0,RECEITA,2024-08,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,342.29,RECEITA,2024-08,Receitas Condominiais
+ Rec. Multa ,48.7,RECEITA,2024-08,Receitas Condominiais
+ Pg.síndico Prof. ,3871.0,DESPESA,2024-08,Pessoal
+ Pg.serv.portaria ,19253.68,DESPESA,2024-08,Utilidades
+ Fundo Obras ,546.42,RECEITA,2024-08,Fundos
+ Pg.adto.salário ,300.0,DESPESA,2024-08,Pessoal
+ Pg.fgts ,294.78,DESPESA,2024-08,Pessoal
+ Pg.vale Refeição/Alimentação ,100.0,DESPESA,2024-08,Pessoal
+ Pg.vale Transporte ,781.89,DESPESA,2024-08,Pessoal
+ Pg.pcmso Secovimed ,200.39,DESPESA,2024-08,Taxas e Impostos
+ Pg.darf Inss(E-Social/Reinf) ,1374.23,DESPESA,2024-08,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-08,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2024-08,Administração
+ Pg.serv.limp. ,5305.88,DESPESA,2024-08,Utilidades
+ Pg.mat.limpeza ,255.15,DESPESA,2024-09,Utilidades
+ Pg.materiais ,596.98,DESPESA,2024-09,Outros
+ Pg.ceee ,2675.04,DESPESA,2024-09,Utilidades
+ Pg.manutenção ,1800.0,DESPESA,2024-09,Manutenção
+ Peças Elevador ,1026.88,DESPESA,2024-09,Manutenção
+ Pg.lâmpadas ,79.8,DESPESA,2024-09,Outros
+ Pg.manut.elevador ,922.88,DESPESA,2024-09,Manutenção
+ Pg.tx.fin.sd.dev.08/2024 ,1068.0,DESPESA,2024-09,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,73.0,DESPESA,2024-09,Pessoal
+ Pg.issqn ,1132.14,DESPESA,2024-09,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,14.0,DESPESA,2024-09,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-09,Taxas e Impostos
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-09,Administração
+ Pg. Internet ,115.3,DESPESA,2024-09,Utilidades
+ Pg.descarte Docum./2019 ,90.0,DESPESA,2024-09,Administração
+ Pg.impressões/Fotoc. ,6.3,DESPESA,2024-09,Administração
+ Água/Esgoto ,10328.59,DESPESA,2024-09,Utilidades
+ Pg.seguro Incêndio ,1131.64,DESPESA,2024-09,Administração
+ Pg.seg.vida Func.09/2024 ,286.65,DESPESA,2024-09,Pessoal
+ Pg.folha Func.bco. ,9.0,DESPESA,2024-09,Administração
+ Rec. Multa ,46.33,RECEITA,2024-09,Receitas Condominiais
+ Pg.salário ,1531.73,DESPESA,2024-09,Pessoal
+ Fundo Obras ,474.41,RECEITA,2024-09,Fundos
+ Rec.condomínio ,49207.1,RECEITA,2024-09,Receitas Condominiais
+ Rec.alug.depósito ,70.0,RECEITA,2024-09,Fundos
+ Rec.taxa Uso Box ,390.0,RECEITA,2024-09,Fundos
+ Rec.cond.estacionamento ,600.0,RECEITA,2024-09,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,51.54,RECEITA,2024-09,Receitas Condominiais
+ Pg.síndico Prof. ,3871.0,DESPESA,2024-09,Pessoal
+ Pg.serv.limp. ,5306.76,DESPESA,2024-09,Utilidades
+ Pg.serv.portaria ,19256.88,DESPESA,2024-09,Utilidades
+ Pg.fgts ,168.23,DESPESA,2024-09,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1394.18,DESPESA,2024-09,Pessoal
+ Pg.pcmso Secovimed ,200.35,DESPESA,2024-09,Taxas e Impostos
+ Pg.vale Refeição/Alimentação ,100.0,DESPESA,2024-09,Pessoal
+ Pg.vale Transporte ,812.65,DESPESA,2024-09,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2024-09,Taxas e Impostos
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-09,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2024-09,Administração
+ Pg.adto.salário ,300.0,DESPESA,2024-09,Pessoal
+ Pg.rep.elétrico ,100.0,DESPESA,2024-10,Manutenção
+ Pg.reforma ,3720.0,DESPESA,2024-10,Manutenção
+ Pg.manut.elevador ,922.88,DESPESA,2024-10,Manutenção
+ Peças Elevador ,1026.88,DESPESA,2024-10,Manutenção
+ Pg.salário ,2925.44,DESPESA,2024-10,Pessoal
+ Água/Esgoto ,9375.16,DESPESA,2024-10,Utilidades
+ Pg.folha Func.bco. ,18.0,DESPESA,2024-10,Administração
+ Pg.lâmpadas ,1011.06,DESPESA,2024-10,Outros
+ Pg.ceee ,2396.21,DESPESA,2024-10,Utilidades
+ Pg.mat.limpeza ,1312.51,DESPESA,2024-10,Utilidades
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-10,Administração
+ Pg.seguro Incêndio ,1131.66,DESPESA,2024-10,Administração
+ Pg.issqn ,1143.33,DESPESA,2024-10,Taxas e Impostos
+ Pg.bateria ,1106.1,DESPESA,2024-10,Outros
+ Pg.transações Bco.ted/Doc ,14.0,DESPESA,2024-10,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-10,Taxas e Impostos
+ Pg. Internet ,112.89,DESPESA,2024-10,Utilidades
+ Pg.elab-Reinf/E-Social/Impostos ,73.0,DESPESA,2024-10,Pessoal
+ Pg.impressões/Fotoc. ,10.5,DESPESA,2024-10,Administração
+ Pg.tx.fin.sd.dev.09/2024 ,1182.0,DESPESA,2024-10,Taxas e Impostos
+ Pg.seg.vida Func.10/2024 ,286.65,DESPESA,2024-10,Pessoal
+ Rec.condomínio ,57962.25,RECEITA,2024-10,Receitas Condominiais
+ Reemb.mat.expediente ,109.62,DESPESA,2024-10,Administração
+ Fundo Obras ,712.9,RECEITA,2024-10,Fundos
+ Rec.alug.depósito ,70.0,RECEITA,2024-10,Fundos
+ Rec.cond.estacionamento ,720.0,RECEITA,2024-10,Receitas Condominiais
+ Rec.taxa Uso Box ,190.0,RECEITA,2024-10,Fundos
+ Rec.multa+C.m.+Jrs. ,1074.86,RECEITA,2024-10,Receitas Condominiais
+ Rec. Multa ,38.16,RECEITA,2024-10,Receitas Condominiais
+ Rec.ch.extra Férias ,20.2,RECEITA,2024-10,Fundos
+ 13º Salario ,57.8,RECEITA,2024-10,Pessoal
+ Pg.síndico Prof. ,3871.0,DESPESA,2024-10,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2024-10,Taxas e Impostos
+ Estorno ,229.84,DESPESA,2024-10,Retiradas/Acerto
+ Pg.vale Refeição/Alimentação ,290.0,DESPESA,2024-10,Pessoal
+ Pg.serv.portaria ,19256.14,DESPESA,2024-10,Utilidades
+ Pg.serv.limp. ,5306.56,DESPESA,2024-10,Utilidades
+ Pg.adto.salário ,600.0,DESPESA,2024-10,Pessoal
+ Pg.fgts ,168.23,DESPESA,2024-10,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1194.18,DESPESA,2024-10,Pessoal
+ Pg.vale Transporte ,1032.38,DESPESA,2024-10,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-10,Administração
+ Pg.honor.processo ,1000.58,DESPESA,2024-10,Outros
+ Pg.manut.elevador ,922.88,DESPESA,2024-11,Manutenção
+ Peças Elevador ,1026.88,DESPESA,2024-11,Manutenção
+ Pg.salário ,3009.31,DESPESA,2024-11,Pessoal
+ Água/Esgoto ,6464.77,DESPESA,2024-11,Utilidades
+ Pg.seg.vida Func.11/2024 ,286.65,DESPESA,2024-11,Pessoal
+ Pg.coluna Água ,1450.0,DESPESA,2024-11,Outros
+ Pg.ceee ,2592.99,DESPESA,2024-11,Utilidades
+ Pg.materiais ,1210.5,DESPESA,2024-11,Outros
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-11,Taxas e Impostos
+ Pg.issqn ,1123.85,DESPESA,2024-11,Taxas e Impostos
+ Pg.transações Bco.ted/Doc ,31.5,DESPESA,2024-11,Taxas e Impostos
+ Pg. Internet ,117.86,DESPESA,2024-11,Utilidades
+ Pg.elab-Reinf/E-Social/Impostos ,73.0,DESPESA,2024-11,Pessoal
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-11,Administração
+ Pg.impressões/Fotoc. ,14.0,DESPESA,2024-11,Administração
+ Pg.1º Parc.13º Sal. ,272.05,DESPESA,2024-11,Pessoal
+ Pg.tx.fin.sd.dev.10/2024 ,1220.0,DESPESA,2024-11,Taxas e Impostos
+ Pg.folha Func.bco. ,18.0,DESPESA,2024-11,Administração
+ Pg.secovimed ,175.32,DESPESA,2024-11,Taxas e Impostos
+ Rec.alug.depósito ,70.0,RECEITA,2024-11,Fundos
+ Reemb.mat.expediente ,109.62,DESPESA,2024-11,Administração
+ Fundo Obras ,489.43,RECEITA,2024-11,Fundos
+ Rec.condomínio ,51158.83,RECEITA,2024-11,Receitas Condominiais
+ Rec.taxa Uso Box ,390.0,RECEITA,2024-11,Fundos
+ Rec.cond.estacionamento ,800.0,RECEITA,2024-11,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,196.35,RECEITA,2024-11,Receitas Condominiais
+ Rec. Multa ,88.15,RECEITA,2024-11,Receitas Condominiais
+ Pg.síndico Prof. ,3871.0,DESPESA,2024-11,Pessoal
+ 13º Salario ,1808.55,RECEITA,2024-11,Pessoal
+ Pg.vale Transporte ,1226.68,DESPESA,2024-11,Pessoal
+ Pg.serv.limp. ,5306.01,DESPESA,2024-11,Utilidades
+ Pg.serv.portaria ,19254.16,DESPESA,2024-11,Utilidades
+ Pg.adto.salário ,600.0,DESPESA,2024-11,Pessoal
+ Pg.fgts ,315.35,DESPESA,2024-11,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,2240.84,DESPESA,2024-11,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2024-11,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-11,Administração
+ Pg.sindef Dissídio-Desc.fl.pgtº. ,162.0,DESPESA,2024-11,Pessoal
+ Peças Elevador ,1026.88,DESPESA,2024-12,Manutenção
+ Pg.coluna Água ,1450.0,DESPESA,2024-12,Outros
+ Pg.manut.elevador ,922.88,DESPESA,2024-12,Manutenção
+ Pg.desinsetização ,436.1,DESPESA,2024-12,Outros
+ Pg.seg.vida Func.12/2024 ,227.04,DESPESA,2024-12,Pessoal
+ Pg.ceee ,2581.59,DESPESA,2024-12,Utilidades
+ Água/Esgoto ,8056.9,DESPESA,2024-12,Utilidades
+ Pg.mat.pintura ,952.27,DESPESA,2024-12,Manutenção
+ Pg.manutenção ,1800.0,DESPESA,2024-12,Manutenção
+ Pg.pintura ,2200.0,DESPESA,2024-12,Manutenção
+ Pg.elab-Reinf/E-Social/Impostos ,73.0,DESPESA,2024-12,Pessoal
+ Pg.tx.fin.sd.dev.11/2024 ,1220.0,DESPESA,2024-12,Taxas e Impostos
+ Pg.issqn ,1186.18,DESPESA,2024-12,Taxas e Impostos
+ Honor.advoc. ,1256.68,DESPESA,2024-12,Administração
+ Pg.declaração Pmpa/Issqndec ,35.0,DESPESA,2024-12,Taxas e Impostos
+ Pg.tapete ,1360.0,DESPESA,2024-12,Outros
+ Pg. Internet ,112.89,DESPESA,2024-12,Utilidades
+ Pg.transações Bco.ted ,17.5,DESPESA,2024-12,Taxas e Impostos
+ Pg.impressões/Fotoc. ,10.5,DESPESA,2024-12,Administração
+ Pg.tarifa Banco Cobrança ,552.0,DESPESA,2024-12,Administração
+ Pg.mat.limpeza ,376.9,DESPESA,2024-12,Utilidades
+ Pg.salário ,3009.31,DESPESA,2024-12,Pessoal
+ Rec.cond.estacionamento ,760.0,RECEITA,2024-12,Receitas Condominiais
+ Reemb.mat.expediente ,109.62,DESPESA,2024-12,Administração
+ Pg.folha Func.bco. ,36.0,DESPESA,2024-12,Administração
+ Rec.condomínio ,64869.46,RECEITA,2024-12,Receitas Condominiais
+ Rec.taxa Uso Box ,590.0,RECEITA,2024-12,Fundos
+ Rec.alug.depósito ,70.0,RECEITA,2024-12,Fundos
+ Rec.multa+C.m.+Jrs. ,2409.71,RECEITA,2024-12,Receitas Condominiais
+ Rec. Multa ,71.39,RECEITA,2024-12,Receitas Condominiais
+ 13º Salario ,1976.46,RECEITA,2024-12,Pessoal
+ Rec.ch.extra Férias ,32.41,RECEITA,2024-12,Fundos
+ Pg.síndico Prof. ,3871.0,DESPESA,2024-12,Pessoal
+ Pg.serv.portaria ,19251.3,DESPESA,2024-12,Utilidades
+ Fundo Obras ,945.67,RECEITA,2024-12,Fundos
+ Pg.adto.salário ,600.0,DESPESA,2024-12,Pessoal
+ Pg.serv.limp. ,5305.23,DESPESA,2024-12,Utilidades
+ Pg.inss S/13º Sal. ,1313.17,DESPESA,2024-12,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2024-12,Taxas e Impostos
+ Pg.darf Inss(E-Social/Reinf) ,2118.4,DESPESA,2024-12,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2024-12,Administração
+ Pg.fgts ,353.46,DESPESA,2024-12,Pessoal
+ Pg.vale Transporte ,1226.4,DESPESA,2024-12,Pessoal
+ Pg.2º Parc.13º Sal./2024 ,1607.16,DESPESA,2024-12,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2024-12,Pessoal
+ Peças Elevador ,1026.88,DESPESA,2025-01,Manutenção
+ Pg.contr.sind.patr./2025 ,322.23,DESPESA,2025-01,Pessoal
+ Água/Esgoto ,7969.42,DESPESA,2025-01,Utilidades
+ Pg.ceee ,2371.36,DESPESA,2025-01,Utilidades
+ Pg.limp.cx.d.água ,514.5,DESPESA,2025-01,Manutenção
+ Pg.desinsetização ,436.1,DESPESA,2025-01,Outros
+ Pg.bóia ,637.29,DESPESA,2025-01,Manutenção
+ Pg.manut.elevador ,922.88,DESPESA,2025-01,Manutenção
+ Pg.transações Bco.ted ,36.0,DESPESA,2025-01,Taxas e Impostos
+ Pg.mat.limpeza ,808.67,DESPESA,2025-01,Utilidades
+ Pg.tx.fin.sd.dev.12/2024 ,1108.0,DESPESA,2025-01,Taxas e Impostos
+ Pg.issqn ,1149.73,DESPESA,2025-01,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-01,Taxas e Impostos
+ Pg. Internet ,115.19,DESPESA,2025-01,Utilidades
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-01,Administração
+ Pg.impressões/Fotoc. ,14.0,DESPESA,2025-01,Administração
+ Pg.seg.vida Func.01/2025 ,227.04,DESPESA,2025-01,Pessoal
+ Pg.materiais ,1175.29,DESPESA,2025-01,Outros
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-01,Administração
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-01,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2025-01,Taxas e Impostos
+ Rec.cond.estacionamento ,680.0,RECEITA,2025-01,Receitas Condominiais
+ Rec.alug.depósito ,70.0,RECEITA,2025-01,Fundos
+ Fundo Obras ,488.09,RECEITA,2025-01,Fundos
+ Rec.condomínio ,53198.99,RECEITA,2025-01,Receitas Condominiais
+ Rec.taxa Uso Box ,190.0,RECEITA,2025-01,Fundos
+ Rec.multa+C.m.+Jrs. ,9.82,RECEITA,2025-01,Receitas Condominiais
+ 13º Salario ,69.16,RECEITA,2025-01,Pessoal
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-01,Pessoal
+ Rec. Multa ,77.5,RECEITA,2025-01,Receitas Condominiais
+ Pg.serv.limp. ,5305.09,DESPESA,2025-01,Utilidades
+ Pg.serv.portaria ,19250.82,DESPESA,2025-01,Utilidades
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2025-01,Administração
+ Pg.salário ,3173.14,DESPESA,2025-01,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,2336.12,DESPESA,2025-01,Pessoal
+ Reemb.mat.expediente ,109.62,DESPESA,2025-01,Administração
+ Pg.fgts ,484.37,DESPESA,2025-01,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2025-01,Pessoal
+ Pg.vale Transporte ,1086.63,DESPESA,2025-01,Pessoal
+ Pg.rep.hidráulico ,1200.0,DESPESA,2025-02,Manutenção
+ Pg.ceee ,2601.24,DESPESA,2025-02,Utilidades
+ Pg.limp.cx.d.água ,514.5,DESPESA,2025-02,Manutenção
+ Pg.desinsetização ,274.4,DESPESA,2025-02,Outros
+ Pg.recarga Extintores ,480.0,DESPESA,2025-02,Outros
+ Peças Elevador ,1027.41,DESPESA,2025-02,Manutenção
+ Pg.pintura ,2000.0,DESPESA,2025-02,Manutenção
+ Pg.materiais ,938.75,DESPESA,2025-02,Outros
+ Pg.mat.limpeza ,850.5,DESPESA,2025-02,Utilidades
+ Pg.impressões/Fotoc. ,59.85,DESPESA,2025-02,Administração
+ Pg.issqn ,1136.24,DESPESA,2025-02,Taxas e Impostos
+ Pg.tx.fin.sd.dev.01/2025 ,1157.0,DESPESA,2025-02,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,160.0,DESPESA,2025-02,Pessoal
+ Pg. Internet ,115.34,DESPESA,2025-02,Utilidades
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-02,Taxas e Impostos
+ Pg.transações Bco.ted ,20.0,DESPESA,2025-02,Taxas e Impostos
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-02,Administração
+ Pg.reemb.elab.e Entr.dirf ,350.0,DESPESA,2025-02,Outros
+ Pg.seg.vida Func.02/2025 ,227.04,DESPESA,2025-02,Pessoal
+ Pg. ,6365.0,DESPESA,2025-02,Outros
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-02,Administração
+ Água/Esgoto ,7768.22,DESPESA,2025-02,Utilidades
+ Reemb.mat.expediente ,109.62,DESPESA,2025-02,Administração
+ Pg.salário ,3071.05,DESPESA,2025-02,Pessoal
+ Rec.cond.estacionamento ,680.0,RECEITA,2025-02,Receitas Condominiais
+ Rec.alug.depósito ,70.0,RECEITA,2025-02,Fundos
+ Fundo Obras ,462.34,RECEITA,2025-02,Fundos
+ Rec.condomínio ,51096.42,RECEITA,2025-02,Receitas Condominiais
+ Rec.taxa Uso Box ,390.0,RECEITA,2025-02,Fundos
+ Rec.multa+C.m.+Jrs. ,34.64,RECEITA,2025-02,Receitas Condominiais
+ 13º Salario ,7.92,RECEITA,2025-02,Pessoal
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-02,Pessoal
+ Pg.serv.portaria ,20790.76,DESPESA,2025-02,Utilidades
+ Rec. Multa ,42.28,RECEITA,2025-02,Receitas Condominiais
+ Pg.serv.prestados ,5390.0,DESPESA,2025-02,Manutenção
+ Pg.adto.salário ,600.0,DESPESA,2025-02,Pessoal
+ Pg.vale Transporte ,1335.65,DESPESA,2025-02,Pessoal
+ Pg.fgts ,336.84,DESPESA,2025-02,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1558.06,DESPESA,2025-02,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-02,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2025-02,Taxas e Impostos
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2025-02,Administração
+ Pg.serv.limp. ,5729.47,DESPESA,2025-02,Utilidades
+ Pg.manutenção ,92.52,DESPESA,2025-03,Manutenção
+ Pg.limp.cx.d.água ,514.5,DESPESA,2025-03,Manutenção
+ Pg.ceee ,1824.66,DESPESA,2025-03,Utilidades
+ Água/Esgoto ,8695.51,DESPESA,2025-03,Utilidades
+ Pg.salário ,3071.05,DESPESA,2025-03,Pessoal
+ Pg.assemb.ordin. ,213.6,DESPESA,2025-03,Outros
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-03,Administração
+ Pg.secovimed ,175.32,DESPESA,2025-03,Taxas e Impostos
+ Pg.conserto ,390.0,DESPESA,2025-03,Outros
+ Pg.seg.vida Func.03/2025 ,227.04,DESPESA,2025-03,Pessoal
+ Pg.mat.pintura ,719.8,DESPESA,2025-03,Manutenção
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-03,Administração
+ Pg.pintura ,3200.0,DESPESA,2025-03,Manutenção
+ Pg.transações Bco.ted ,32.0,DESPESA,2025-03,Taxas e Impostos
+ Pg.tx.fin.sd.dev.02/2025 ,1545.0,DESPESA,2025-03,Taxas e Impostos
+ Pg.issqn ,1600.55,DESPESA,2025-03,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-03,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-03,Pessoal
+ Pg.correio Conv.assemb.c/Ar ,433.2,DESPESA,2025-03,Outros
+ Pg. Internet ,114.84,DESPESA,2025-03,Utilidades
+ Pg.impressões/Fotoc. ,10.5,DESPESA,2025-03,Administração
+ Reemb.mat.expediente ,109.62,DESPESA,2025-03,Administração
+ Pg.rep.hidráulico ,373.45,DESPESA,2025-03,Manutenção
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2025-03,Administração
+ Rec. ,470.36,RECEITA,2025-03,Outros
+ Pg.darf Inss(E-Social/Reinf) ,1510.57,DESPESA,2025-03,Pessoal
+ Rec.cond.estacionamento ,720.0,RECEITA,2025-03,Receitas Condominiais
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-03,Pessoal
+ Fundo Obras ,533.41,RECEITA,2025-03,Fundos
+ Rec.condomínio ,62745.32,RECEITA,2025-03,Receitas Condominiais
+ Rec.taxa Uso Box ,390.0,RECEITA,2025-03,Fundos
+ Fundo Reserva ,16.14,RECEITA,2025-03,Fundos
+ Obra Poço Luz ,10.48,RECEITA,2025-03,Outros
+ Rec. Multa ,80.22,RECEITA,2025-03,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,358.82,RECEITA,2025-03,Receitas Condominiais
+ Dif.salarial ,537.76,RECEITA,2025-03,Fundos
+ Pg.serv.portaria ,113.29,RECEITA,2025-03,Utilidades
+ Rec.alug.depósito ,190.0,RECEITA,2025-03,Fundos
+ 13º Salario ,21.81,RECEITA,2025-03,Pessoal
+ Pg. Serviços ,36.69,RECEITA,2025-03,Outros
+ Pg.fgts ,336.84,DESPESA,2025-03,Pessoal
+ Pg.vale Transporte ,1171.18,DESPESA,2025-03,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2025-03,Pessoal
+ Pg.pcmso Secovimed ,208.38,DESPESA,2025-03,Taxas e Impostos
+ Pg.serv.limp. ,5729.07,DESPESA,2025-03,Utilidades
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-03,Pessoal
+ Pg.limp.cx.d.água ,3.19,RECEITA,2025-03,Manutenção
+ Água/Esgoto ,48.23,RECEITA,2025-03,Utilidades
+ Pg.serv.portaria ,20789.33,DESPESA,2025-03,Utilidades
+ Pg.seg.vida Func.04/2025 ,227.04,DESPESA,2025-04,Pessoal
+ Pg.desp.cartório ,213.99,DESPESA,2025-04,Outros
+ Água/Esgoto ,8870.47,DESPESA,2025-04,Utilidades
+ Pg.ceee ,1844.76,DESPESA,2025-04,Utilidades
+ Pg.impressões/Fotoc. ,64.05,DESPESA,2025-04,Administração
+ Pg.limp.cx.d.água ,514.5,DESPESA,2025-04,Manutenção
+ Pg.cons.fechadura ,780.0,DESPESA,2025-04,Outros
+ Pg.mat.pintura ,573.93,DESPESA,2025-04,Manutenção
+ Pg.mat.limpeza ,596.4,DESPESA,2025-04,Utilidades
+ Pg.transações Bco.ted ,32.0,DESPESA,2025-04,Taxas e Impostos
+ Pg.devolução ,40.71,DESPESA,2025-04,Outros
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-04,Taxas e Impostos
+ Pg. Internet ,125.83,DESPESA,2025-04,Utilidades
+ Pg.tx.fin.sd.dev.03/2025 ,1413.0,DESPESA,2025-04,Taxas e Impostos
+ Pg.remessa Doctos. ,185.3,DESPESA,2025-04,Administração
+ Honor.advoc. ,490.0,DESPESA,2025-04,Administração
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-04,Pessoal
+ Pg.renovação Cert.digital ,145.0,DESPESA,2025-04,Outros
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-04,Administração
+ Pg.salário ,3089.3,DESPESA,2025-04,Pessoal
+ Pg.issqn ,1175.72,DESPESA,2025-04,Taxas e Impostos
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-04,Administração
+ Pg.manutenção ,160.69,DESPESA,2025-04,Manutenção
+ Reemb.mat.expediente ,109.62,DESPESA,2025-04,Administração
+ Fundo Obras ,536.23,RECEITA,2025-04,Fundos
+ Rec.condomínio ,65452.6,RECEITA,2025-04,Receitas Condominiais
+ Rec.alug.depósito ,240.0,RECEITA,2025-04,Fundos
+ Rec.taxa Uso Box ,680.0,RECEITA,2025-04,Fundos
+ Rec.cond.estacionamento ,40.0,RECEITA,2025-04,Receitas Condominiais
+ Rec. ,490.0,RECEITA,2025-04,Outros
+ Rec.multa+C.m.+Jrs. ,305.39,RECEITA,2025-04,Receitas Condominiais
+ Rec. Multa ,85.38,RECEITA,2025-04,Receitas Condominiais
+ 13º Salario ,32.14,RECEITA,2025-04,Pessoal
+ Dif.salarial ,556.85,RECEITA,2025-04,Fundos
+ Pg.secovimed ,175.32,DESPESA,2025-04,Taxas e Impostos
+ Pg.serv.portaria ,20787.17,DESPESA,2025-04,Utilidades
+ Pg.serv.limp. ,5728.48,DESPESA,2025-04,Utilidades
+ Pg.serv.prestados ,169.75,DESPESA,2025-04,Manutenção
+ Pg.adto.salário ,600.0,DESPESA,2025-04,Pessoal
+ Pg.fgts ,336.84,DESPESA,2025-04,Pessoal
+ Pg.pcmso Secovimed ,208.38,DESPESA,2025-04,Taxas e Impostos
+ Pg.darf Inss(E-Social/Reinf) ,1584.97,DESPESA,2025-04,Pessoal
+ Pg.vale Transporte ,1552.81,DESPESA,2025-04,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-04,Pessoal
+ Taxa Auxiliar Administracao ,1096.2,DESPESA,2025-04,Administração
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-04,Pessoal
+ Pg.mat.limpeza ,475.68,DESPESA,2025-05,Utilidades
+ Pg.material ,57.0,DESPESA,2025-05,Manutenção
+ Pg.reparos ,1910.0,DESPESA,2025-05,Manutenção
+ Pg.ceee ,1694.38,DESPESA,2025-05,Utilidades
+ Pg.manutenção ,175.41,DESPESA,2025-05,Manutenção
+ Pg.limp.cx.d.água ,509.6,DESPESA,2025-05,Manutenção
+ Pg.desinsetização ,676.2,DESPESA,2025-05,Outros
+ Pg. ,704.62,DESPESA,2025-05,Outros
+ Pg.manut.bombas ,3230.1,DESPESA,2025-05,Manutenção
+ Pg.tx.fin.sd.dev.04/2025 ,1199.0,DESPESA,2025-05,Taxas e Impostos
+ Pg.transações Bco.ted ,32.0,DESPESA,2025-05,Taxas e Impostos
+ Pg.issqn ,1210.38,DESPESA,2025-05,Taxas e Impostos
+ Pg.certificação Digital ,357.0,DESPESA,2025-05,Outros
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-05,Pessoal
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-05,Taxas e Impostos
+ Pg. Internet ,124.06,DESPESA,2025-05,Utilidades
+ Valor ,4377.68,DESPESA,2025-05,Outros
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-05,Administração
+ Pg.impressões/Fotoc. ,9.8,DESPESA,2025-05,Administração
+ Água/Esgoto ,7567.02,DESPESA,2025-05,Utilidades
+ Pg.seguro Incêndio ,1471.0,DESPESA,2025-05,Administração
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-05,Administração
+ Pg.seg.vida Func.05/2025 ,227.04,DESPESA,2025-05,Pessoal
+ Rec. Multa ,76.19,RECEITA,2025-05,Receitas Condominiais
+ Pg.salário ,3089.3,DESPESA,2025-05,Pessoal
+ Fundo Obras ,489.86,RECEITA,2025-05,Fundos
+ Rec.condomínio ,61828.89,RECEITA,2025-05,Receitas Condominiais
+ Rec.alug.depósito ,110.0,RECEITA,2025-05,Fundos
+ Rec.taxa Uso Box ,1070.0,RECEITA,2025-05,Fundos
+ Rec. ,80.0,RECEITA,2025-05,Outros
+ Rec.multa+C.m.+Jrs. ,167.82,RECEITA,2025-05,Receitas Condominiais
+ Dif.salarial ,551.05,RECEITA,2025-05,Fundos
+ Rec.ch.extra Férias ,267.19,RECEITA,2025-05,Fundos
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-05,Pessoal
+ Valor ,4377.68,RECEITA,2025-05,Outros
+ Pg.adto.salário ,600.0,DESPESA,2025-05,Pessoal
+ Pg.serv.limp. ,5728.49,DESPESA,2025-05,Utilidades
+ Pg.fgts ,338.45,DESPESA,2025-05,Pessoal
+ Pg.pcmso Secovimed ,208.37,DESPESA,2025-05,Taxas e Impostos
+ Pg.vale Transporte ,1394.18,DESPESA,2025-05,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1517.69,DESPESA,2025-05,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2025-05,Taxas e Impostos
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-05,Pessoal
+ Taxa Auxiliar Administracao ,1189.37,DESPESA,2025-05,Administração
+ Reemb.mat.expediente ,118.94,DESPESA,2025-05,Administração
+ Pg.serv.portaria ,20787.22,DESPESA,2025-05,Utilidades
+ Pg.rep.elevador ,129.82,DESPESA,2025-06,Manutenção
+ Pg.mat.pintura ,3428.32,DESPESA,2025-06,Manutenção
+ Pg.reforma ,3620.08,DESPESA,2025-06,Manutenção
+ Pg.reparos ,2440.0,DESPESA,2025-06,Manutenção
+ Pg.rep.elétrico ,199.4,DESPESA,2025-06,Manutenção
+ Pg.cons.fechadura ,550.0,DESPESA,2025-06,Outros
+ Pg.limp.cx.d.água ,509.6,DESPESA,2025-06,Manutenção
+ Pg.manutenção ,4243.72,DESPESA,2025-06,Manutenção
+ Pg.mat.limpeza ,1002.9,DESPESA,2025-06,Utilidades
+ Pg.impermeabilização ,5500.0,DESPESA,2025-06,Outros
+ Pg.tx.fin.sd.dev.05/2025 ,1138.0,DESPESA,2025-06,Taxas e Impostos
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-06,Administração
+ Pg.issqn ,1375.93,DESPESA,2025-06,Taxas e Impostos
+ Pg.transações Bco.ted ,36.0,DESPESA,2025-06,Taxas e Impostos
+ Pg. ,500.0,DESPESA,2025-06,Outros
+ Pg.taxa ,103.03,DESPESA,2025-06,Outros
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-06,Taxas e Impostos
+ Pg.locação ,287.64,DESPESA,2025-06,Outros
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-06,Pessoal
+ Pg.impressões/Fotoc. ,59.85,DESPESA,2025-06,Administração
+ Pg. Internet ,123.71,DESPESA,2025-06,Utilidades
+ Pg. Taxa Crea ,103.03,DESPESA,2025-06,Outros
+ Pg.seguro Incêndio ,1471.0,DESPESA,2025-06,Administração
+ Pg.ceee ,1709.45,DESPESA,2025-06,Utilidades
+ Rec.taxa Uso Box ,580.0,RECEITA,2025-06,Fundos
+ Pg.seg.vida Func.06/2025 ,227.04,DESPESA,2025-06,Pessoal
+ Água/Esgoto ,7602.01,DESPESA,2025-06,Utilidades
+ Fundo Obras ,498.58,RECEITA,2025-06,Fundos
+ Rec.condomínio ,63375.61,RECEITA,2025-06,Receitas Condominiais
+ Rec.alug.depósito ,90.0,RECEITA,2025-06,Fundos
+ Telhado ,173.88,RECEITA,2025-06,Manutenção
+ Rec.multa+C.m.+Jrs. ,83.26,RECEITA,2025-06,Receitas Condominiais
+ Dif.salarial ,568.79,RECEITA,2025-06,Fundos
+ Rec.ch.extra Férias ,5819.09,RECEITA,2025-06,Fundos
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-06,Pessoal
+ Pg.serv.portaria ,20785.53,DESPESA,2025-06,Utilidades
+ Pg.serv.limp. ,5728.03,DESPESA,2025-06,Utilidades
+ Rec. Multa ,91.09,RECEITA,2025-06,Receitas Condominiais
+ Pg.fgts ,338.45,DESPESA,2025-06,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,1522.91,DESPESA,2025-06,Pessoal
+ Pg.pcmso Secovimed ,208.37,DESPESA,2025-06,Taxas e Impostos
+ Pg.vale Transporte ,674.28,DESPESA,2025-06,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-06,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2025-06,Taxas e Impostos
+ Taxa Auxiliar Administracao ,1189.37,DESPESA,2025-06,Administração
+ Reemb.mat.expediente ,118.94,DESPESA,2025-06,Administração
+ Pg.salário ,3439.29,DESPESA,2025-06,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2025-06,Pessoal
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-06,Administração
+ Pg.rep.hidráulico ,1705.0,DESPESA,2025-07,Manutenção
+ Valor ,1147.28,DESPESA,2025-07,Outros
+ Pg.reforma ,8686.44,DESPESA,2025-07,Manutenção
+ Pg.mat.pintura ,5402.26,DESPESA,2025-07,Manutenção
+ Pg.cons.telhado ,3620.08,DESPESA,2025-07,Manutenção
+ Pg.manutenção ,4300.0,DESPESA,2025-07,Manutenção
+ Pg.recarga Extintores ,2610.0,DESPESA,2025-07,Outros
+ Pg.limp.cx.d.água ,509.6,DESPESA,2025-07,Manutenção
+ Pg.ceee ,2030.27,DESPESA,2025-07,Utilidades
+ Pg.rep.elevador ,308.33,DESPESA,2025-07,Manutenção
+ Pg.materiais ,1437.7,DESPESA,2025-07,Outros
+ Pg.reparos ,1920.0,DESPESA,2025-07,Manutenção
+ Pg.remessa Doctos. ,170.2,DESPESA,2025-07,Administração
+ Pg.custas Judiciais ,110.3,DESPESA,2025-07,Outros
+ Pg.seguro Incêndio ,1471.0,DESPESA,2025-07,Administração
+ Pg.tx.fin.sd.dev.06/2025 ,1233.0,DESPESA,2025-07,Taxas e Impostos
+ Pg.issqn ,1558.15,DESPESA,2025-07,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-07,Taxas e Impostos
+ Pg.transações Bco.ted ,52.0,DESPESA,2025-07,Taxas e Impostos
+ Pg. Internet ,122.15,DESPESA,2025-07,Utilidades
+ Pg.correio Conv.assemb.c/Ar ,628.8,DESPESA,2025-07,Outros
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-07,Pessoal
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-07,Administração
+ Pg.impressões/Fotoc. ,58.45,DESPESA,2025-07,Administração
+ Água/Esgoto ,7123.53,DESPESA,2025-07,Utilidades
+ Pg. ,1440.7,DESPESA,2025-07,Outros
+ Pg.salário ,3685.31,DESPESA,2025-07,Pessoal
+ Pg.fgts ,369.21,DESPESA,2025-07,Pessoal
+ Pg.seg.vida Func.07/2025 ,227.04,DESPESA,2025-07,Pessoal
+ Fundo Obras ,770.54,RECEITA,2025-07,Fundos
+ Rec.condomínio ,74274.36,RECEITA,2025-07,Receitas Condominiais
+ Rec.alug.depósito ,90.0,RECEITA,2025-07,Fundos
+ Telhado ,3502.44,RECEITA,2025-07,Manutenção
+ Rec.taxa Uso Box ,580.0,RECEITA,2025-07,Fundos
+ Rec.multa+C.m.+Jrs. ,1974.81,RECEITA,2025-07,Receitas Condominiais
+ Rec. Multa ,188.1,RECEITA,2025-07,Receitas Condominiais
+ Dif.salarial ,571.27,RECEITA,2025-07,Fundos
+ Rec.ch.extra Férias ,277.59,RECEITA,2025-07,Fundos
+ 13º Salario ,24.84,RECEITA,2025-07,Pessoal
+ Valor ,1147.28,RECEITA,2025-07,Outros
+ Pg.férias Período ,5499.51,DESPESA,2025-07,Pessoal
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-07,Administração
+ Pg.serv.portaria ,20790.87,DESPESA,2025-07,Utilidades
+ Pg.secovimed ,175.32,DESPESA,2025-07,Taxas e Impostos
+ Pg.serv.prestados ,418.0,DESPESA,2025-07,Manutenção
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-07,Pessoal
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-07,Pessoal
+ Taxa Auxiliar Administracao ,1189.37,DESPESA,2025-07,Administração
+ Reemb.mat.expediente ,118.94,DESPESA,2025-07,Administração
+ Pg.vale Transporte ,1443.57,DESPESA,2025-07,Pessoal
+ Pg.pcmso Secovimed ,208.37,DESPESA,2025-07,Taxas e Impostos
+ Pg.darf Inss(E-Social/Reinf) ,2879.37,DESPESA,2025-07,Pessoal
+ Pg.adto.salário ,300.0,DESPESA,2025-07,Pessoal
+ Pg.serv.limp. ,5729.5,DESPESA,2025-07,Utilidades
+ Pg.honor.processo ,3800.0,DESPESA,2025-07,Outros
+ Pg.rep.hidráulico ,504.37,DESPESA,2025-08,Manutenção
+ Pg.reforma ,5636.44,DESPESA,2025-08,Manutenção
+ Pg.material ,2208.73,DESPESA,2025-08,Manutenção
+ Pg.rep.elétrico ,650.0,DESPESA,2025-08,Manutenção
+ Pg.seg.vida Func.08/2025 ,227.04,DESPESA,2025-08,Pessoal
+ Pg.manutenção ,311.9,DESPESA,2025-08,Manutenção
+ Pg.manut.bombas ,1193.1,DESPESA,2025-08,Manutenção
+ Pg.ceee ,1917.12,DESPESA,2025-08,Utilidades
+ Água/Esgoto ,9044.28,DESPESA,2025-08,Utilidades
+ Pg.mat.pintura ,2100.0,DESPESA,2025-08,Manutenção
+ Pg.manut.portão ,2600.0,DESPESA,2025-08,Manutenção
+ Pg.rep.elevador ,308.33,DESPESA,2025-08,Manutenção
+ Pg.transações Bco.ted ,68.0,DESPESA,2025-08,Taxas e Impostos
+ Pg.mat.limpeza ,641.2,DESPESA,2025-08,Utilidades
+ Pg.seguro Incêndio ,1471.0,DESPESA,2025-08,Administração
+ Pg.tx.fin.sd.dev.07/2025 ,1552.0,DESPESA,2025-08,Taxas e Impostos
+ Pg.issqn ,1500.15,DESPESA,2025-08,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-08,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-08,Pessoal
+ Pg.remessa Doctos. ,156.2,DESPESA,2025-08,Administração
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-08,Administração
+ Pg.impressões/Fotoc. ,56.7,DESPESA,2025-08,Administração
+ Valor ,911.07,DESPESA,2025-08,Outros
+ Pg.salário ,2917.69,DESPESA,2025-08,Pessoal
+ Pg.cons.portão ,284.2,DESPESA,2025-08,Manutenção
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-08,Administração
+ Pg. Internet ,122.97,DESPESA,2025-08,Utilidades
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-08,Pessoal
+ Fundo Obras ,475.78,RECEITA,2025-08,Fundos
+ Pg.secovimed ,242.6,DESPESA,2025-08,Taxas e Impostos
+ Rec.alug.depósito ,90.0,RECEITA,2025-08,Fundos
+ Telhado ,124.2,RECEITA,2025-08,Manutenção
+ Rec.taxa Uso Box ,1450.0,RECEITA,2025-08,Fundos
+ Rec.acordo ,500.0,RECEITA,2025-08,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,62.33,RECEITA,2025-08,Receitas Condominiais
+ Rec. Multa ,82.57,RECEITA,2025-08,Receitas Condominiais
+ Dif.salarial ,20.81,RECEITA,2025-08,Fundos
+ Rec.ch.extra Férias ,86.97,RECEITA,2025-08,Fundos
+ Pg.acordo ,80.0,RECEITA,2025-08,Administração
+ Valor ,911.07,RECEITA,2025-08,Outros
+ Rec.condomínio ,67513.0,RECEITA,2025-08,Receitas Condominiais
+ Pg.serv.limp. ,5147.3,DESPESA,2025-08,Utilidades
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-08,Pessoal
+ Pg.vale Transporte ,1378.49,DESPESA,2025-08,Pessoal
+ Pg.pcmso Secovimed ,208.37,DESPESA,2025-08,Taxas e Impostos
+ Reemb.mat.expediente ,118.94,DESPESA,2025-08,Administração
+ Taxa Auxiliar Administracao ,1189.37,DESPESA,2025-08,Administração
+ Pg.dissídio Empregador/2025 ,357.31,DESPESA,2025-08,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,6041.31,DESPESA,2025-08,Pessoal
+ Pg.fgts ,585.06,DESPESA,2025-08,Pessoal
+ Pg.sindef Dissídio-Desc.fl.pgtº. ,238.2,DESPESA,2025-08,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2025-08,Pessoal
+ Pg.serv.portaria ,18678.25,DESPESA,2025-08,Utilidades
+ Pg.mat.pintura ,1136.54,DESPESA,2025-09,Manutenção
+ Água/Esgoto ,10638.68,DESPESA,2025-09,Utilidades
+ Pg.ceee ,2176.33,DESPESA,2025-09,Utilidades
+ Pg.manut.elevador ,896.27,DESPESA,2025-09,Manutenção
+ Pg.manutenção ,175.45,DESPESA,2025-09,Manutenção
+ Pg.fechadura ,460.0,DESPESA,2025-09,Manutenção
+ Pg.material ,756.96,DESPESA,2025-09,Manutenção
+ Pg.rep.gesso ,1740.0,DESPESA,2025-09,Manutenção
+ Pg.seg.vida Func.09/2025 ,227.04,DESPESA,2025-09,Pessoal
+ Pg.rep.elevador ,308.33,DESPESA,2025-09,Manutenção
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-09,Taxas e Impostos
+ Pg.seguro Incêndio ,1471.0,DESPESA,2025-09,Administração
+ Pg.tx.fin.sd.dev.08/2025 ,1644.0,DESPESA,2025-09,Taxas e Impostos
+ Pg.issqn ,1001.39,DESPESA,2025-09,Taxas e Impostos
+ Pg.transações Bco.ted ,52.0,DESPESA,2025-09,Taxas e Impostos
+ Pg. Internet ,123.68,DESPESA,2025-09,Utilidades
+ Pg.descarte Docum./2019 ,95.0,DESPESA,2025-09,Administração
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-09,Pessoal
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-09,Administração
+ Pg.remessa Doctos. ,28.1,DESPESA,2025-09,Administração
+ Pg.impressões/Fotoc. ,9.0,DESPESA,2025-09,Administração
+ Pg.mat.limpeza ,1330.7,DESPESA,2025-09,Utilidades
+ Pg.salário ,3242.45,DESPESA,2025-09,Pessoal
+ Reemb.mat.expediente ,118.94,DESPESA,2025-09,Administração
+ Pg.secovimed ,176.0,DESPESA,2025-09,Taxas e Impostos
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-09,Administração
+ Fundo Obras ,490.82,RECEITA,2025-09,Fundos
+ Rec.condomínio ,65024.82,RECEITA,2025-09,Receitas Condominiais
+ Rec.alug.depósito ,110.0,RECEITA,2025-09,Fundos
+ Telhado ,49.68,RECEITA,2025-09,Manutenção
+ Rec.taxa Uso Box ,290.0,RECEITA,2025-09,Fundos
+ Rec. Multa ,96.6,RECEITA,2025-09,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,86.88,RECEITA,2025-09,Receitas Condominiais
+ Rec.ch.extra Férias ,3392.88,RECEITA,2025-09,Fundos
+ Dif.salarial ,10.6,RECEITA,2025-09,Fundos
+ Rec.acordo ,316.35,RECEITA,2025-09,Receitas Condominiais
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-09,Pessoal
+ 13º Salario ,25.91,RECEITA,2025-09,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-09,Pessoal
+ Pg.vale Transporte ,2003.31,DESPESA,2025-09,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,5219.62,DESPESA,2025-09,Pessoal
+ Pg.fgts ,361.24,DESPESA,2025-09,Pessoal
+ Taxa Auxiliar Administracao ,1189.37,DESPESA,2025-09,Administração
+ Pg.serv.limp. ,5147.3,DESPESA,2025-09,Utilidades
+ Pg.serv.portaria ,18678.25,DESPESA,2025-09,Utilidades
+ Pg.indenização ,480.0,DESPESA,2025-09,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2025-09,Pessoal
+ Pg.reparos ,1735.0,DESPESA,2025-10,Manutenção
+ Água/Esgoto ,11198.12,DESPESA,2025-10,Utilidades
+ Pg.ceee ,1934.21,DESPESA,2025-10,Utilidades
+ Pg.manut.elevador ,896.27,DESPESA,2025-10,Manutenção
+ Pg.manutenção ,77.99,DESPESA,2025-10,Manutenção
+ Pg.instalação ,590.0,DESPESA,2025-10,Manutenção
+ Pg.rep.gesso ,1740.0,DESPESA,2025-10,Manutenção
+ Pg.mat.pintura ,700.0,DESPESA,2025-10,Manutenção
+ Pg.rep.elevador ,438.15,DESPESA,2025-10,Manutenção
+ Pg.seguro Incêndio ,1471.0,DESPESA,2025-10,Administração
+ Pg.folha Func.bco. ,19.6,DESPESA,2025-10,Administração
+ Pg.issqn ,966.99,DESPESA,2025-10,Taxas e Impostos
+ Pg.transações Bco.ted ,28.0,DESPESA,2025-10,Taxas e Impostos
+ Pg. Internet ,124.64,DESPESA,2025-10,Utilidades
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-10,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-10,Pessoal
+ Honor.advoc. ,2000.0,DESPESA,2025-10,Administração
+ Pg.remessa Doctos. ,29.45,DESPESA,2025-10,Administração
+ Pg.impressões/Fotoc. ,12.0,DESPESA,2025-10,Administração
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-10,Administração
+ Pg.tx.fin.sd.dev.09/2025 ,1573.0,DESPESA,2025-10,Taxas e Impostos
+ Pg.seg.vida Func.10/2025 ,227.04,DESPESA,2025-10,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,4662.63,DESPESA,2025-10,Pessoal
+ Reemb.mat.expediente ,118.94,DESPESA,2025-10,Administração
+ Rec.condomínio ,67924.52,RECEITA,2025-10,Receitas Condominiais
+ Rec.alug.depósito ,80.0,RECEITA,2025-10,Fundos
+ Rec.taxa Uso Box ,870.0,RECEITA,2025-10,Fundos
+ Rec. ,396.35,RECEITA,2025-10,Outros
+ Rec. Multa ,117.26,RECEITA,2025-10,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,10.77,RECEITA,2025-10,Receitas Condominiais
+ 13º Salario ,1879.11,RECEITA,2025-10,Pessoal
+ Rec.ch.extra Férias ,73.38,RECEITA,2025-10,Fundos
+ Rep.hidráulico ,310.4,DESPESA,2025-10,Manutenção
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-10,Pessoal
+ Fundo Obras ,480.55,RECEITA,2025-10,Fundos
+ Pg.serv.portaria ,18678.25,DESPESA,2025-10,Utilidades
+ Pg.adto.salário ,600.0,DESPESA,2025-10,Pessoal
+ Pg.fgts ,352.81,DESPESA,2025-10,Pessoal
+ Pg.salário ,3242.45,DESPESA,2025-10,Pessoal
+ Pg.vale Transporte ,604.67,DESPESA,2025-10,Pessoal
+ Pg.serv.prestados ,1630.5,DESPESA,2025-10,Manutenção
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-10,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2025-10,Taxas e Impostos
+ Taxa Auxiliar Administracao ,1189.37,DESPESA,2025-10,Administração
+ Pg.serv.limp. ,5147.3,DESPESA,2025-10,Utilidades
+ Pg.material ,596.76,DESPESA,2025-11,Manutenção
+ Pg.reparos ,1735.0,DESPESA,2025-11,Manutenção
+ Pg.bóia ,494.7,DESPESA,2025-11,Manutenção
+ Pg.1º Parc.13º Sal. ,2242.52,DESPESA,2025-11,Pessoal
+ Pg.ceee ,1940.7,DESPESA,2025-11,Utilidades
+ Água/Esgoto ,12895.09,DESPESA,2025-11,Utilidades
+ Pg.salário ,3242.45,DESPESA,2025-11,Pessoal
+ Pg.rep.elevador ,616.66,DESPESA,2025-11,Manutenção
+ Pg.manut.elevador ,896.27,DESPESA,2025-11,Manutenção
+ Pg.rep.hidráulico ,1067.0,DESPESA,2025-11,Manutenção
+ Pg. Internet ,123.15,DESPESA,2025-11,Utilidades
+ Pg.issqn ,907.7,DESPESA,2025-11,Taxas e Impostos
+ Pg.tx.fin.sd.dev.10/2025 ,1483.0,DESPESA,2025-11,Taxas e Impostos
+ Pg.transações Bco.ted ,36.0,DESPESA,2025-11,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-11,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-11,Pessoal
+ Pg.remessa Doctos. ,30.8,DESPESA,2025-11,Administração
+ Pg.impressões/Fotoc. ,9.0,DESPESA,2025-11,Administração
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-11,Administração
+ Pg.folha Func.bco. ,29.4,DESPESA,2025-11,Administração
+ Pg.mat.limpeza ,945.5,DESPESA,2025-11,Utilidades
+ Pg.seg.vida Func.11/2025 ,227.04,DESPESA,2025-11,Pessoal
+ Pg.férias Período ,2664.28,DESPESA,2025-11,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2025-11,Taxas e Impostos
+ Fundo Obras ,502.01,RECEITA,2025-11,Fundos
+ Rec.condomínio ,70747.83,RECEITA,2025-11,Receitas Condominiais
+ Rec.alug.depósito ,80.0,RECEITA,2025-11,Fundos
+ Rec.taxa Uso Box ,1450.0,RECEITA,2025-11,Fundos
+ Rec.multa+C.m.+Jrs. ,142.17,RECEITA,2025-11,Receitas Condominiais
+ Rec.ch.extra Férias ,84.45,RECEITA,2025-11,Fundos
+ 13º Salario ,1958.9,RECEITA,2025-11,Pessoal
+ Dif.salarial ,2.36,RECEITA,2025-11,Fundos
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-11,Pessoal
+ Rec. Multa ,97.42,RECEITA,2025-11,Receitas Condominiais
+ Pg.serv.portaria ,18678.25,DESPESA,2025-11,Utilidades
+ Pg.serv.limp. ,5147.3,DESPESA,2025-11,Utilidades
+ Taxa Auxiliar Administracao ,1189.37,DESPESA,2025-11,Administração
+ Pg.serv.prestados ,1630.5,DESPESA,2025-11,Manutenção
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-11,Pessoal
+ Reemb.mat.expediente ,118.94,DESPESA,2025-11,Administração
+ Pg.darf Inss(E-Social/Reinf) ,4748.66,DESPESA,2025-11,Pessoal
+ Pg.fgts ,352.81,DESPESA,2025-11,Pessoal
+ Pg.adto.salário ,600.0,DESPESA,2025-11,Pessoal
+ Pg.vale Transporte ,661.85,DESPESA,2025-11,Pessoal
+ Pg.reparos ,750.0,DESPESA,2025-12,Manutenção
+ Pg.folha Func.bco. ,29.4,DESPESA,2025-12,Administração
+ Água/Esgoto ,16233.08,DESPESA,2025-12,Utilidades
+ Pg.telefone ,99.95,DESPESA,2025-12,Utilidades
+ Pg.ceee ,2060.33,DESPESA,2025-12,Utilidades
+ Pg.manut.elevador ,896.27,DESPESA,2025-12,Manutenção
+ Pg.rep.elétrico ,650.0,DESPESA,2025-12,Manutenção
+ Pg.rep.elevador ,308.33,DESPESA,2025-12,Manutenção
+ Pg.reforma ,465.6,DESPESA,2025-12,Manutenção
+ Pg.rep.hidráulico ,372.72,DESPESA,2025-12,Manutenção
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2025-12,Administração
+ Pg.issqn ,915.59,DESPESA,2025-12,Taxas e Impostos
+ Pg. Internet ,123.34,DESPESA,2025-12,Utilidades
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2025-12,Taxas e Impostos
+ Pg.transações Bco.ted ,44.0,DESPESA,2025-12,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2025-12,Pessoal
+ Pg.remessa Doctos. ,29.45,DESPESA,2025-12,Administração
+ Pg.impressões/Fotoc. ,14.0,DESPESA,2025-12,Administração
+ Valor ,12.96,DESPESA,2025-12,Outros
+ Pg.salário ,1498.71,DESPESA,2025-12,Pessoal
+ Pg.tx.fin.sd.dev.11/2025 ,1388.0,DESPESA,2025-12,Taxas e Impostos
+ Pg.seg.vida Func.12/2025 ,298.59,DESPESA,2025-12,Pessoal
+ Rec.condomínio ,71386.84,RECEITA,2025-12,Receitas Condominiais
+ Taxa Auxiliar Administracao ,1189.37,DESPESA,2025-12,Administração
+ Reemb.mat.expediente ,118.94,DESPESA,2025-12,Administração
+ Fundo Obras ,505.52,RECEITA,2025-12,Fundos
+ Rec.alug.depósito ,80.0,RECEITA,2025-12,Fundos
+ Rec.taxa Uso Box ,580.0,RECEITA,2025-12,Fundos
+ Rec.multa+C.m.+Jrs. ,92.57,RECEITA,2025-12,Receitas Condominiais
+ 13º Salario ,1908.63,RECEITA,2025-12,Pessoal
+ Rec.ch.extra Férias ,100.52,RECEITA,2025-12,Fundos
+ Valor ,12.96,RECEITA,2025-12,Outros
+ Pg.síndico Prof. ,3871.0,DESPESA,2025-12,Pessoal
+ Rec. Multa ,103.76,RECEITA,2025-12,Receitas Condominiais
+ Pg.serv.portaria ,18678.25,DESPESA,2025-12,Utilidades
+ Pg.adto.salário ,199.31,DESPESA,2025-12,Pessoal
+ Pg.2º Parc.13º Sal./2025 ,1878.02,DESPESA,2025-12,Pessoal
+ Pg.fgts ,532.2,DESPESA,2025-12,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,4662.63,DESPESA,2025-12,Pessoal
+ Pg.inss S/13º Sal. ,1544.13,DESPESA,2025-12,Pessoal
+ Pg.vale Transporte ,1627.9,DESPESA,2025-12,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2025-12,Pessoal
+ Pg.serv.limp. ,5147.3,DESPESA,2025-12,Utilidades
+ Pg.secovimed ,175.32,DESPESA,2025-12,Taxas e Impostos
+ Pg.rep.hidráulico ,1187.0,DESPESA,2026-01,Manutenção
+ Pg.mat.pintura ,1024.0,DESPESA,2026-01,Manutenção
+ Pg.pintura ,1400.0,DESPESA,2026-01,Manutenção
+ Pg.rep.elevador ,574.5,DESPESA,2026-01,Manutenção
+ Pg.manut.bombas ,1726.6,DESPESA,2026-01,Manutenção
+ Pg.ceee ,1960.26,DESPESA,2026-01,Utilidades
+ Pg.manut.elevador ,938.23,DESPESA,2026-01,Manutenção
+ Pg.manutenção ,2535.36,DESPESA,2026-01,Manutenção
+ Água/Esgoto ,12372.94,DESPESA,2026-01,Utilidades
+ Pg.reparos ,600.0,DESPESA,2026-01,Manutenção
+ Pg.limp.cx.d.água ,2412.76,DESPESA,2026-01,Manutenção
+ Pg.mat.limpeza ,1057.9,DESPESA,2026-01,Utilidades
+ Pg.remessa Doctos. ,34.85,DESPESA,2026-01,Administração
+ Pg.tx.fin.sd.dev.12/2025 ,1228.0,DESPESA,2026-01,Taxas e Impostos
+ Pg.issqn ,1204.09,DESPESA,2026-01,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,38.0,DESPESA,2026-01,Taxas e Impostos
+ Pg.transações Bco.ted ,36.0,DESPESA,2026-01,Taxas e Impostos
+ Pg. Internet ,124.06,DESPESA,2026-01,Utilidades
+ Retirada P/Posterior Acerto ,1900.0,DESPESA,2026-01,Retiradas/Acerto
+ Pg.elab-Reinf/E-Social/Impostos ,80.0,DESPESA,2026-01,Pessoal
+ Pg. Móveis ,1879.0,DESPESA,2026-01,Manutenção
+ Pg.impressões/Fotoc. ,14.0,DESPESA,2026-01,Administração
+ Pg.tarifa Banco Cobrança ,644.0,DESPESA,2026-01,Administração
+ Pg.seg.vida Func.01/2026 ,298.59,DESPESA,2026-01,Pessoal
+ Valor ,4569.18,DESPESA,2026-01,Outros
+ Pg.contr.sind.patr./2026 ,338.5,DESPESA,2026-01,Pessoal
+ Valor ,4569.18,RECEITA,2026-01,Outros
+ Pg.salário ,3152.27,DESPESA,2026-01,Pessoal
+ Pg.folha Func.bco. ,22.0,DESPESA,2026-01,Administração
+ Fundo Obras ,494.0,RECEITA,2026-01,Fundos
+ Rec.alug.depósito ,150.0,RECEITA,2026-01,Fundos
+ Rec.taxa Uso Box ,1160.0,RECEITA,2026-01,Fundos
+ Telhado ,24.84,RECEITA,2026-01,Manutenção
+ Rec. Multa ,95.57,RECEITA,2026-01,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,168.81,RECEITA,2026-01,Receitas Condominiais
+ Rec.juros ,5.56,RECEITA,2026-01,Receitas Condominiais
+ 13º Salario ,100.92,RECEITA,2026-01,Pessoal
+ Rec.ch.extra Férias ,1781.0,RECEITA,2026-01,Fundos
+ Dif.salarial ,2.26,RECEITA,2026-01,Fundos
+ Rec.condomínio ,67244.91,RECEITA,2026-01,Receitas Condominiais
+ Pg.síndico Prof. ,3871.0,DESPESA,2026-01,Pessoal
+ E-Consignado Clt Conds. ,251.73,DESPESA,2026-01,Administração
+ Reemb.mat.expediente ,118.94,DESPESA,2026-01,Administração
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2026-01,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2026-01,Taxas e Impostos
+ Pg.vale Transporte ,529.85,DESPESA,2026-01,Pessoal
+ Taxa Auxiliar Administracao ,1189.37,DESPESA,2026-01,Administração
+ Pg.fgts ,590.25,DESPESA,2026-01,Pessoal
+ Pg.adto.salário ,499.31,DESPESA,2026-01,Pessoal
+ Pg.serv.portaria ,17674.17,DESPESA,2026-01,Utilidades
+ Pg.serv.limp. ,4870.62,DESPESA,2026-01,Utilidades
+ Pg.darf Inss(E-Social/Reinf) ,5669.14,DESPESA,2026-01,Pessoal
+ Pg.salário ,2207.66,DESPESA,2026-02,Pessoal
+ Pg.rep.gesso ,1550.0,DESPESA,2026-02,Manutenção
+ Pg.seg.vida Func.02/2026 ,254.85,DESPESA,2026-02,Pessoal
+ Água/Esgoto ,10247.07,DESPESA,2026-02,Utilidades
+ Pg.ceee ,1988.64,DESPESA,2026-02,Utilidades
+ Pg.manut.elevador ,938.23,DESPESA,2026-02,Manutenção
+ Pg.manutenção ,890.0,DESPESA,2026-02,Manutenção
+ Pg.reparos ,2260.0,DESPESA,2026-02,Manutenção
+ Pg.rep.elevador ,880.09,DESPESA,2026-02,Manutenção
+ Retirada P/Posterior Acerto ,1900.0,DESPESA,2026-02,Retiradas/Acerto
+ Pg.tx.fin.sd.dev.01/2026 ,1292.0,DESPESA,2026-02,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,40.0,DESPESA,2026-02,Taxas e Impostos
+ Pg. Internet ,124.06,DESPESA,2026-02,Utilidades
+ Pg.transações Bco.ted ,45.0,DESPESA,2026-02,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,88.0,DESPESA,2026-02,Pessoal
+ Pg.tarifa Banco Cobrança ,717.6,DESPESA,2026-02,Administração
+ Pg.impressões/Fotoc. ,19.6,DESPESA,2026-02,Administração
+ Pg.folha Func.bco. ,22.0,DESPESA,2026-02,Administração
+ Pg.issqn ,930.21,DESPESA,2026-02,Taxas e Impostos
+ Pg.secovimed ,175.32,DESPESA,2026-02,Taxas e Impostos
+ Pg.remessa Doctos. ,29.45,DESPESA,2026-02,Administração
+ Taxa Auxiliar Administracao ,1189.36,DESPESA,2026-02,Administração
+ Fundo Obras ,480.38,RECEITA,2026-02,Fundos
+ Rec.condomínio ,66819.32,RECEITA,2026-02,Receitas Condominiais
+ Rec.alug.depósito ,90.0,RECEITA,2026-02,Fundos
+ Rec.devolução Retirada ,1900.0,RECEITA,2026-02,Receitas Condominiais
+ Rec.taxa Uso Box ,870.0,RECEITA,2026-02,Fundos
+ Rec. Multa ,52.32,RECEITA,2026-02,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,9.84,RECEITA,2026-02,Receitas Condominiais
+ Rec.ch.extra Férias ,1825.81,RECEITA,2026-02,Fundos
+ Dif.salarial ,24.82,RECEITA,2026-02,Fundos
+ Reemb.mat.expediente ,118.96,DESPESA,2026-02,Administração
+ Pg.síndico Prof. ,3871.0,DESPESA,2026-02,Pessoal
+ Pg.férias Período ,2509.65,DESPESA,2026-02,Pessoal
+ Pg.serv.portaria ,19441.57,DESPESA,2026-02,Utilidades
+ Pg.serv.limp. ,5357.68,DESPESA,2026-02,Utilidades
+ Pg.adto.salário ,300.0,DESPESA,2026-02,Pessoal
+ Pg.fgts ,357.97,DESPESA,2026-02,Pessoal
+ Pg.vale Transporte ,1371.35,DESPESA,2026-02,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2026-02,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,6852.65,DESPESA,2026-02,Pessoal
+ E-Consignado Clt Conds. ,251.73,DESPESA,2026-02,Administração
+ Pg.mat.pintura ,996.49,DESPESA,2026-03,Manutenção
+ Pg.reparos ,1500.0,DESPESA,2026-03,Manutenção
+ Pg.rep.hidráulico ,5174.0,DESPESA,2026-03,Manutenção
+ Pg.salário ,2580.81,DESPESA,2026-03,Pessoal
+ Água/Esgoto ,7468.52,DESPESA,2026-03,Utilidades
+ Pg.seg.vida Func.03/2026 ,283.98,DESPESA,2026-03,Pessoal
+ Pg.folha Func.bco. ,22.0,DESPESA,2026-03,Administração
+ Pg.rep.elevador ,880.09,DESPESA,2026-03,Manutenção
+ Pg.manut.elevador ,938.23,DESPESA,2026-03,Manutenção
+ Pg.mat.limpeza ,2535.7,DESPESA,2026-03,Utilidades
+ Pg.tx.fin.sd.dev.02/2026 ,1219.0,DESPESA,2026-03,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,40.0,DESPESA,2026-03,Taxas e Impostos
+ Pg.transações Bco.ted ,40.5,DESPESA,2026-03,Taxas e Impostos
+ Pg.issqn ,945.67,DESPESA,2026-03,Taxas e Impostos
+ Valor ,3144.74,DESPESA,2026-03,Outros
+ Pg.elab-Reinf/E-Social/Impostos ,88.0,DESPESA,2026-03,Pessoal
+ Pg. Internet ,124.06,DESPESA,2026-03,Utilidades
+ Pg.impressões/Fotoc. ,16.8,DESPESA,2026-03,Administração
+ Reemb.mat.expediente ,118.96,DESPESA,2026-03,Administração
+ Pg.tarifa Banco Cobrança ,717.6,DESPESA,2026-03,Administração
+ Pg.balcão ,479.9,DESPESA,2026-03,Manutenção
+ Pg.remessa Doctos. ,29.45,DESPESA,2026-03,Administração
+ Taxa Auxiliar Administracao ,1189.36,DESPESA,2026-03,Administração
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2026-03,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2026-03,Taxas e Impostos
+ Fundo Obras ,498.34,RECEITA,2026-03,Fundos
+ Rec.condomínio ,69727.65,RECEITA,2026-03,Receitas Condominiais
+ Rec.alug.depósito ,90.0,RECEITA,2026-03,Fundos
+ Rec.taxa Uso Box ,580.0,RECEITA,2026-03,Fundos
+ Rec.acordo ,1189.05,RECEITA,2026-03,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,117.62,RECEITA,2026-03,Receitas Condominiais
+ Rec.juros ,202.67,RECEITA,2026-03,Receitas Condominiais
+ Rec.ch.extra Férias ,1843.75,RECEITA,2026-03,Fundos
+ Dif.salarial ,546.74,RECEITA,2026-03,Fundos
+ Rec. Multa ,343.31,RECEITA,2026-03,Receitas Condominiais
+ Valor ,1122.07,RECEITA,2026-03,Outros
+ 13º Salario ,8.27,RECEITA,2026-03,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,6574.58,DESPESA,2026-03,Pessoal
+ Pg.fgts ,398.13,DESPESA,2026-03,Pessoal
+ Pg.adto.salário ,499.31,DESPESA,2026-03,Pessoal
+ Pg.vale Transporte ,1348.67,DESPESA,2026-03,Pessoal
+ Pg.serv.portaria ,19441.57,DESPESA,2026-03,Utilidades
+ Pg.síndico Prof. ,3871.0,DESPESA,2026-03,Pessoal
+ E-Consignado Clt Conds. ,251.73,DESPESA,2026-03,Administração
+ Pg.serv.limp. ,5357.68,DESPESA,2026-03,Utilidades
+ Pg.rep.elevador ,763.23,DESPESA,2026-04,Manutenção
+ Pg.seg.vida Func.04/2026 ,283.98,DESPESA,2026-04,Pessoal
+ Água/Esgoto ,9405.0,DESPESA,2026-04,Utilidades
+ Pg.impressões/Fotoc. ,16.8,DESPESA,2026-04,Administração
+ Pg.ceee ,4143.0,DESPESA,2026-04,Utilidades
+ Pg.manut.elevador ,938.23,DESPESA,2026-04,Manutenção
+ Pg.rep.bombas ,950.6,DESPESA,2026-04,Manutenção
+ Pg.rep.hidráulico ,450.0,DESPESA,2026-04,Manutenção
+ Pg.reforma ,2800.0,DESPESA,2026-04,Manutenção
+ Pg.salário ,3172.48,DESPESA,2026-04,Pessoal
+ Pg.mat.limpeza ,744.0,DESPESA,2026-04,Utilidades
+ Pg.declaração Pmpa/Issqndec ,40.0,DESPESA,2026-04,Taxas e Impostos
+ Pg.tx.fin.sd.dev.03/2026 ,1066.0,DESPESA,2026-04,Taxas e Impostos
+ Pg.transações Bco.ted ,40.5,DESPESA,2026-04,Taxas e Impostos
+ Pg.issqn ,1117.17,DESPESA,2026-04,Taxas e Impostos
+ Pg.elab-Reinf/E-Social/Impostos ,88.0,DESPESA,2026-04,Pessoal
+ Pg. Internet ,124.06,DESPESA,2026-04,Utilidades
+ Pg.remessa Doctos. ,249.1,DESPESA,2026-04,Administração
+ Pg.tarifa Banco Cobrança ,717.6,DESPESA,2026-04,Administração
+ Pg.rep.gesso ,890.0,DESPESA,2026-04,Manutenção
+ Pg.folha Func.bco. ,22.0,DESPESA,2026-04,Administração
+ Pg.darf Inss(E-Social/Reinf) ,6485.51,DESPESA,2026-04,Pessoal
+ Taxa Auxiliar Administracao ,1189.36,DESPESA,2026-04,Administração
+ Reemb.mat.expediente ,118.96,DESPESA,2026-04,Administração
+ Fundo Obras ,522.29,RECEITA,2026-04,Fundos
+ Rec.condomínio ,70616.86,RECEITA,2026-04,Receitas Condominiais
+ Rec.alug.depósito ,170.0,RECEITA,2026-04,Fundos
+ Rec.taxa Uso Box ,580.0,RECEITA,2026-04,Fundos
+ Rec. Multa ,124.04,RECEITA,2026-04,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,549.89,RECEITA,2026-04,Receitas Condominiais
+ Rec.ch.extra Férias ,1859.42,RECEITA,2026-04,Fundos
+ Dif.salarial ,590.14,RECEITA,2026-04,Fundos
+ Telhado ,24.84,RECEITA,2026-04,Manutenção
+ E-Consignado Clt Conds. ,251.73,DESPESA,2026-04,Administração
+ Pg.síndico Prof. ,3871.0,DESPESA,2026-04,Pessoal
+ Pg.serv.portaria ,19441.57,DESPESA,2026-04,Utilidades
+ Pg.serv.limp. ,5357.68,DESPESA,2026-04,Utilidades
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2026-04,Pessoal
+ Pg.adto.salário ,499.31,DESPESA,2026-04,Pessoal
+ Pg.fgts ,378.05,DESPESA,2026-04,Pessoal
+ Pg.vale Transporte ,1384.76,DESPESA,2026-04,Pessoal
+ Pg.secovimed ,175.32,DESPESA,2026-04,Taxas e Impostos
+ 13º Salario ,74.04,RECEITA,2026-04,Pessoal
+ Pg.pintura ,1500.0,DESPESA,2026-05,Manutenção
+ Pg.rep.hidráulico ,383.68,DESPESA,2026-05,Manutenção
+ Pg.rep.elevador ,941.76,DESPESA,2026-05,Manutenção
+ Pg.rep.bombas ,698.4,DESPESA,2026-05,Manutenção
+ Água/Esgoto ,10058.4,DESPESA,2026-05,Utilidades
+ Pg.manut.elevador ,938.23,DESPESA,2026-05,Manutenção
+ Pg.ceee ,2183.86,DESPESA,2026-05,Utilidades
+ Pg.folha Func.bco. ,22.0,DESPESA,2026-05,Administração
+ Pg.reparos ,1561.92,DESPESA,2026-05,Manutenção
+ Pg. Sensor ,347.68,DESPESA,2026-05,Manutenção
+ Pg.rep.gesso ,890.0,DESPESA,2026-05,Manutenção
+ Pg.remessa Doctos. ,33.5,DESPESA,2026-05,Administração
+ Pg.declaração Pmpa/Issqndec ,40.0,DESPESA,2026-05,Taxas e Impostos
+ Pg.issqn ,960.39,DESPESA,2026-05,Taxas e Impostos
+ Pg.transações Bco.ted ,31.5,DESPESA,2026-05,Taxas e Impostos
+ Pg.retirada ,470.0,DESPESA,2026-05,Retiradas/Acerto
+ Pg.elab-Reinf/E-Social/Impostos ,88.0,DESPESA,2026-05,Pessoal
+ Pg. Internet ,124.06,DESPESA,2026-05,Utilidades
+ Pg.impressões/Fotoc. ,21.0,DESPESA,2026-05,Administração
+ Pg.seg.vida Func.05/2026 ,283.98,DESPESA,2026-05,Pessoal
+ Pg.tarifa Banco Cobrança ,717.6,DESPESA,2026-05,Administração
+ Valor ,1766.7,DESPESA,2026-05,Outros
+ Pg.seguro Incêndio ,1544.55,DESPESA,2026-05,Administração
+ Pg.salário ,3318.54,DESPESA,2026-05,Pessoal
+ Pg.tx.fin.sd.dev.04/2026 ,912.0,DESPESA,2026-05,Taxas e Impostos
+ Pg.secovimed ,175.32,DESPESA,2026-05,Taxas e Impostos
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2026-05,Pessoal
+ Fundo Obras ,515.22,RECEITA,2026-05,Fundos
+ Rec.condomínio ,66333.0,RECEITA,2026-05,Receitas Condominiais
+ Rec.alug.depósito ,120.0,RECEITA,2026-05,Fundos
+ Rec.taxa Uso Box ,1450.0,RECEITA,2026-05,Fundos
+ Rec.devolução Retirada ,1900.0,RECEITA,2026-05,Receitas Condominiais
+ Rec.cond.estacionamento ,40.0,RECEITA,2026-05,Receitas Condominiais
+ Rec.multa+C.m.+Jrs. ,401.37,RECEITA,2026-05,Receitas Condominiais
+ Dif.salarial ,611.84,RECEITA,2026-05,Fundos
+ Rec.ch.extra Férias ,118.75,RECEITA,2026-05,Fundos
+ 13º Salario ,12.72,RECEITA,2026-05,Pessoal
+ Rec. Multa ,70.79,RECEITA,2026-05,Receitas Condominiais
+ E-Consignado Clt Conds. ,251.73,DESPESA,2026-05,Administração
+ Rec.devolução ,834.74,DESPESA,2026-05,Receitas Condominiais
+ Pg.síndico Prof. ,7742.0,DESPESA,2026-05,Pessoal
+ Pg.serv.portaria ,19441.57,DESPESA,2026-05,Utilidades
+ Reemb.mat.expediente ,119.68,DESPESA,2026-05,Administração
+ Pg.serv.limp. ,5357.68,DESPESA,2026-05,Utilidades
+ Pg.adto.salário ,499.31,DESPESA,2026-05,Pessoal
+ Pg.fgts ,359.66,DESPESA,2026-05,Pessoal
+ Pg.darf Inss(E-Social/Reinf) ,6841.94,DESPESA,2026-05,Pessoal
+ Pg.vale Transporte ,1287.24,DESPESA,2026-05,Pessoal
+ Taxa Auxiliar Administracao ,1196.68,DESPESA,2026-05,Administração
+ Valor ,1766.7,RECEITA,2026-05,Outros
+ Pg.instal.câmeras ,317.4,DESPESA,2026-06,Manutenção
+ Pg.manut.elevador ,938.23,DESPESA,2026-06,Manutenção
+ Pg.fechadura ,2855.0,DESPESA,2026-06,Manutenção
+ Pg.ceee ,2380.01,DESPESA,2026-06,Utilidades
+ Reemb.mat.expediente ,119.68,DESPESA,2026-06,Administração
+ Pg.seg.vida Func.06/2026 ,283.98,DESPESA,2026-06,Pessoal
+ Pg.folha Func.bco. ,22.0,DESPESA,2026-06,Administração
+ Pg.salário ,3295.9,DESPESA,2026-06,Pessoal
+ Pg.rep.hidráulico ,1692.4,DESPESA,2026-06,Manutenção
+ Água/Esgoto ,10216.8,DESPESA,2026-06,Utilidades
+ Pg.rep.elevador ,678.33,DESPESA,2026-06,Manutenção
+ Pg.remessa Doctos. ,30.8,DESPESA,2026-06,Administração
+ Pg.mat.limpeza ,763.2,DESPESA,2026-06,Utilidades
+ Pg.seguro Incêndio ,1544.54,DESPESA,2026-06,Administração
+ Pg.tx.fin.sd.dev.05/2026 ,928.0,DESPESA,2026-06,Taxas e Impostos
+ Pg.issqn ,1052.82,DESPESA,2026-06,Taxas e Impostos
+ Pg.declaração Pmpa/Issqndec ,40.0,DESPESA,2026-06,Taxas e Impostos
+ Retirada P/Posterior Acerto ,3900.4,DESPESA,2026-06,Retiradas/Acerto
+ Pg.transações Bco.ted ,45.0,DESPESA,2026-06,Taxas e Impostos
+ Pg.impressões/Fotoc. ,16.8,DESPESA,2026-06,Administração
+ Pg.elab-Reinf/E-Social/Impostos ,88.0,DESPESA,2026-06,Pessoal
+ Pg. Internet ,124.06,DESPESA,2026-06,Utilidades
+ Taxa Auxiliar Administracao ,1196.68,DESPESA,2026-06,Administração
+ Pg.mat.pintura ,1145.56,DESPESA,2026-06,Manutenção
+ Pg.secovimed ,175.32,DESPESA,2026-06,Taxas e Impostos
+ Pg.serv.portaria ,19441.57,DESPESA,2026-06,Utilidades
+ Pg.darf Inss(E-Social/Reinf) ,6861.45,DESPESA,2026-06,Pessoal
+ Valor ,575.18,DESPESA,2026-06,Outros
+ Fundo Obras ,485.64,RECEITA,2026-06,Fundos
+ Rec.condomínio ,68222.57,RECEITA,2026-06,Receitas Condominiais
+ Rec.alug.depósito ,130.0,RECEITA,2026-06,Fundos
+ Rec.acordo ,476.35,RECEITA,2026-06,Receitas Condominiais
+ Rec.taxa Uso Box ,580.0,RECEITA,2026-06,Fundos
+ Indeniz.func. ,197.12,RECEITA,2026-06,Pessoal
+ Rec.multa+C.m.+Jrs. ,149.08,RECEITA,2026-06,Receitas Condominiais
+ Rec. Multa ,55.46,RECEITA,2026-06,Receitas Condominiais
+ Dif.salarial ,569.85,RECEITA,2026-06,Fundos
+ Rec.ch.extra Férias ,63.84,RECEITA,2026-06,Fundos
+ 13º Salario ,12.72,RECEITA,2026-06,Pessoal
+ Valor ,575.18,RECEITA,2026-06,Outros
+ E-Consignado Clt Conds. ,251.73,DESPESA,2026-06,Administração
+ Pg.serv.limp. ,5357.68,DESPESA,2026-06,Utilidades
+ Pg.adto.salário ,499.31,DESPESA,2026-06,Pessoal
+ Pg.síndico Prof. ,3900.4,DESPESA,2026-06,Pessoal
+ Pg.serv.prestados ,350.0,DESPESA,2026-06,Manutenção
+ Pg.sindef Dissídio-Desc.fl.pgtº. ,247.26,DESPESA,2026-06,Pessoal
+ Pg.fgts ,394.95,DESPESA,2026-06,Pessoal
+ Estorno ,437.93,DESPESA,2026-06,Retiradas/Acerto
+ Pg.pcmso Secovimed ,211.3,DESPESA,2026-06,Taxas e Impostos
+ Pg.vale Transporte ,2103.41,DESPESA,2026-06,Pessoal
+ Pg.vale Refeição/Alimentação ,200.0,DESPESA,2026-06,Pessoal
+ Pg.tarifa Banco Cobrança ,717.6,DESPESA,2026-06,Administração

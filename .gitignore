@@ -1,6 +1,24 @@
 ./notas.md
 src/pdf_extractor.ipynb
+src/consolidacao_xls.ipynb
 
-# PDF files (local processing only)
+# ── Dados brutos — NUNCA commitar (LGPD) ─────────────────────────────────────
+exports/hojas/extrato/
+exports/hojas/prestacao/
 exports/pdf/
-exports/hojas/prestacao/*.pdf
+
+# CSVs com dados sensíveis — usar exports/csv_public/ para versão pública
+exports/csv/
+
+# Dicionário de dados — mapeamento real → pseudônimo, apenas local
+exports/private/
+
+# Gráficos (regeneráveis, não são necessários no repo)
+exports/figs/
+
+# Ambiente virtual
+.venv/
+
+# Sistema
+.DS_Store
+exports/.DS_Store
