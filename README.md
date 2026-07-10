@@ -43,11 +43,12 @@ analisis/
 
 ### Por que essa estrutura?
 
-- **exports/hojas/**: Dados brutos (XLSX, XLS) não editáveis — backup do sistema ClienteOnline
-- **exports/csv/**: Dados limpos e normalizados — intermediários entre ingestão e análise
-- **exports/figs/**: Gráficos PNG — outputs visuais para relatórios/apresentações
-- **src/**: Código Python em Jupyter — separado em ingestão, análise, insights
-- **scripts/**: Utilitários Python reutilizáveis — `dashboard.py` (Streamlit), `generate_all_figs.py`
+- **exports/hojas/**: Dados brutos (XLSX, XLS) — gitignored, uso local apenas
+- **exports/csv/**: CSVs com dados reais — gitignored, uso local apenas
+- **exports/csv_public/**: CSVs anonimizados (LGPD) — commitados, disponíveis em qualquer clone
+- **exports/figs/**: Gráficos PNG — regeneráveis, gitignored
+- **src/**: Notebooks Jupyter — ingestão (lê XLSX/XLS locais), análise (lê CSVs), insights
+- **scripts/**: Utilitários — `dashboard.py` (Streamlit), `anonymize.py` (LGPD), `generate_all_figs.py`
 
 ### Fluxo de Dados
 
@@ -483,16 +484,17 @@ streamlit run scripts/dashboard.py
 ## 📌 Guia Rápido por Notebook
 
 ### `analise_prestacao_de_contas.ipynb`
-- **Período**: mai/2022–ago/2023 (16 meses)
-- **Foco**: Prestações XLSX originais
+- **Período**: mai/2022–jun/2026 (fonte: `prestacoes.csv` ou `csv_public/prestacoes.csv`)
+- **Foco**: Análise completa de prestações + síndico (P6)
 - **Seções**:
-  - 1. Carregamento + validação
+  - 1. Carregar `prestacoes.csv` (local) ou `csv_public/prestacoes.csv` (clone)
+  - 1.5. Validação de cobertura
   - 2. Normalização e macro-categorias
   - 3. Detecção de anomalias
   - 4. Visualizações (P&L, top despesas, variação %)
-  - **5. Síndico** (pagamentos, saques, devoluções)
+  - **5. Síndico** (linha do tempo, duplos, saques/devoluções, IPCA)
   - **5.6 Portaria+Limpeza** (evolução + YoY)
-  - 6. Exportação (prestacoes.csv, anomalias_prestacoes.csv)
+  - 6. Exportação (`anomalias_prestacoes.csv`)
 
 ### `analise_extratos.ipynb`
 - **Período**: ago/2025–jun/2026 (11 meses)
@@ -500,18 +502,17 @@ streamlit run scripts/dashboard.py
 - **Seções**: Semelhante, mais síndico (com NF+saques), acordos, portaria+limpeza
 
 ### `analise_inadimplencia.ipynb`
-- **Período**: mai/2022–jun/2026 (fonte: prestacoes.csv)
-- **Foco**: Inadimplência (P5) + outliers síndico/INSS/fundos (P6)
+- **Período**: mai/2022–jun/2026 (fonte: `prestacoes.csv`)
+- **Foco**: **P5 — inadimplência/multas apenas** (síndico/INSS/Fundo Obras estão em `analise_prestacao_de_contas.ipynb` seção 5)
 - **Seções**:
-  - 1. Carregamento (apenas prestacoes.csv)
-  - 2. Filtrar multas (REC.MULTA)
-  - 3. Tendência mensal + meses com maior inadimplência
-  - 4. Distribuição por evento + top meses
-  - 5. % proxy mensal (multas / receita condominial)
-  - 6. Visualizações P5
-  - 7. P6.1 Síndico — linha do tempo, pagamentos duplos
-  - 8. P6.2 INSS vs folha proxy + P6.3 Fundo Obras aportes
-  - 9. Resumo executivo
+  - 1. Imports e configuração
+  - 2. Carregar dados (`prestacoes.csv`)
+  - 3. Filtrar multas (`REC.MULTA`)
+  - 4. Tendência mensal + meses com maior inadimplência
+  - 5. Distribuição por evento + top meses
+  - 6. % proxy mensal (multas / receita condominial)
+  - 7. Visualizações P5
+  - 8. Resumo executivo
 
 ### `insights_anomalias_prestacoes.ipynb`
 - **Período**: mai/2022–jun/2026 (anomalias de prestações)
@@ -649,9 +650,9 @@ python scripts/generate_all_figs.py
 - [ ] Dicionário de fornecedores (qual é o síndico legítimo?)
 - [ ] Histórico de mudanças (quando começou a portaria, limpeza, etc.)
 
-### P10 — LGPD: Anonimização de Dados Sensíveis ⚠️ PRIORITÁRIO
+### P10 — LGPD: Anonimização de Dados Sensíveis ✅ CONCLUÍDO
 
-**Situação atual**: 97 arquivos rastreados publicamente no GitHub incluindo `.xls`, `.xlsx` e CSVs com dados pessoais (nomes, CNPJ, números de apartamento, NFs).
+**Implementado em 10/jul/2026.** 17.902 células redidas em 27 CSVs.
 
 **Campos sensíveis identificados**:
 | Arquivo | Campo | Exemplo de dado exposto |
@@ -690,50 +691,17 @@ python scripts/generate_all_figs.py
 
 4. **Commitar apenas `exports/csv_public/`** (anonimizado)
 
-- [ ] Criar `scripts/anonymize.py`
-- [ ] Criar `exports/private/data_dictionary.json` (gitignored)
-- [ ] Criar `exports/csv_public/` com CSVs anonimizados
-- [ ] Atualizar `.gitignore`
+- [x] `scripts/anonymize.py` — redige complemento (nomes, empresas, AP numbers)
+- [x] `exports/private/data_dictionary.json` — gitignored, 58 entidades mapeadas
+- [x] `exports/csv_public/` — 27 CSVs anonimizados commitados
+- [x] `.gitignore` — bloqueia `exports/csv/`, `exports/hojas/`, `exports/private/`, `exports/figs/`
 
-### P11 — Limpeza do Histórico Git ⚠️ IRREVERSÍVEL — coordenar com colaboradores
+### P11 — Limpeza do Histórico Git ✅ CONCLUÍDO
 
-Remove retroativamente todos os arquivos sensíveis do histórico git público.
-
-**Pré-requisito**: P10 concluído e `.gitignore` atualizado.
-
-**Passos**:
-
-```bash
-# 1. Instalar git-filter-repo
-brew install git-filter-repo
-
-# 2. Backup local obrigatório
-cp -r /Users/chris/Documents/analisis /Users/chris/Documents/analisis_backup_YYYYMMDD
-
-# 3. Remover do histórico completo
-git filter-repo --invert-paths \
-  --path exports/hojas/ \
-  --path exports/csv/ \
-  --path exports/figs/ \
-  --path "exports/.DS_Store"
-
-# 4. Verificar limpeza (deve retornar vazio)
-git log --all --full-history -- "exports/hojas/extrato/*.xls" | head -5
-
-# 5. Re-adicionar remote (git-filter-repo remove por segurança)
-git remote add origin https://github.com/cgbas/anacondo.git
-
-# 6. Force push
-git push --force-with-lease origin main
-
-# 7. Notificar colaboradores para re-clonar — branches antigas ficam inválidas
-```
-
-- [ ] Instalar `git-filter-repo` (`brew install git-filter-repo`)
-- [ ] Fazer backup local antes de rodar
-- [ ] Executar `git filter-repo` para remover exports/ do histórico
-- [ ] Force push após limpeza
-- [ ] Atualizar README com instrução de re-clone para colaboradores
+**Implementado em 10/jul/2026.**
+- `git filter-repo --invert-paths` — removeu exports/ de todos os 44 commits
+- `git filter-repo --replace-text` — substituiu nomes/empresas em markdown e notebooks
+- 0 ocorrências de PII verificadas após limpeza
 
 ### P9 — CI/CD
 - [x] GitHub Actions para validar notebooks na push
@@ -777,9 +745,10 @@ R: Padronizamos `mes_ano = "YYYY-MM"` em todos os CSVs. Se receber XLSX com "dd/
 ## 📝 Changelog
 
 ### 10 jul 2026
-- ✅ **P7 concluído**: dashboard Streamlit (`scripts/dashboard.py`) — filtros por período, categoria, severidade; exportação de CSV; gráfico de inadimplência integrado
-- ✅ `analise_inadimplencia.ipynb` migrado para fonte única `prestacoes.csv` (remove dependência de extratos.csv); P6.1 síndico cobre mai/2022–jun/2026
-- ✅ README atualizado: workspace structure, guia de notebooks, P5/P7 marcados como concluídos
+- ✅ **P7 concluído**: dashboard Streamlit (`scripts/dashboard.py`)
+- ✅ **P10+P11 concluídos**: anonimização LGPD + limpeza de histórico git
+- ✅ **Reorganização de notebooks**: `analise_prestacao_de_contas.ipynb` migrado para ler `prestacoes.csv` (não mais XLSX); `analise_inadimplencia.ipynb` restrito a P5 (P6 removido, vive em `analise_prestacao_de_contas.ipynb`)
+- ✅ README atualizado: workspace structure reflete LGPD + CSVs anonimizados, P10/P11 marcados como concluídos
 
 ### 09 jul 2026
 - ✅ Adicionado Year-over-Year (YoY) à seção 5.6 (`analise_prestacao_de_contas.ipynb`)
